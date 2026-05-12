@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9abba72294283364f8c899e7b405ff30, type: 3}
+  m_Name: "\u626D\u86CB\u673A"
+  m_EditorClassIdentifier: 
+  ID: 0
+  furnitureName: niudanji
+  prefab: {fileID: 54564002437287438, guid: e235ddd05d0dd5d44a13ded0eb2361b0, type: 3}
+  buildCost: 100
+  baseIncome: 20
+  size: {x: 1, y: 2}
+  setPos: {x: 0, y: 0}

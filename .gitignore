@@ -1,0 +1,24 @@
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# IDE files
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
+
+# Build outputs
+*.apk
+*.aab
+*.unitypackage
+
+# Addressables
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
