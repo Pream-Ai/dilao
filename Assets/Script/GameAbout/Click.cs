@@ -1,33 +1,43 @@
 using Unity.VisualScripting;
 using UnityEngine;
-
+using UnityEngine.EventSystems;
 public class Click : MonoBehaviour
 {
-    public furniController furni;
-    GameObject previewShadow;
-    bool isPreview = false;
+    public static Click instance;
+    public FurniData furniData;
+    public bool isPreview = false;
+    private void Awake()
+    {
+        instance = this;
+    }
     private void Start()
     {
-        previewShadow = new GameObject();
-        previewShadow.AddComponent<SpriteRenderer>();
+        
     }
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)) 
         {
-            Vector2Int? gridPos = GetGridPosUnderMouse();
-
-            if (gridPos.HasValue)
+            //鼠标点击触发建造预览
+            if (isPreview)
             {
-                Debug.Log($"鐐瑰嚮鏍煎瓙: {gridPos.Value}");
-                buildSystem.instance.buildFurni(furni,gridPos.Value);
+                Vector2Int? gridPos = GetGridPosUnderMouse();
+
+                if (gridPos.HasValue && !EventSystem.current.IsPointerOverGameObject())
+                {
+                    buildSystem.instance.buildFurni(gridPos.Value);
+                }
+                else
+                {
+                    Debug.Log("无法在该地皮上建造");
+                }
             }
+            //鼠标点击触发面板弹出
         }
-        if (Input.GetKeyDown(KeyCode.Space)) isPreview = !isPreview;
-        buildFurni(furni);
+        if (isPreview&&Input.GetMouseButton(1)) isPreview = false;
+        buildSystem.instance.UpdatePreview(isPreview);
     }
-     
-    Vector2Int? GetGridPosUnderMouse()
+    public Vector2Int? GetGridPosUnderMouse()
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
@@ -36,42 +46,18 @@ public class Click : MonoBehaviour
         {
             Vector3 hitPoint = hit.point;
             return WorldToGrid(hitPoint);
-        }
+        }//
 
         return null;
     }
-        
     Vector2Int WorldToGrid(Vector3 worldPos)
     {
-        float gx = worldPos.x /1;
-        float gy = worldPos.y /1; 
+        float gx = worldPos.x / 1;
+        float gy = worldPos.y / 1;
 
         int x = Mathf.FloorToInt(gx);
         int y = Mathf.FloorToInt(gy);
 
         return new Vector2Int(x, y);
-    }
-
-    /// <summary>
-    /// 棰勮铏氬奖
-    /// </summary>
-    /// <param name="furni"></param>
-    void buildFurni(furniController furni)
-    {
-        if (isPreview)
-        {
-            previewShadow.SetActive(true);
-            Vector2Int? previewPos = GetGridPosUnderMouse();
-            if (previewPos.HasValue)
-            {
-                previewShadow.transform.position = new Vector3(previewPos.Value.x, previewPos.Value.y, 0);
-                previewShadow.GetComponent<SpriteRenderer>().sprite = furni.prefab.GetComponent<SpriteRenderer>().sprite;
-                previewShadow.GetComponent<SpriteRenderer>().color = new Color(1,1,1,0.5f);
-            }
-        }
-        else
-        {
-            previewShadow.SetActive(false);
-        }
     }
 }

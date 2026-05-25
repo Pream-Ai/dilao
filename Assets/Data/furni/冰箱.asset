@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 1
   furnitureName: icebox
-  prefab: {fileID: 0}
-  buildCost: 0
-  baseIncome: 0
-  attractStrength: 0
-  size: {x: 0, y: 0}
+  prefab: {fileID: 8063934227438310911, guid: 8872c4fb2f6496245be08cea8a5d7ef5, type: 3}
+  buildCost: 100
+  baseIncome: 2
+  size: {x: 1, y: 2}
+  setPos: {x: 0, y: 0}

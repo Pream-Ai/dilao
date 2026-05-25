@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   furnitureName: renwulan
-  prefab: {fileID: 0}
-  buildCost: 0
-  baseIncome: 0
-  attractStrength: 0
-  size: {x: 0, y: 0}
+  prefab: {fileID: 4198194286157787631, guid: 1630cd4ef33cdbb4a8b20725eb1543b0, type: 3}
+  buildCost: 50
+  baseIncome: 2
+  size: {x: 3, y: 1}
+  setPos: {x: 0, y: 0}
