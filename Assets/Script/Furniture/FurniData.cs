@@ -9,6 +9,8 @@ public class FurniData : ScriptableObject
     public GameObject prefab;//预制体
     public int buildCost;//建筑消耗
     public int baseIncome;//基础收入
-    public Vector2Int size;//占地面积
-    public Vector2Int setPos;
+    public Vector2Int buildSize;//占地面积
+    public Vector2Int setPos;//建造坐标
+    public Vector2Int naviSize;//
+    public Vector2Int serviveOffset;//最终定位偏移值
 }

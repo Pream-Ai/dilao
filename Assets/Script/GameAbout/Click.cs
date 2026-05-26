@@ -1,6 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using DG.Tweening;
 public class Click : MonoBehaviour
 {
     public static Click instance;
@@ -9,10 +10,6 @@ public class Click : MonoBehaviour
     private void Awake()
     {
         instance = this;
-    }
-    private void Start()
-    {
-        
     }
     void Update()
     {
@@ -23,13 +20,9 @@ public class Click : MonoBehaviour
             {
                 Vector2Int? gridPos = GetGridPosUnderMouse();
 
-                if (gridPos.HasValue && !EventSystem.current.IsPointerOverGameObject())
+                if (gridPos.HasValue && !EventSystem.current.IsPointerOverGameObject())//防止点击ui
                 {
                     buildSystem.instance.buildFurni(gridPos.Value);
-                }
-                else
-                {
-                    Debug.Log("无法在该地皮上建造");
                 }
             }
             //鼠标点击触发面板弹出
@@ -45,9 +38,15 @@ public class Click : MonoBehaviour
         if (hit.collider != null)
         {
             Vector3 hitPoint = hit.point;
-            return WorldToGrid(hitPoint);
-        }//
-
+            var result = WorldToGrid(hitPoint);
+            var buildsystem = buildSystem.instance;
+            //限位
+            if (result.x > buildsystem.mapWidth-buildsystem.furniBeSelect.buildSize.x) result.x = buildsystem.mapWidth-buildsystem.furniBeSelect.buildSize.x;
+            if (result.x < 0) result.x = 0;
+            if (result.y > buildsystem.mapHight-2) result.y = buildsystem.mapHight-2;//背景墙高2
+            if (result.y < 0) result.y = 0;
+            return result;
+        }
         return null;
     }
     Vector2Int WorldToGrid(Vector3 worldPos)
