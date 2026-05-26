@@ -17,5 +17,6 @@ MonoBehaviour:
   prefab: {fileID: 54564002437287438, guid: e235ddd05d0dd5d44a13ded0eb2361b0, type: 3}
   buildCost: 150
   baseIncome: 10
-  size: {x: 1, y: 2}
+  buildSize: {x: 1, y: 2}
   setPos: {x: 0, y: 0}
+  naviSize: {x: 1, y: 1}
