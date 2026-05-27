@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4561637881543566501}
   - component: {fileID: 6016540638914595863}
   - component: {fileID: 7830880458759862212}
+  - component: {fileID: 1653833816296408592}
   m_Layer: 0
   m_Name: "\u626D\u86CB\u673A"
   m_TagString: Untagged
@@ -99,6 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b2864fc1f9ead49a14ecd3cd449c65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  index: 0
   furnidata: {fileID: 11400000, guid: 2204459959502b847bdc061acd7e5992, type: 2}
   ID: 0
   furniName: 
@@ -154,6 +156,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.9333333}
   m_EdgeRadius: 0
+--- !u!114 &1653833816296408592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54564002437287438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7034f921ef48ac141892c8eb3000eb33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
 --- !u!1 &9193930289239343464
 GameObject:
   m_ObjectHideFlags: 0

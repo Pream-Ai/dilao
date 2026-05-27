@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 697049740787216088}
   - component: {fileID: 3359881102993151904}
   - component: {fileID: 3614692336223983611}
+  - component: {fileID: 427386737179218702}
   m_Layer: 0
   m_Name: "\u4EFB\u52A1\u680F"
   m_TagString: Untagged
@@ -99,6 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b2864fc1f9ead49a14ecd3cd449c65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  index: 0
   furnidata: {fileID: 11400000, guid: 9c112895a36a1f24a8ce70ac4f152a68, type: 2}
   ID: 0
   furniName: 
@@ -154,6 +156,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.875, y: 2.0416667}
   m_EdgeRadius: 0
+--- !u!114 &427386737179218702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4198194286157787631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7034f921ef48ac141892c8eb3000eb33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6909859496286104370
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,13 +178,14 @@ GameObject:
   m_Component:
   - component: {fileID: 8889246910853487044}
   - component: {fileID: 52797251509124052}
+  - component: {fileID: 8356103907570713262}
   m_Layer: 0
   m_Name: collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8889246910853487044
 Transform:
   m_ObjectHideFlags: 0
@@ -215,10 +230,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.8984555, y: 0.015490055}
+  m_Offset: {x: 0.8984555, y: 0.40789366}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -229,5 +244,17 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.796911, y: 1.0309801}
+  m_Size: {x: 2.796911, y: 1.8157873}
   m_EdgeRadius: 0
+--- !u!114 &8356103907570713262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6909859496286104370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7034f921ef48ac141892c8eb3000eb33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

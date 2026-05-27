@@ -1,20 +1,18 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using DG.Tweening;
-public class Click : MonoBehaviour
+using System;
+using System.Collections.Generic;
+public class Click : MonoBehaviour 
 {
     public static Click instance;
-    public FurniData furniData;
     public bool isPreview = false;
-    private void Awake()
-    {
-        instance = this;
-    }
+    private Dictionary<int, Action<object[]>> methodDict = new Dictionary<int, Action<object[]>>();
+    private void Awake()=>instance=this;
     void Update()
     {
         if (Input.GetMouseButtonDown(0)) 
         {
+
             //鼠标点击触发建造预览
             if (isPreview)
             {
@@ -58,5 +56,18 @@ public class Click : MonoBehaviour
         int y = Mathf.FloorToInt(gy);
 
         return new Vector2Int(x, y);
+    }
+
+
+    public void RegisterAction(int key, Action<object[]> action)
+    {
+        methodDict[key] = action;
+    }
+    public void Execute(int key,params object[] args)
+    {
+        if(methodDict.TryGetValue(key,out var action))
+        {
+            action?.Invoke(args);
+        }
     }
 }
