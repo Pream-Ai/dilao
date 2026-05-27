@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class buildSystem : MonoBehaviour
 {
@@ -85,6 +86,7 @@ public class buildSystem : MonoBehaviour
             furniManager.instance.furniList.Add(controller);
             Click.instance.isPreview = false;
             Debug.Log($"建造成功：{furniBeSelect.furnitureName} 在 {setPos}");
+            Camera.main.GetComponent<Physics2DRaycaster>().enabled = true;
             //发布事件，所有寻路中的对象重新制定寻路路线
         }
         else
@@ -131,6 +133,7 @@ public class buildSystem : MonoBehaviour
     {
         if (isPreview)
         {
+            Camera.main.GetComponent<Physics2DRaycaster>().enabled = false;
             previewShadow.SetActive(true);
             Vector2Int? previewPos =Click.instance.GetGridPosUnderMouse();
             if (previewPos.HasValue)

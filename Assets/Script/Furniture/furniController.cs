@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class furniController : MonoBehaviour
 {
@@ -55,7 +56,7 @@ public class furniController : MonoBehaviour
         {
             for (int j=setPos.y;j<setPos.y+buildSize.y;j++)
             {
-
+                
             }
         }
     }
