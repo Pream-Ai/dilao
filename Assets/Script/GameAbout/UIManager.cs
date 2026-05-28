@@ -6,6 +6,9 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
     public static Action<FurniData> onFurniDataSelect;
+
+    public GameObject furniWindow;
+    public GameObject npcWindow;
     private void Awake()
     {
         instance = this;
@@ -37,10 +40,11 @@ public class UIManager : MonoBehaviour
         Click.instance.isPreview = true;
         onFurniDataSelect?.Invoke(furniManager.instance.furniDataList[furniID]);
     }
-
     public void OpenFurniWindow(FurniData data)
     {
         Debug.Log(data.name);
+        //if (furniWindow.activeSelf) return;//如果面板已经打开了就不重复打开了
+        furniWindow.SetActive(true);
     }
     public void OpenNpcWindow(NpcData data)
     {

@@ -2,7 +2,7 @@
 - Project name: dilao
 - Unity version: Unity 2022.3.57f1c1
 - Active game object:
-  - Name: click
+  - Name: 51px-狂战士
   - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

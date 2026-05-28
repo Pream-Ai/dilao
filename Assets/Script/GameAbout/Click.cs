@@ -2,17 +2,19 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 public class Click : MonoBehaviour 
 {
     public static Click instance;
     public bool isPreview = false;
     private Dictionary<int, Action<object[]>> methodDict = new Dictionary<int, Action<object[]>>();
     private void Awake()=>instance=this;
+    private Vector2Int lastPreviewPos;
+    private Vector2Int? mousePos;
     void Update()
     {
         if (Input.GetMouseButtonDown(0)) 
         {
-
             //鼠标点击触发建造预览
             if (isPreview)
             {
@@ -21,12 +23,22 @@ public class Click : MonoBehaviour
                 if (gridPos.HasValue && !EventSystem.current.IsPointerOverGameObject())//防止点击ui
                 {
                     buildSystem.instance.buildFurni(gridPos.Value);
+                    buildSystem.instance.initLawPreview();
                 }
             }
-            //鼠标点击触发面板弹出
         }
-        if (isPreview&&Input.GetMouseButton(1)) isPreview = false;
-        buildSystem.instance.UpdatePreview(isPreview);
+        if (isPreview)
+        {
+            mousePos = GetGridPosUnderMouse();
+            if (lastPreviewPos!=mousePos&&mousePos.HasValue)
+            {
+                Debug.Log("鼠标位移");
+                buildSystem.instance.UpdateLawPreview(mousePos.Value);
+                lastPreviewPos = mousePos.Value;
+            }
+            if (Input.GetMouseButton(1)) isPreview = false;
+            buildSystem.instance.UpdatePreview(isPreview);
+        }
     }
     public Vector2Int? GetGridPosUnderMouse()
     {
@@ -57,7 +69,6 @@ public class Click : MonoBehaviour
 
         return new Vector2Int(x, y);
     }
-
 
     public void RegisterAction(int key, Action<object[]> action)
     {

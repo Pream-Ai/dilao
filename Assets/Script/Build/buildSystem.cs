@@ -12,7 +12,12 @@ public class buildSystem : MonoBehaviour
     public Dictionary<Vector2Int, bool> gridData = new Dictionary<Vector2Int, bool>();//建筑地图bool表
     public Dictionary<Vector2Int, bool> naviData = new Dictionary<Vector2Int, bool>();//寻路地图bool表
     public FurniData furniBeSelect;
+    [Header("建造预览")]
     public GameObject previewShadow;
+    public GameObject greenGrid;
+    public GameObject redGrid;
+    public Transform greenGridParent;
+    public Transform redGridParent;
     private void Awake()
     {
         instance = this;
@@ -83,18 +88,16 @@ public class buildSystem : MonoBehaviour
                 );
             furniController controller = furniInstance.GetComponent<furniController>();
             controller.setPos = setPos;
-            furniManager.instance.furniList.Add(controller);
             Click.instance.isPreview = false;
             Debug.Log($"建造成功：{furniBeSelect.furnitureName} 在 {setPos}");
             Camera.main.GetComponent<Physics2DRaycaster>().enabled = true;
-            //发布事件，所有寻路中的对象重新制定寻路路线
         }
         else
         {
             Debug.Log("无法在该地皮上建造");
             var erroBuild = DOTween.Sequence();
             erroBuild.Append(
-                previewShadow.GetComponent<SpriteRenderer>().DOColor(new Color(1, 0.5f, 0.5f, 0.5f), 0.25f)
+                previewShadow.GetComponent<SpriteRenderer>().DOColor(new Color(1, 0.5f, 0.5f, 0.8f), 0.25f)
                 );
             erroBuild.Join(previewShadow.transform.DOShakePosition(
                 duration: 0.5f,                         // 摇晃持续时间
@@ -105,10 +108,16 @@ public class buildSystem : MonoBehaviour
                 fadeOut: true                           // 慢慢停止
             ));
             erroBuild.Append(
-                previewShadow.GetComponent<SpriteRenderer>().DOColor(new Color(1, 1, 1, 0.5f), 0.25f)
+                previewShadow.GetComponent<SpriteRenderer>().DOColor(new Color(1, 1, 1, 0.8f), 0.25f)
                 );
         }
     }
+    /// <summary>
+    /// 返回是否可以在该位置建造家具
+    /// </summary>
+    /// <param name="size"></param>
+    /// <param name="setPos"></param>
+    /// <returns></returns>
     bool canBuildFurni(Vector2Int size, Vector2Int setPos)
     {
         if (setPos.y > mapHight - 2) return false;
@@ -143,15 +152,86 @@ public class buildSystem : MonoBehaviour
                 {
                     previewShadow.GetComponent<SpriteRenderer>().sprite = furniBeSelect.prefab.GetComponent<SpriteRenderer>().sprite;
                 }
-                previewShadow.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0.5f);
+                previewShadow.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0.8f);
             }
         }
         else
         {
             previewShadow.GetComponent<SpriteRenderer>().sprite = null;
             previewShadow.SetActive(false);
+            initLawPreview();
         }
     }
+    /// <summary>
+    /// 预览合法地板
+    /// </summary>
+    /// <param name="currentPos"></param>
+    public void initLawPreview()
+    {
+        for (int i = 0; i < greenGridParent.childCount; i++)
+        {
+            greenGridParent.GetChild(i).gameObject.SetActive(false);
+        }
+        for (int i = 0; i < redGridParent.childCount; i++)
+        {
+            redGridParent.GetChild(i).gameObject.SetActive(false);
+        }
+    }
+    public void UpdateLawPreview(Vector2Int currentPos)
+    {
+        initLawPreview();
+        Vector2Int size = furniBeSelect.buildSize;
+        int greenIndex = 0;
+        int redIndex = 0;
+        for (int i=0;i<size.x;i++)
+        {
+            for (int j=0;j<size.y;j++)
+            {
+                var targetGrid = new Vector2Int(currentPos.x + i, currentPos.y + j);
+                if(targetGrid.y>mapHight-2)targetGrid.y = mapHight-2;
+                if (gridData.TryGetValue(targetGrid, out var isFree) && isFree)
+                {
+                    if (greenIndex<greenGridParent.childCount)
+                    {
+                        Transform pooled = greenGridParent.GetChild(greenIndex++);
+                        pooled.position = new Vector3(targetGrid.x, targetGrid.y);
+                        pooled.gameObject.SetActive(true);
+                    }
+                    else
+                    {
+                        Instantiate(
+                            greenGrid
+                            ,new Vector3(targetGrid.x,targetGrid.y)
+                            ,Quaternion.identity,greenGridParent
+                            );
+                    }
+                }
+                else
+                {
+                    if (redIndex < redGridParent.childCount)
+                    {
+                        Transform pooled = redGridParent.GetChild(redIndex++);
+                        pooled.position = new Vector3(targetGrid.x, targetGrid.y);
+                        pooled.gameObject.SetActive(true);
+                    }
+                    else
+                    {
+                        Instantiate(
+                            redGrid
+                            ,new Vector3(size.x, size.y)
+                            ,Quaternion.identity
+                            ,redGridParent
+                            );
+                    }
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// 获取墙地图，false为可通行，true为墙
+    /// </summary>
+    /// <param name="targetFurni"></param>
+    /// <returns></returns>
     public bool[,] getWall(furniController targetFurni)
     {
         bool[,] wall = new bool[mapWidth, mapHight];

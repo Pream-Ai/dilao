@@ -1,15 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public abstract class baseState
 {
     protected NpcController owenr;
-    public baseState(NpcController npc) { owenr = npc; }
+    public baseState(NpcController npc) { this.owenr = owenr; }
     public abstract void OnEnter();
-    public abstract void OnUpdate();
     public abstract void OnExit();
+    public abstract void TickPerFrame();
+    public abstract void TickDecision();
 }
 public class FSM 
 {
@@ -19,10 +17,6 @@ public class FSM
         _currentState.OnExit();
         _currentState = targetState;
         targetState.OnEnter();
-    }
-    public void Update()
-    {
-        _currentState?.OnUpdate();
     }
 }
 public class IdleState : baseState
@@ -39,7 +33,12 @@ public class IdleState : baseState
         throw new System.NotImplementedException();
     }
 
-    public override void OnUpdate()
+    public override void TickDecision()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public override void TickPerFrame()
     {
         throw new System.NotImplementedException();
     }
@@ -58,10 +57,16 @@ public class MoveState : baseState
         
     }
 
-    public override void OnUpdate()
+    public override void TickDecision()
     {
-        move(Vector3.zero);
+        throw new System.NotImplementedException();
     }
+
+    public override void TickPerFrame()
+    {
+        throw new System.NotImplementedException();
+    }
+
     void move(Vector3 targetPos)
     {
 
@@ -81,7 +86,12 @@ public class WaitState : baseState
         throw new System.NotImplementedException();
     }
 
-    public override void OnUpdate()
+    public override void TickDecision()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public override void TickPerFrame()
     {
         throw new System.NotImplementedException();
     }
@@ -100,7 +110,12 @@ public class BuyState : baseState
         throw new System.NotImplementedException();
     }
 
-    public override void OnUpdate()
+    public override void TickDecision()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public override void TickPerFrame()
     {
         throw new System.NotImplementedException();
     }
@@ -119,9 +134,14 @@ public class EnterPool : baseState
         
     }
 
-    public override void OnUpdate()
+    public override void TickDecision()
     {
-        
+        throw new System.NotImplementedException();
+    }
+
+    public override void TickPerFrame()
+    {
+        throw new System.NotImplementedException();
     }
 }
 public class ExitPool : baseState
@@ -138,8 +158,13 @@ public class ExitPool : baseState
 
     }
 
-    public override void OnUpdate()
+    public override void TickDecision()
     {
-        
+        throw new System.NotImplementedException();
+    }
+
+    public override void TickPerFrame()
+    {
+        throw new System.NotImplementedException();
     }
 }

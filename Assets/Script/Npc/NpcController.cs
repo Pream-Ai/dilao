@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using Unity.Mathematics;
@@ -15,18 +13,28 @@ public class NpcController : MonoBehaviour
 {
     [Header("属性数据")]
     public NpcData data;
-    public FSM fsm = new FSM();
     public int ID;
     public string name;
     public GameObject prefab;
     public int level;
     public int money;
 
-    [Header("状态数据")]
-    private bool hasChoseFurni = false;
+    [Header("状态配置")]
+    public FSM fsm;
+    public IdleState idleState;
+    public MoveState moveState;
+    public WaitState waitState;
+    public BuyState buyState;
+    public EnterPool enterPool;
+    public ExitPool exitPool;
+
+    [Header("决策时钟配置")]
+    [SerializeField] private float decisionInterval = 1f; // 决策时钟间隔
+    private float decisionTimer; // 决策时钟计时器
     private void Start()
     {
         initNpcData();
+        transform.GetComponent<ClickMarker>().Init(1,this.data);
     }
     private void Update()
     {
@@ -40,14 +48,33 @@ public class NpcController : MonoBehaviour
             }
             navigationMove(furniManager.instance.furniList[0]);
         }
+        //决策时钟
+        fsm._currentState.TickPerFrame();
+        decisionTimer += Time.deltaTime;
+        if (decisionInterval<=decisionTimer)
+        {
+            decisionTimer = 0f;
+            fsm._currentState.TickDecision();
+        }
     }
     public void initNpcData()
     {
+        //属性初始化
         ID = data.ID;
         name = data.name;
         prefab = data.prefab;
         level = data.level;
         money = data.money;
+        //状态机初始化
+        fsm = new FSM();
+        idleState = new IdleState(this);
+        moveState = new MoveState(this);
+        waitState = new WaitState(this);
+        buyState = new BuyState(this);
+        enterPool = new EnterPool(this);
+        exitPool = new ExitPool(this);
+        fsm._currentState = idleState;
+        decisionTimer = UnityEngine.Random.Range(0,decisionInterval);
     }
     public void cleanNpcData()
     {
