@@ -5,8 +5,11 @@ using UnityEngine;
 public class NpcManager : MonoBehaviour
 {
     public static NpcManager instance;
-    private void Awake()
+    private void Awake() => instance = this;
+    
+
+    public void Resevation()
     {
-        instance = this;
+
     }
 }

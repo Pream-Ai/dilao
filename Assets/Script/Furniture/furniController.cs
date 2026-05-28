@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-
 public class furniController : MonoBehaviour
 {
     public int index;
@@ -19,6 +18,7 @@ public class furniController : MonoBehaviour
     public Vector2Int naviSize;
     public Vector2Int offset;
 
+    public int buildId;
     void Awake()
     {
         initFurni();
@@ -38,26 +38,13 @@ public class furniController : MonoBehaviour
         setPos = Vector2Int.zero;
         naviSize = furnidata.naviSize;
         offset = furnidata.serviveOffset;
+        buildId = furniManager.instance.RegisterFurni(this);
+        transform.GetComponent<ClickMarker>().Init(0,this.furnidata );
         initSort();
     }
-    public void initSort()
-    {
-        transform.GetComponent<SpriteRenderer>().sortingOrder =100-(int)transform.position.y;
-    }
+    public void initSort()=>transform.GetComponent<SpriteRenderer>().sortingOrder=100-(int)transform.position.y;
     public void destory()
     {
-        //÷ÿ≈≈À≥–Ú
-        furniManager.instance.furniList.RemoveAt(index);
-        for (int i=index;i<furniManager.instance.furniList.Count;i++)
-        {
-            furniManager.instance.furniList[i].index--;
-        }
-        for (int i=setPos.x;i<setPos.x+buildSize.x;i++)
-        {
-            for (int j=setPos.y;j<setPos.y+buildSize.y;j++)
-            {
-                
-            }
-        }
+        furniManager.instance.UnregisterFurni(buildId);
     }
 }
