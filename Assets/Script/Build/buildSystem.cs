@@ -18,6 +18,7 @@ public class buildSystem : MonoBehaviour
     public GameObject redGrid;
     public Transform greenGridParent;
     public Transform redGridParent;
+    public bool showHot = false;
     private void Awake()
     {
         instance = this;
@@ -31,6 +32,15 @@ public class buildSystem : MonoBehaviour
         previewShadow.GetComponent<SpriteRenderer>().sortingLayerName = "sort";
         previewShadow.GetComponent<SpriteRenderer>().sortingOrder = 1000;
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            if (!showHot) showHotMap();
+            else initLawPreview();
+            showHot = !showHot;
+        }
+    }
     /// <summary>
     /// 初始化建筑地图
     /// </summary>
@@ -39,14 +49,16 @@ public class buildSystem : MonoBehaviour
         gridData.Clear();
         for (int i = 0; i < mapWidth; i++)
         {
-            for (int j = 0; j < mapHight ; j++)
+            gridData.Add(new Vector2Int(i, 0), false);
+            for (int j = 1; j < mapHight ; j++)
             {
                 gridData.Add(new Vector2Int(i, j), true);
             }
         }
         for (int i = 0; i < mapWidth; i++)
         {
-            for (int j = 0; j < mapHight; j++)
+            naviData.Add(new Vector2Int(i,mapHight-1),false);
+            for (int j = 0; j < mapHight-1; j++)
             {
                 naviData.Add(new Vector2Int(i, j), true);
             }
@@ -91,6 +103,7 @@ public class buildSystem : MonoBehaviour
             Click.instance.isPreview = false;
             Debug.Log($"建造成功：{furniBeSelect.furnitureName} 在 {setPos}");
             Camera.main.GetComponent<Physics2DRaycaster>().enabled = true;
+            previewShadow.gameObject.SetActive(false);
         }
         else
         {
@@ -227,6 +240,55 @@ public class buildSystem : MonoBehaviour
             }
         }
     }
+    public void showHotMap()
+    {
+        initLawPreview();
+        Vector2Int size = new Vector2Int(mapWidth,mapHight);
+        int greenIndex = 0;
+        int redIndex = 0;
+        for (int i = 0; i < size.x; i++)
+        {
+            for (int j = 0; j < size.y-1; j++)
+            {
+                if (naviData[new Vector2Int(i,j)])//可走
+                {
+                    if (greenIndex < greenGridParent.childCount)
+                    {
+                        greenGridParent.GetChild(greenIndex).gameObject.SetActive(true);
+                        greenGridParent.GetChild(greenIndex).position = new Vector3(i, j);
+                    }
+                    else
+                    {
+                        Instantiate(
+                            greenGrid
+                            , new Vector3(i, j)
+                            , Quaternion.identity
+                            , greenGridParent
+                            );
+                    }
+                    greenIndex++;
+                }
+                else
+                {
+                    if (redIndex < redGridParent.childCount)
+                    {
+                        redGridParent.GetChild(redIndex).gameObject.SetActive(true);
+                        redGridParent.GetChild(redIndex).position = new Vector3(i,j);
+                    }
+                    else
+                    {
+                        Instantiate(
+                           redGrid
+                           , new Vector3(i, j)
+                           , Quaternion.identity
+                           , redGridParent
+                           );
+                    }
+                    redIndex++;
+                }
+            }
+        }
+    }
     /// <summary>
     /// 获取墙地图，false为可通行，true为墙
     /// </summary>
@@ -249,13 +311,6 @@ public class buildSystem : MonoBehaviour
             if (kvp.Value == false) wall[kvp.Key.x, kvp.Key.y] = true;
         }
         //重置目标地皮，防止与寻路算法冲突
-        for (int i = targetFurni.setPos.x; i < targetFurni.setPos.x + targetFurni.naviSize.x; i++)
-        {
-            for (int j = targetFurni.setPos.y; j < targetFurni.setPos.y + targetFurni.naviSize.y; j++)
-            {
-                wall[i, j] = false;
-            }
-        }
         return wall;
     }
 }

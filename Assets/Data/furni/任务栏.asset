@@ -20,4 +20,4 @@ MonoBehaviour:
   buildSize: {x: 3, y: 2}
   setPos: {x: 0, y: 0}
   naviSize: {x: 3, y: 1}
-  serviveOffset: {x: 1, y: 0}
+  serviveOffset: {x: 1, y: -1}

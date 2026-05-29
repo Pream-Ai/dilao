@@ -42,7 +42,7 @@ public class furniController : MonoBehaviour
         transform.GetComponent<ClickMarker>().Init(0,this.furnidata );
         initSort();
     }
-    public void initSort()=>transform.GetComponent<SpriteRenderer>().sortingOrder=100-(int)transform.position.y;
+    public void initSort()=>GetComponent<SpriteRenderer>().sortingOrder=100-(int)transform.position.y+(buildSize.y-naviSize.y);
     public void destory()
     {
         furniManager.instance.UnregisterFurni(buildId);
