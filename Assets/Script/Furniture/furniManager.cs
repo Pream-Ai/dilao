@@ -8,6 +8,7 @@ public class furniManager : MonoBehaviour
     public List<FurniData> furniDataList = new List<FurniData>();
     public Dictionary<int, furniController> furniList = new Dictionary<int, furniController>();
     private int nextID = 0;
+    public Transform ExitDoor;
     private void Awake()
     {
         instance = this;
@@ -29,6 +30,7 @@ public class furniManager : MonoBehaviour
     {
         int id = nextID++;
         furniList[id]=ctrl;
+        Debug.Log($"×¢²á¼Ò¾ß{id}ºÅ");
         return id;
     }
     /// <summary>

@@ -1,9 +1,11 @@
+using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 
 public abstract class baseState
 {
-    protected NpcController owenr;
-    public baseState(NpcController npc) { this.owenr = owenr; }
+    protected NpcController owner;
+    public baseState(NpcController npc) { this.owner = npc; }
     public abstract void OnEnter();
     public abstract void OnExit();
     public abstract void TickPerFrame();
@@ -25,31 +27,34 @@ public class IdleState : baseState
 
     public override void OnEnter()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("进入站立状态");
     }
 
     public override void OnExit()
     {
-        throw new System.NotImplementedException();
+
     }
 
     public override void TickDecision()
     {
-        throw new System.NotImplementedException();
+
     }
 
     public override void TickPerFrame()
     {
-        throw new System.NotImplementedException();
+
     }
 }
 public class MoveState : baseState
 {
     public MoveState(NpcController npc) : base(npc) { }
-
+    private List<Vector2Int> path;
+    private int currentIndex = 0;
+    private float moveSpeed = 5f;
     public override void OnEnter()
     {
-       
+        path = owner.AStar();
+        currentIndex = 0 ;
     }
 
     public override void OnExit()
@@ -59,65 +64,92 @@ public class MoveState : baseState
 
     public override void TickDecision()
     {
-        throw new System.NotImplementedException();
+        
     }
 
     public override void TickPerFrame()
     {
-        throw new System.NotImplementedException();
+        move();
     }
-
-    void move(Vector3 targetPos)
+    void move()
     {
-
+        Vector3 targetPos = new Vector3(path[currentIndex].x + 0.5f, path[currentIndex].y + 0.5f);
+        owner.transform.position = Vector3.MoveTowards(owner.transform.position, targetPos, moveSpeed * Time.deltaTime);
+        if (Vector3.Distance(owner.transform.position, targetPos) < 0.1f)
+        {
+            owner.sortLayer();
+            currentIndex++;
+            if (currentIndex >= path.Count)
+            {
+                Debug.Log("到达目的地");
+                //bool isLine
+                owner.fsm.stateChange(owner.buyState);
+            }
+        }
     }
 }
 public class WaitState : baseState
 {
     public WaitState(NpcController npc) : base(npc) { }
-
+    float waitTime = Random.Range(1f, 3f);
+    float timer = 0f;
     public override void OnEnter()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("进入等待状态");
     }
 
     public override void OnExit()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("离开等待状态");
     }
 
     public override void TickDecision()
     {
-        throw new System.NotImplementedException();
     }
 
     public override void TickPerFrame()
     {
-        throw new System.NotImplementedException();
+        timer += Time.deltaTime;
+        if (timer>=waitTime)
+        {
+            var door = furniManager.instance.ExitDoor;
+            owner.targetFurni = furniManager.instance.furniList[1];
+            owner.fsm.stateChange(owner.moveState);
+        }
     }
 }
 public class BuyState : baseState
 {
     public BuyState (NpcController npc) : base(npc) { }
-
+    float waitTime = 3;
+    float timer = 0f;
     public override void OnEnter()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("进入购物状态");
+        timer = 0f;
     }
 
     public override void OnExit()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("离开购物状态");
     }
 
     public override void TickDecision()
     {
-        throw new System.NotImplementedException();
     }
 
     public override void TickPerFrame()
     {
-        throw new System.NotImplementedException();
+        owner.buy();
+
+
+        timer += Time.deltaTime;
+        if (timer >= waitTime)
+        {
+            var door = furniManager.instance.ExitDoor;
+            owner.targetFurni = owner.getNextFurni();
+            owner.fsm.stateChange(owner.moveState);
+        }
     }
 }
 public class EnterPool : baseState
@@ -126,7 +158,7 @@ public class EnterPool : baseState
 
     public override void OnEnter()
     {
-        owenr.cleanNpcData();
+        owner.cleanNpcData();
     }
 
     public override void OnExit()
@@ -150,7 +182,7 @@ public class ExitPool : baseState
 
     public override void OnEnter()
     {
-        owenr.initNpcData();
+        owner.initNpcData();
     }
 
     public override void OnExit()

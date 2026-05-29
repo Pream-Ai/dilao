@@ -44,3 +44,6 @@ TagManager:
   - name: sort
     uniqueID: 1768199647
     locked: 0
+  - name: npc
+    uniqueID: 888672313
+    locked: 0

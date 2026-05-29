@@ -44,7 +44,7 @@ public class UIManager : MonoBehaviour
     {
         Debug.Log(data.name);
         //if (furniWindow.activeSelf) return;//如果面板已经打开了就不重复打开了
-        furniWindow.SetActive(true);
+        //furniWindow.SetActive(true);
     }
     public void OpenNpcWindow(NpcData data)
     {

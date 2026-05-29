@@ -2,16 +2,17 @@ using System.Collections.Generic;
 using DG.Tweening;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 /// <summary>
-/// npcÖÕ¶ËÈı²ã½âñî¿ò¼Ü
-/// ---npcBrain¾ö²ß²ã
-/// ---npcActionĞĞÎª²ã
-/// ---npcView±íÏÖ²ã
+/// NPC æ€»æ§è„šæœ¬
+/// ---NpcBrain é€»è¾‘å±‚
+/// ---NpcAction è¡Œä¸ºå±‚
+/// ---NpcView è¡¨ç°å±‚
 /// </summary>
 public class NpcController : MonoBehaviour
 {
-    [Header("ÊôĞÔÊı¾İ")]
+    [Header("åŸºç¡€æ•°æ®")]
     public NpcData data;
     public int ID;
     public string name;
@@ -19,7 +20,7 @@ public class NpcController : MonoBehaviour
     public int level;
     public int money;
 
-    [Header("×´Ì¬ÅäÖÃ")]
+    [Header("çŠ¶æ€æœº")]
     public FSM fsm;
     public IdleState idleState;
     public MoveState moveState;
@@ -28,44 +29,47 @@ public class NpcController : MonoBehaviour
     public EnterPool enterPool;
     public ExitPool exitPool;
 
-    [Header("¾ö²ßÊ±ÖÓÅäÖÃ")]
-    [SerializeField] private float decisionInterval = 1f; // ¾ö²ßÊ±ÖÓ¼ä¸ô
-    private float decisionTimer; // ¾ö²ßÊ±ÖÓ¼ÆÊ±Æ÷
+    [Header("å†³ç­–ç³»ç»Ÿ")]
+    [SerializeField] private float decisionInterval = 1f; // å†³ç­–æ—¶é—´é—´éš”
+    private float decisionTimer; // å†³ç­–æ—¶é—´è®¡æ—¶å™¨
+    public furniController targetFurni;
+    public Transform targetLogo;
     private void Start()
     {
         initNpcData();
-        transform.GetComponent<ClickMarker>().Init(1,this.data);
+        transform.GetComponent<ClickMarker>().Init(1, this.data);
     }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("¿ªÊ¼Ñ°Â·");
-            if (furniManager.instance.furniList.Count<=0)
+            Debug.Log("å¼€å§‹å¯»è·¯");
+            if (furniManager.instance.furniList.Count <= 0)
             {
-                Debug.Log("ÎŞÄ¿±ê");
+                Debug.Log("æ— ç›®æ ‡");
                 return;
             }
-            navigationMove(furniManager.instance.furniList[0]);
+            targetFurni = furniManager.instance.furniList[0];
+            fsm.stateChange(moveState);
         }
-        //¾ö²ßÊ±ÖÓ
+        //é€å¸§åˆ·æ–°
         fsm._currentState.TickPerFrame();
         decisionTimer += Time.deltaTime;
-        if (decisionInterval<=decisionTimer)
+        if (decisionInterval <= decisionTimer)
         {
             decisionTimer = 0f;
-            fsm._currentState.TickDecision();
+            fsm._currentState?.TickDecision();
         }
     }
     public void initNpcData()
     {
-        //ÊôĞÔ³õÊ¼»¯
+        //æ•°æ®åˆå§‹åŒ–
         ID = data.ID;
         name = data.name;
         prefab = data.prefab;
         level = data.level;
         money = data.money;
-        //×´Ì¬»ú³õÊ¼»¯
+        //çŠ¶æ€æœºåˆå§‹åŒ–
         fsm = new FSM();
         idleState = new IdleState(this);
         moveState = new MoveState(this);
@@ -74,7 +78,7 @@ public class NpcController : MonoBehaviour
         enterPool = new EnterPool(this);
         exitPool = new ExitPool(this);
         fsm._currentState = idleState;
-        decisionTimer = UnityEngine.Random.Range(0,decisionInterval);
+        decisionTimer = UnityEngine.Random.Range(0, decisionInterval);
     }
     public void cleanNpcData()
     {
@@ -85,11 +89,21 @@ public class NpcController : MonoBehaviour
         money = -1;
     }
 
-    #region ¾ö²ßÏµÍ³
-    //Éú³É¹ºÎïÇãÏò
+    #region å†³ç­–ç³»ç»Ÿ
+    //ç”Ÿæˆ/å†³ç­–é€»è¾‘
+    public int nextFurniIndex = 0;
+    public furniController getNextFurni()
+    {
+        nextFurniIndex++;
+        if (nextFurniIndex > furniManager.instance.furniList.Count-1)
+        {
+            nextFurniIndex = 0;
+        }
+        return furniManager.instance.furniList[nextFurniIndex];
+    }
     #endregion
 
-    #region ĞĞÎªÏµÍ³
+    #region è¡Œä¸ºç³»ç»Ÿ
     int manhattan(int x1, int y1, int x2, int y2)
     {
         int result = 0;
@@ -100,14 +114,18 @@ public class NpcController : MonoBehaviour
     {
         return x >= 0 && x < width && y >= 0 && y < height && !walls[x, y];
     }
-    public List<Vector2Int> AStar(bool[,] walls, Vector2Int start, Vector2Int end)
+    public List<Vector2Int> AStar()
     {
+        bool[,] walls = buildSystem.instance.getWall(targetFurni);
+        var end = targetFurni.setPos + targetFurni.offset;
+        targetLogo.position = new Vector3(end.x,end.y);
+        Vector2Int start = npcPosToGrid();
         int width = walls.GetLength(0);
         int height = walls.GetLength(1);
         Vector2Int[,] cameFrom = new Vector2Int[width, height];
         int[,] gscore = new int[width, height];
         int[,] fscore = new int[width, height];
-        //³õÊ¼»¯ÈİÆ÷
+        
         for (int i = 0; i < width; i++)
         {
             for (int j = 0; j < height; j++)
@@ -122,8 +140,8 @@ public class NpcController : MonoBehaviour
 
         List<Vector2Int> openList = new List<Vector2Int> { start };
         Vector2Int[] dirs = {
-            new Vector2Int(0,1),new Vector2Int(0,-1),
-            new Vector2Int(1,0),new Vector2Int(-1,0)
+        new Vector2Int(0,1), new Vector2Int(0,-1),
+        new Vector2Int(1,0), new Vector2Int(-1,0)
         };
 
         while (openList.Count > 0)
@@ -136,7 +154,7 @@ public class NpcController : MonoBehaviour
                     current = node;
                 }
             }
-            if (current == end+new Vector2Int(0,-1))
+            if (current == end)
             {
                 List<Vector2Int> path = new List<Vector2Int>();
                 Vector2Int node = end;
@@ -149,13 +167,11 @@ public class NpcController : MonoBehaviour
                 return path;
             }
             openList.Remove(current);
-
             foreach (Vector2Int dir in dirs)
             {
                 Vector2Int neighbor = current + dir;
                 if (!isValid(neighbor.x, neighbor.y, width, height, walls))
                     continue;
-
                 int tentativeG = gscore[current.x, current.y] + 1;
                 if (tentativeG < gscore[neighbor.x, neighbor.y])
                 {
@@ -168,33 +184,23 @@ public class NpcController : MonoBehaviour
                 }
             }
         }
-        Debug.Log("ÎŞÂ·¿É×ß");
+        Debug.Log("å¯»è·¯å¤±è´¥");
         return null;
     }
-    public void navigationMove(furniController targetFurni)
-    {
-        var path = AStar(buildSystem.instance.getWall(targetFurni), npcPosToGrid(),targetFurni.setPos+targetFurni.offset);
-        Sequence moveSeq = DOTween.Sequence();
-        for (int i=1;i<path.Count;i++)
-        {
-            moveSeq.Append(transform.DOMove(new Vector3(path[i].x + 0.5f, path[i].y + 0.5f), 1f));
-            moveSeq.AppendCallback(()=> sortLayer());
-        }
-        moveSeq.SetEase(Ease.Linear);
-        moveSeq.Play();
-    }
-    Vector2Int npcPosToGrid()
-    {
-        return new Vector2Int((int)transform.position.x/1,(int)transform.position.y/1);
-    }
+    Vector2Int npcPosToGrid() => new Vector2Int((int)transform.position.x / 1, (int)transform.position.y / 1);
     #endregion
 
-    #region ±íÏÖ²ã
-    //¹¹ÔìÍ¸ÊÓĞ§¹û
-    void sortLayer()
+    #region è¡¨ç°å±‚
+    //æ’åºå±‚ä¸æ·±åº¦æ•ˆæœ
+    public void sortLayer()
     {
-        transform.GetComponent<SpriteRenderer>().sortingOrder =100-(int)transform.position.y;
+        int targetOrder = 101 - (int)transform.position.y;
+        transform.GetComponent<SpriteRenderer>().sortingOrder = targetOrder;
+        transform.position = new Vector3(transform.position.x, transform.position.y, targetOrder * -0.01f);
     }
-
+    public void buy()
+    {
+        Debug.Log("è¿›åº¦æ¡æ¨åŠ¨");
+    }
     #endregion
 }

@@ -5,12 +5,12 @@ using UnityEngine;
 public class FurniData : ScriptableObject
 {
     public int ID;
-    public string furnitureName;//¼Ò¾ßÃû
-    public GameObject prefab;//Ô¤ÖÆÌå
-    public int buildCost;//½¨ÖşÏûºÄ
-    public int baseIncome;//»ù´¡ÊÕÈë
-    public Vector2Int buildSize;//Õ¼µØÃæ»ı
-    public Vector2Int setPos;//½¨Ôì×ø±ê
-    public Vector2Int naviSize;//
-    public Vector2Int serviveOffset;//×îÖÕ¶¨Î»Æ«ÒÆÖµ
+    public string furnitureName;//å®¶å…·å
+    public GameObject prefab;//é¢„åˆ¶ä½“
+    public int buildCost;//å»ºé€ æˆæœ¬
+    public int baseIncome;//åŸºç¡€æ”¶å…¥
+    public Vector2Int buildSize;//å åœ°å°ºå¯¸
+    public Vector2Int setPos;//æ‘†æ”¾åæ ‡
+    public Vector2Int naviSize;//å¯»è·¯å°ºå¯¸
+    public Vector2Int serviveOffset;//æœåŠ¡ç‚¹å®šä½åç§»å€¼
 }
