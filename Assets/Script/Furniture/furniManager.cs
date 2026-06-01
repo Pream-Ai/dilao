@@ -9,10 +9,8 @@ public class furniManager : MonoBehaviour
     public Dictionary<int, furniController> furniList = new Dictionary<int, furniController>();
     private int nextID = 0;
     public Transform ExitDoor;
-    private void Awake()
-    {
-        instance = this;
-    }
+
+    private void Awake() => instance = this;
     void Start()
     {
         

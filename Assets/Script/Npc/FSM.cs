@@ -56,17 +56,14 @@ public class MoveState : baseState
         path = owner.AStar();
         currentIndex = 0 ;
     }
-
     public override void OnExit()
     {
         
     }
-
     public override void TickDecision()
     {
         
     }
-
     public override void TickPerFrame()
     {
         move();
@@ -128,16 +125,13 @@ public class BuyState : baseState
         Debug.Log("进入购物状态");
         timer = 0f;
     }
-
     public override void OnExit()
     {
         Debug.Log("离开购物状态");
     }
-
     public override void TickDecision()
     {
     }
-
     public override void TickPerFrame()
     {
         owner.buy();

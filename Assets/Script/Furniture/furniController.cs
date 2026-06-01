@@ -13,6 +13,7 @@ public class furniController : MonoBehaviour
     public GameObject prefab;
     public int buildCost;
     public int baseIncome;
+    public int maxCapacity;
     public Vector2Int buildSize;
     public Vector2Int setPos;
     public Vector2Int naviSize;
@@ -34,6 +35,7 @@ public class furniController : MonoBehaviour
         prefab = furnidata.prefab;
         buildCost = furnidata.buildCost;
         baseIncome = furnidata.baseIncome;
+        maxCapacity = furnidata.maxCapacity;
         buildSize = furnidata.buildSize;
         setPos = Vector2Int.zero;
         naviSize = furnidata.naviSize;
@@ -43,6 +45,7 @@ public class furniController : MonoBehaviour
         initSort();
     }
     public void initSort()=>GetComponent<SpriteRenderer>().sortingOrder=100-(int)transform.position.y+(buildSize.y-naviSize.y);
+
     public void destory()
     {
         furniManager.instance.UnregisterFurni(buildId);
