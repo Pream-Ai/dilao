@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -28,6 +27,7 @@ public class furniManager : MonoBehaviour
     {
         int id = nextID++;
         furniList[id]=ctrl;
+        NpcManager.instance.furniList[id] = ctrl;
         Debug.Log($"×¢²á¼Ò¾ß{id}ºÅ");
         return id;
     }
@@ -42,6 +42,14 @@ public class furniManager : MonoBehaviour
             if (kv.Key == id)
             {
                 furniList.Remove(id);
+                break;
+            }
+        }
+        foreach (var kv in NpcManager.instance.furniList)
+        {
+            if (kv.Key == id)
+            {
+                NpcManager.instance.furniList.Remove(id);
                 break;
             }
         }

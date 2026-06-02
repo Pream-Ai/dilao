@@ -313,4 +313,28 @@ public class buildSystem : MonoBehaviour
         //重置目标地皮，防止与寻路算法冲突
         return wall;
     }
+    /// <summary>
+    /// 拆除家具，重置地皮
+    /// </summary>
+    /// <param name="furni"></param>
+    public void removeFurni(furniController furni)
+    {
+        Vector2Int setPos = furni.setPos;
+        Vector2Int build_size = furni.buildSize;
+        Vector2Int navi_size = furni.naviSize;
+        for (int i = setPos.x; i < setPos.x + build_size.x; i++)
+        {
+            for (int j = setPos.y; j < setPos.y + build_size.y; j++)
+            {
+                gridData[new Vector2Int(i, j)] = true;
+            }
+        }
+        for (int i = setPos.x; i < setPos.x + navi_size.x; i++)
+        {
+            for (int j = setPos.y; j < setPos.y + navi_size.y; j++)
+            {
+                naviData[new Vector2Int(i, j)] = true;
+            }
+        }
+    }
 }

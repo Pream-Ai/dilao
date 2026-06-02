@@ -18,7 +18,7 @@ public class furniController : MonoBehaviour
     public Vector2Int setPos;
     public Vector2Int naviSize;
     public Vector2Int offset;
-
+    public bool beUsing = false;
     public int buildId;
     void Awake()
     {
@@ -49,5 +49,6 @@ public class furniController : MonoBehaviour
     public void destory()
     {
         furniManager.instance.UnregisterFurni(buildId);
+        buildSystem.instance.removeFurni(this);
     }
 }
