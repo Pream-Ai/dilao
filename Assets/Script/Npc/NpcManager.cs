@@ -6,9 +6,28 @@ using UnityEngine;
 public class NpcManager : MonoBehaviour
 {
     public static NpcManager instance;
-    private Dictionary<int, List<UniqueSlot>> reserveBook = new Dictionary<int, List<UniqueSlot>>();//注册表
-    private Dictionary<furniController, List<UniqueSlot>> furniSlotMap = new Dictionary<furniController, List<UniqueSlot>>();
-    public Action<UniqueSlot> onSlotAvailable;
+    public Dictionary<int, furniController> furniList = new Dictionary<int, furniController>();
+    public Action<furniController> onSlotAvailable;
     private void Awake() => instance = this;
-
-}
+    public void OnFurnitureEntityAdd(furniController furni)
+    {
+       
+    }
+    /// <summary>
+    /// 预定服务位，返回是否预定成功
+    /// </summary>
+    /// <param name="furni"></param>
+    public void TryReseveSlot(furniController furni)
+    {
+        if (furni.beUsing) return;
+        furni.beUsing = true;
+    }
+    /// <summary>
+    /// 服务位释放
+    /// </summary>
+    /// <param name="furni"></param>
+    public void ReleaseSlot(furniController furni)
+    {
+        furni.beUsing = false;
+    }
+} 

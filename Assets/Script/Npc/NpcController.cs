@@ -1,8 +1,6 @@
 using System.Collections.Generic;
-using DG.Tweening;
 using Unity.Mathematics;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 /// <summary>
 /// NPC 总控脚本
@@ -23,6 +21,7 @@ public class NpcController : MonoBehaviour
     [Header("状态机")]
     public FSM fsm;
     public IdleState idleState;
+    public WanderState wanderState;
     public MoveState moveState;
     public WaitState waitState;
     public BuyState buyState;
@@ -31,9 +30,9 @@ public class NpcController : MonoBehaviour
 
     [Header("决策系统")]
     [SerializeField] private float decisionInterval = 1f; // 决策时间间隔
-    private float decisionTimer; // 决策时间计时器
-    public furniController targetFurni;
-    public Transform targetLogo;
+    private float decisionTimer=5f; // 决策时间计时器
+    public furniController targetFurni;//目标家具
+    public Transform targetLogo;//测试用
     private void Start()
     {
         initNpcData();
@@ -51,6 +50,11 @@ public class NpcController : MonoBehaviour
             }
             targetFurni = furniManager.instance.furniList[0];
             fsm.stateChange(moveState);
+        }
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+            Debug.Log("开始闲逛");
+            fsm.stateChange(wanderState);
         }
         //逐帧刷新
         fsm._currentState.TickPerFrame();
@@ -72,12 +76,13 @@ public class NpcController : MonoBehaviour
         //状态机初始化
         fsm = new FSM();
         idleState = new IdleState(this);
+        wanderState= new WanderState(this);
         moveState = new MoveState(this);
         waitState = new WaitState(this);
         buyState = new BuyState(this);
         enterPool = new EnterPool(this);
         exitPool = new ExitPool(this);
-        fsm._currentState = idleState;
+        fsm.stateChange(idleState);//默认状态
         decisionTimer = UnityEngine.Random.Range(0, decisionInterval);
     }
     public void cleanNpcData()
@@ -88,9 +93,8 @@ public class NpcController : MonoBehaviour
         level = -1;
         money = -1;
     }
-
     #region 决策系统
-    //生成/决策逻辑
+    //生成/决策逻辑,测试用
     public int nextFurniIndex = 0;
     public furniController getNextFurni()
     {
@@ -100,6 +104,18 @@ public class NpcController : MonoBehaviour
             nextFurniIndex = 0;
         }
         return furniManager.instance.furniList[nextFurniIndex];
+    }
+    //决策逻辑
+    public void Decision()
+    {
+        foreach (var kv in NpcManager.instance.furniList)
+        {
+            if (!kv.Value.beUsing)
+            {
+                Debug.Log($"{kv.Value.name}没有被使用，可以预约");
+                NpcManager.instance.TryReseveSlot(kv.Value);
+            }
+        }
     }
     #endregion
 
