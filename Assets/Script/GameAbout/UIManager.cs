@@ -7,6 +7,12 @@ public class UIManager : MonoBehaviour
     public static UIManager instance;
     public static Action<FurniData> onFurniDataSelect;
 
+    /// <summary>
+    /// ∏Ò Ω:
+    /// --name
+    /// --texture
+    /// --income
+    /// </summary>
     public GameObject furniWindow;
     public GameObject npcWindow;
     private void Awake()

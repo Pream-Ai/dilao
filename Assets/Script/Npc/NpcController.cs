@@ -29,10 +29,13 @@ public class NpcController : MonoBehaviour
     public ExitPool exitPool;
 
     [Header("决策系统")]
-    [SerializeField] private float decisionInterval = 1f; // 决策时间间隔
-    private float decisionTimer=5f; // 决策时间计时器
+    [SerializeField] private float decisionInterval = 5; // 决策时间间隔
+    private float decisionTimer=1f; // 决策时间计时器
     public furniController targetFurni;//目标家具
-    public Transform targetLogo;//测试用
+    [Header("表现层")]
+    public Animator anim;
+    public SpriteRenderer emo;
+    public bool isflip;
     private void Start()
     {
         initNpcData();
@@ -94,28 +97,28 @@ public class NpcController : MonoBehaviour
         money = -1;
     }
     #region 决策系统
-    //生成/决策逻辑,测试用
-    public int nextFurniIndex = 0;
-    public furniController getNextFurni()
+    /// <summary>
+    /// 决策逻辑找未注册家具且不和上次使用的家具一样
+    /// </summary>
+    /// <returns></returns>
+    public bool Decision()
     {
-        nextFurniIndex++;
-        if (nextFurniIndex > furniManager.instance.furniList.Count-1)
-        {
-            nextFurniIndex = 0;
-        }
-        return furniManager.instance.furniList[nextFurniIndex];
-    }
-    //决策逻辑
-    public void Decision()
-    {
+        List<furniController> CanBeUseFurniList = new List<furniController>();
         foreach (var kv in NpcManager.instance.furniList)
         {
-            if (!kv.Value.beUsing)
+            if (!kv.Value.beUsing&&kv.Value!=targetFurni)
             {
-                Debug.Log($"{kv.Value.name}没有被使用，可以预约");
-                NpcManager.instance.TryReseveSlot(kv.Value);
+                CanBeUseFurniList.Add(kv.Value);
             }
         }
+        if (CanBeUseFurniList.Count>0)
+        {
+            var targetIndex = UnityEngine.Random.Range(0, CanBeUseFurniList.Count);
+            targetFurni = CanBeUseFurniList[targetIndex];
+            NpcManager.instance.TryReseveSlot(targetFurni);
+            return true;
+        }
+        return false;
     }
     #endregion
 
@@ -134,7 +137,6 @@ public class NpcController : MonoBehaviour
     {
         bool[,] walls = buildSystem.instance.getWall(targetFurni);
         var end = targetFurni.setPos + targetFurni.offset;
-        targetLogo.position = new Vector3(end.x,end.y);
         Vector2Int start = npcPosToGrid();
         int width = walls.GetLength(0);
         int height = walls.GetLength(1);
@@ -207,16 +209,65 @@ public class NpcController : MonoBehaviour
     #endregion
 
     #region 表现层
-    //排序层与深度效果
+    /// <summary>
+    /// 动静切换
+    /// </summary>
+    /// <param name="ismove">是否切换至移动状态</param>
+    public void changeAnim(bool ismove)
+    {
+        if (ismove) anim.SetBool("ismove",true);
+        else anim.SetBool("ismove", false);
+    }
+    /// <summary>
+    /// 翻转切换，当flip为真时面向右边
+    /// </summary>
+    public void changeFlip()
+    {
+        var ifFlip=targetFurni.setPos.x- (int)transform.position.x;
+        if (ifFlip > 0)
+        {
+            if (isflip)
+            {
+                transform.localScale = new Vector3(1, 1, 1);
+                isflip = false;
+            }
+            else return;
+        }
+        else
+        {
+            if (isflip) return;
+            else
+            {
+                transform.localScale = new Vector3(-1, 1, 1);
+                isflip = true;
+            }
+        }
+    }
+    /// <summary>
+    /// /排序层与深度效果
+    /// </summary>
     public void sortLayer()
     {
         int targetOrder = 101 - (int)transform.position.y;
         transform.GetComponent<SpriteRenderer>().sortingOrder = targetOrder;
         transform.position = new Vector3(transform.position.x, transform.position.y, targetOrder * -0.01f);
+        //武器同层
+        if(transform.GetChild(0)!=null) transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder = targetOrder;
     }
+    /// <summary>
+    /// 购买过程中进度条显示
+    /// </summary>
     public void buy()
     {
-        Debug.Log("进度条推动");
+        //Debug.Log("进度条推动");
+    }
+    /// <summary>
+    /// 切换表情
+    /// </summary>
+    /// <param name="targetEmo"></param>
+    public void emoChange(Sprite targetEmo)
+    {
+        emo.sprite = targetEmo;
     }
     #endregion
 }
