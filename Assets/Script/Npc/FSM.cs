@@ -10,10 +10,10 @@ public abstract class baseState
     public abstract void TickPerFrame();
     public abstract void TickDecision();
 }
-public class FSM 
+public class FSM
 {
     public baseState _currentState;
-    public void stateChange(baseState targetState )
+    public void stateChange(baseState targetState)
     {
         _currentState?.OnExit();
         _currentState = targetState;
@@ -44,7 +44,7 @@ public class IdleState : baseState
 
     public override void TickDecision()
     {
-        owner.fsm.stateChange(nextStatePool[Random.Range(0,nextStatePool.Count)]);
+        owner.fsm.stateChange(nextStatePool[Random.Range(0, nextStatePool.Count)]);
     }
 
     public override void TickPerFrame()
@@ -76,7 +76,7 @@ public class WanderState : baseState
         targetPosPool.Clear();
         for (int i = 0; i < 8; i++)
         {
-            target = new Vector2Int((int)owner.transform.position.x/1, (int)owner.transform.position.y/1) + AllDirs[i];
+            target = new Vector2Int((int)owner.transform.position.x / 1, (int)owner.transform.position.y / 1) + AllDirs[i];
 
             if (buildSystem.instance.naviData.ContainsKey(target)
                 && buildSystem.instance.naviData[target])
@@ -87,8 +87,9 @@ public class WanderState : baseState
         if (targetPosPool.Count > 0)
         {
             var target = targetPosPool[Random.Range(0, targetPosPool.Count)];
-            endPos = new Vector3(target.x+0.5f, target.y+0.5f);
+            endPos = new Vector3(target.x + 0.5f, target.y + 0.5f);
         }
+        owner.changeFlip(new Vector2Int((int)endPos.x, (int)endPos.y));
     }
     public override void OnExit()
     {
@@ -108,7 +109,7 @@ public class WanderState : baseState
         if (Vector3.Distance(owner.transform.position, endPos) < 0.12f)
         {
             owner.sortLayer();
-            owner.fsm.stateChange(UnityEngine.Random.Range(0,5)>0? owner.idleState:owner.wanderState);
+            owner.fsm.stateChange(UnityEngine.Random.Range(0, 5) > 0 ? owner.idleState : owner.wanderState);
         }
     }
 }
@@ -126,7 +127,7 @@ public class MoveState : baseState
             currentIndex = 0;
             Debug.Log("进入寻路状态");
             owner.changeAnim(true);
-            owner.changeFlip();
+            owner.changeFlip(owner.targetFurni.setPos);
         }
         else
         {
@@ -135,11 +136,11 @@ public class MoveState : baseState
     }
     public override void OnExit()
     {
-        
+
     }
     public override void TickDecision()
     {
-        
+
     }
     public override void TickPerFrame()
     {
@@ -183,17 +184,17 @@ public class WaitState : baseState
     public override void TickPerFrame()
     {
         timer += Time.deltaTime;
-        if (timer>=waitTime)
+        if (timer >= waitTime)
         {
             var door = furniManager.instance.ExitDoor;
             owner.targetFurni = furniManager.instance.furniList[1];
             owner.fsm.stateChange(owner.moveState);
         }
-    } 
+    }
 }
 public class BuyState : baseState
 {
-    public BuyState (NpcController npc) : base(npc) { }
+    public BuyState(NpcController npc) : base(npc) { }
     float waitTime = 3;
     float timer = 0f;
     public override void OnEnter()
@@ -232,7 +233,7 @@ public class EnterPool : baseState
 
     public override void OnExit()
     {
-        
+
     }
 
     public override void TickDecision()

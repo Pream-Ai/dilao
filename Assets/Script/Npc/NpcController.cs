@@ -30,7 +30,7 @@ public class NpcController : MonoBehaviour
 
     [Header("决策系统")]
     [SerializeField] private float decisionInterval = 5; // 决策时间间隔
-    private float decisionTimer=1f; // 决策时间计时器
+    private float decisionTimer = 1f; // 决策时间计时器
     public furniController targetFurni;//目标家具
     [Header("表现层")]
     public Animator anim;
@@ -79,7 +79,7 @@ public class NpcController : MonoBehaviour
         //状态机初始化
         fsm = new FSM();
         idleState = new IdleState(this);
-        wanderState= new WanderState(this);
+        wanderState = new WanderState(this);
         moveState = new MoveState(this);
         waitState = new WaitState(this);
         buyState = new BuyState(this);
@@ -106,12 +106,12 @@ public class NpcController : MonoBehaviour
         List<furniController> CanBeUseFurniList = new List<furniController>();
         foreach (var kv in NpcManager.instance.furniList)
         {
-            if (!kv.Value.beUsing&&kv.Value!=targetFurni)
+            if (!kv.Value.beUsing && kv.Value != targetFurni)
             {
                 CanBeUseFurniList.Add(kv.Value);
             }
         }
-        if (CanBeUseFurniList.Count>0)
+        if (CanBeUseFurniList.Count > 0)
         {
             var targetIndex = UnityEngine.Random.Range(0, CanBeUseFurniList.Count);
             targetFurni = CanBeUseFurniList[targetIndex];
@@ -143,7 +143,7 @@ public class NpcController : MonoBehaviour
         Vector2Int[,] cameFrom = new Vector2Int[width, height];
         int[,] gscore = new int[width, height];
         int[,] fscore = new int[width, height];
-        
+
         for (int i = 0; i < width; i++)
         {
             for (int j = 0; j < height; j++)
@@ -215,15 +215,15 @@ public class NpcController : MonoBehaviour
     /// <param name="ismove">是否切换至移动状态</param>
     public void changeAnim(bool ismove)
     {
-        if (ismove) anim.SetBool("ismove",true);
+        if (ismove) anim.SetBool("ismove", true);
         else anim.SetBool("ismove", false);
     }
     /// <summary>
     /// 翻转切换，当flip为真时面向右边
     /// </summary>
-    public void changeFlip()
+    public void changeFlip(Vector2Int targetPos)
     {
-        var ifFlip=targetFurni.setPos.x- (int)transform.position.x;
+        var ifFlip = targetPos.x - (int)transform.position.x;
         if (ifFlip > 0)
         {
             if (isflip)
@@ -252,7 +252,7 @@ public class NpcController : MonoBehaviour
         transform.GetComponent<SpriteRenderer>().sortingOrder = targetOrder;
         transform.position = new Vector3(transform.position.x, transform.position.y, targetOrder * -0.01f);
         //武器同层
-        if(transform.GetChild(0)!=null) transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder = targetOrder;
+        // if (transform.GetChild(0) != null) transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder = targetOrder;
     }
     /// <summary>
     /// 购买过程中进度条显示
