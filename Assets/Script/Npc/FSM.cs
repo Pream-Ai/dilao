@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEngine.GraphicsBuffer;
+using Cysharp.Threading.Tasks;
 public abstract class baseState
 {
     protected NpcController owner;
@@ -31,6 +31,7 @@ public class IdleState : baseState
     {
         nextStatePool.Clear();
         Debug.Log("进入站立状态");
+        owner.changeAnim(false);
         nextStatePool.Add(owner.idleState);
         nextStatePool.Add(owner.moveState);
         nextStatePool.Add(owner.wanderState);
@@ -71,6 +72,7 @@ public class WanderState : baseState
     public override void OnEnter()
     {
         Debug.Log("进入闲逛状态");
+        owner.changeAnim(true);
         targetPosPool.Clear();
         for (int i = 0; i < 8; i++)
         {
@@ -80,10 +82,6 @@ public class WanderState : baseState
                 && buildSystem.instance.naviData[target])
             {
                 targetPosPool.Add(target);
-            }
-            else
-            {
-                Debug.Log($"{AllDirs[i]}方向不能走");
             }
         }
         if (targetPosPool.Count > 0)
@@ -106,11 +104,11 @@ public class WanderState : baseState
     }
     void wander()
     {
-        owner.transform.position = Vector3.MoveTowards(owner.transform.position, endPos, 5 * Time.deltaTime);
+        owner.transform.position = Vector3.MoveTowards(owner.transform.position, endPos, 2 * Time.deltaTime);
         if (Vector3.Distance(owner.transform.position, endPos) < 0.12f)
         {
             owner.sortLayer();
-            owner.fsm.stateChange(owner.idleState);
+            owner.fsm.stateChange(UnityEngine.Random.Range(0,5)>0? owner.idleState:owner.wanderState);
         }
     }
 }
@@ -122,14 +120,18 @@ public class MoveState : baseState
     private float moveSpeed = 5f;
     public override void OnEnter()
     {
-        if (furniManager.instance.furniList.Count <= 0)
+        if (owner.Decision())
         {
-            Debug.Log("无目标");
-            owner.fsm.stateChange(owner.idleState);
-            return;
+            path = owner.AStar();
+            currentIndex = 0;
+            Debug.Log("进入寻路状态");
+            owner.changeAnim(true);
+            owner.changeFlip();
         }
-        path = owner.AStar();
-        currentIndex = 0 ;
+        else
+        {
+            owner.fsm.stateChange(owner.idleState);
+        }
     }
     public override void OnExit()
     {
@@ -197,6 +199,7 @@ public class BuyState : baseState
     public override void OnEnter()
     {
         Debug.Log("进入购物状态");
+        owner.changeAnim(false);
         timer = 0f;
     }
     public override void OnExit()
@@ -209,13 +212,11 @@ public class BuyState : baseState
     public override void TickPerFrame()
     {
         owner.buy();
-
-
         timer += Time.deltaTime;
         if (timer >= waitTime)
         {
             var door = furniManager.instance.ExitDoor;
-            owner.targetFurni = owner.getNextFurni();
+            NpcManager.instance.ReleaseSlot(owner.targetFurni);
             owner.fsm.stateChange(owner.idleState);
         }
     }

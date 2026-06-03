@@ -7,7 +7,6 @@ public class NpcManager : MonoBehaviour
 {
     public static NpcManager instance;
     public Dictionary<int, furniController> furniList = new Dictionary<int, furniController>();
-    public Action<furniController> onSlotAvailable;
     private void Awake() => instance = this;
     public void OnFurnitureEntityAdd(furniController furni)
     {
