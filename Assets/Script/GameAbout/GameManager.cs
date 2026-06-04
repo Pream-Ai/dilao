@@ -7,7 +7,17 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     [Header("父容器")]
     public Transform furniParent;
+    public Transform furniPool;
     public Transform npcParent;
+    public Transform npcPool;
+    [Header("商店参数")]
+    public int TotalWorth;
+    public int TotalFurni;
+    public int TotalNpc;
+    [Header("日期")]
+    public int Year;
+    public int Month;
+    public int Day;
     private void Awake()
     {
         instance = this;
@@ -16,8 +26,6 @@ public class GameManager : MonoBehaviour
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         

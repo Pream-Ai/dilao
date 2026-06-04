@@ -43,22 +43,6 @@ public class NpcController : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log("开始寻路");
-            if (furniManager.instance.furniList.Count <= 0)
-            {
-                Debug.Log("无目标");
-                return;
-            }
-            targetFurni = furniManager.instance.furniList[0];
-            fsm.stateChange(moveState);
-        }
-        if (Input.GetKeyDown(KeyCode.V))
-        {
-            Debug.Log("开始闲逛");
-            fsm.stateChange(wanderState);
-        }
         //逐帧刷新
         fsm._currentState.TickPerFrame();
         decisionTimer += Time.deltaTime;
@@ -265,9 +249,11 @@ public class NpcController : MonoBehaviour
     /// 切换表情
     /// </summary>
     /// <param name="targetEmo"></param>
-    public void emoChange(Sprite targetEmo)
+    public void showEmo()
     {
-        emo.sprite = targetEmo;
+        var emo = NpcManager.instance.getEmo();
+        emo.transform.SetParent(transform);
+        emo.transform.position = new Vector3(0, 1.5f, -0.5f);
     }
     #endregion
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -45,10 +46,18 @@ public class furniController : MonoBehaviour
         initSort();
     }
     public void initSort()=>GetComponent<SpriteRenderer>().sortingOrder=100-(int)transform.position.y+(buildSize.y-naviSize.y);
-
-    public void destory()
+    public void remove()
     {
         furniManager.instance.UnregisterFurni(buildId);
         buildSystem.instance.removeFurni(this);
+        GameManager.instance.TotalFurni--;
+        EnterPool();
+    }
+    public void GainReward()=> GameManager.instance.TotalWorth += baseIncome;
+
+    internal void EnterPool()
+    {
+        gameObject.SetActive(false);
+
     }
 }

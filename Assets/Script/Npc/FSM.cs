@@ -30,7 +30,7 @@ public class IdleState : baseState
     public override void OnEnter()
     {
         nextStatePool.Clear();
-        Debug.Log("进入站立状态");
+        //Debug.Log("进入站立状态");
         owner.changeAnim(false);
         nextStatePool.Add(owner.idleState);
         nextStatePool.Add(owner.moveState);
@@ -71,7 +71,7 @@ public class WanderState : baseState
     Vector3 endPos;
     public override void OnEnter()
     {
-        Debug.Log("进入闲逛状态");
+        //Debug.Log("进入闲逛状态");
         owner.changeAnim(true);
         targetPosPool.Clear();
         for (int i = 0; i < 8; i++)
@@ -93,7 +93,7 @@ public class WanderState : baseState
     }
     public override void OnExit()
     {
-        Debug.Log("离开闲逛状态");
+        //Debug.Log("离开闲逛状态");
     }
     public override void TickDecision()
     {
@@ -125,7 +125,7 @@ public class MoveState : baseState
         {
             path = owner.AStar();
             currentIndex = 0;
-            Debug.Log("进入寻路状态");
+            //Debug.Log("进入寻路状态");
             owner.changeAnim(true);
             owner.changeFlip(owner.targetFurni.setPos);
         }
@@ -156,7 +156,7 @@ public class MoveState : baseState
             currentIndex++;
             if (currentIndex >= path.Count)
             {
-                Debug.Log("到达目的地");
+                //Debug.Log("到达目的地");
                 owner.fsm.stateChange(owner.buyState);
             }
         }
@@ -169,12 +169,12 @@ public class WaitState : baseState
     float timer = 0f;
     public override void OnEnter()
     {
-        Debug.Log("进入等待状态");
+        //Debug.Log("进入等待状态");
     }
 
     public override void OnExit()
     {
-        Debug.Log("离开等待状态");
+        //Debug.Log("离开等待状态");
     }
 
     public override void TickDecision()
@@ -199,13 +199,13 @@ public class BuyState : baseState
     float timer = 0f;
     public override void OnEnter()
     {
-        Debug.Log("进入购物状态");
+        //Debug.Log("进入购物状态");
         owner.changeAnim(false);
         timer = 0f;
     }
     public override void OnExit()
     {
-        Debug.Log("离开购物状态");
+        //Debug.Log("离开购物状态");
     }
     public override void TickDecision()
     {
