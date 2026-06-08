@@ -16,7 +16,8 @@ MonoBehaviour:
   furnitureName: drinkbar
   prefab: {fileID: 7930143311947442383, guid: 5e9a5c305cb5801459781d2f1eef3d7f, type: 3}
   buildCost: 300
-  baseIncome: 15
+  baseIncome: 30
+  maxCapacity: 0
   buildSize: {x: 1, y: 2}
   setPos: {x: 0, y: 0}
   naviSize: {x: 1, y: 1}

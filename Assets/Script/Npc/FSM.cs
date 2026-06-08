@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Cysharp.Threading.Tasks;
+using DG.Tweening;
 public abstract class baseState
 {
     protected NpcController owner;
@@ -74,6 +75,7 @@ public class WanderState : baseState
         //Debug.Log("进入闲逛状态");
         owner.changeAnim(true);
         targetPosPool.Clear();
+        owner.showEmo(6);
         for (int i = 0; i < 8; i++)
         {
             target = new Vector2Int((int)owner.transform.position.x / 1, (int)owner.transform.position.y / 1) + AllDirs[i];
@@ -128,6 +130,7 @@ public class MoveState : baseState
             //Debug.Log("进入寻路状态");
             owner.changeAnim(true);
             owner.changeFlip(owner.targetFurni.setPos);
+            owner.showEmo(0);
         }
         else
         {
@@ -170,6 +173,7 @@ public class WaitState : baseState
     public override void OnEnter()
     {
         //Debug.Log("进入等待状态");
+        owner.showEmo(4);
     }
 
     public override void OnExit()
@@ -202,9 +206,13 @@ public class BuyState : baseState
         //Debug.Log("进入购物状态");
         owner.changeAnim(false);
         timer = 0f;
+        owner.showEmo(2);
+        owner.targetFurni.OnInteract();
     }
     public override void OnExit()
     {
+        owner.showEmo(7);
+        owner.targetFurni.EndInteract();
         //Debug.Log("离开购物状态");
     }
     public override void TickDecision()
@@ -218,7 +226,12 @@ public class BuyState : baseState
         {
             var door = furniManager.instance.ExitDoor;
             NpcManager.instance.ReleaseSlot(owner.targetFurni);
-            owner.fsm.stateChange(owner.idleState);
+            owner.money -= owner.targetFurni.baseIncome;
+            if (owner.money<10)
+            {
+                owner.fsm.stateChange(owner.enterPool);
+            }
+            owner.fsm.stateChange(owner.wanderState);
         }
     }
 }
@@ -228,22 +241,19 @@ public class EnterPool : baseState
 
     public override void OnEnter()
     {
-        owner.cleanNpcData();
+        Debug.Log("进入对象池");
+        owner.gameObject.SetActive(false);
+        owner.transform.SetParent(NpcManager.instance.NpcPool);
     }
 
     public override void OnExit()
     {
-
     }
-
     public override void TickDecision()
     {
-        throw new System.NotImplementedException();
     }
-
     public override void TickPerFrame()
     {
-        throw new System.NotImplementedException();
     }
 }
 public class ExitPool : baseState
@@ -252,21 +262,25 @@ public class ExitPool : baseState
 
     public override void OnEnter()
     {
-        owner.initNpcData();
+        Debug.Log("出对象池");
+        owner.gameObject.SetActive(true);
+        owner.transform.SetParent(GameManager.instance.npcParent);
+        owner.transform.DOBlendableMoveBy(new Vector3(0, 2, 0), 1f).OnComplete(() =>
+        {
+            owner.sortLayer();
+            owner.fsm.stateChange(owner.idleState);
+        });
     }
-
     public override void OnExit()
     {
 
     }
-
     public override void TickDecision()
     {
-        throw new System.NotImplementedException();
-    }
 
+    }
     public override void TickPerFrame()
     {
-        throw new System.NotImplementedException();
+
     }
 }

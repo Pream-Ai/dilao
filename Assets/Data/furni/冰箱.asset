@@ -16,7 +16,8 @@ MonoBehaviour:
   furnitureName: icebox
   prefab: {fileID: 8063934227438310911, guid: 8872c4fb2f6496245be08cea8a5d7ef5, type: 3}
   buildCost: 100
-  baseIncome: 2
+  baseIncome: 25
+  maxCapacity: 0
   buildSize: {x: 1, y: 2}
   setPos: {x: 0, y: 0}
   naviSize: {x: 1, y: 1}

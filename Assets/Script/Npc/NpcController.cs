@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using DG.Tweening;
 using Unity.Mathematics;
 using UnityEngine;
 
@@ -34,9 +35,9 @@ public class NpcController : MonoBehaviour
     public furniController targetFurni;//目标家具
     [Header("表现层")]
     public Animator anim;
+    private SpriteRenderer spriteRenderer;
     public SpriteRenderer emo;
-    public bool isflip;
-    private void Start()
+    private void OnEnable()
     {
         initNpcData();
         transform.GetComponent<ClickMarker>().Init(1, this.data);
@@ -71,6 +72,7 @@ public class NpcController : MonoBehaviour
         exitPool = new ExitPool(this);
         fsm.stateChange(idleState);//默认状态
         decisionTimer = UnityEngine.Random.Range(0, decisionInterval);
+        spriteRenderer = this.GetComponent<SpriteRenderer>();
     }
     public void cleanNpcData()
     {
@@ -79,6 +81,13 @@ public class NpcController : MonoBehaviour
         prefab = null;
         level = -1;
         money = -1;
+    }
+    private void OnDisable()
+    {
+        DOTween.Kill(gameObject);
+        CancelInvoke();
+        fsm._currentState = null;
+        cleanNpcData();
     }
     #region 决策系统
     /// <summary>
@@ -94,11 +103,12 @@ public class NpcController : MonoBehaviour
             {
                 CanBeUseFurniList.Add(kv.Value);
             }
-        }
+        } 
         if (CanBeUseFurniList.Count > 0)
         {
             var targetIndex = UnityEngine.Random.Range(0, CanBeUseFurniList.Count);
             targetFurni = CanBeUseFurniList[targetIndex];
+            Debug.Log($"{name}选择了{targetFurni.name}作为目标");
             NpcManager.instance.TryReseveSlot(targetFurni);
             return true;
         }
@@ -119,6 +129,7 @@ public class NpcController : MonoBehaviour
     }
     public List<Vector2Int> AStar()
     {
+        if (targetFurni == null) return null;
         bool[,] walls = buildSystem.instance.getWall(targetFurni);
         var end = targetFurni.setPos + targetFurni.offset;
         Vector2Int start = npcPosToGrid();
@@ -207,24 +218,14 @@ public class NpcController : MonoBehaviour
     /// </summary>
     public void changeFlip(Vector2Int targetPos)
     {
-        var ifFlip = targetPos.x - (int)transform.position.x;
-        if (ifFlip > 0)
+        var deltaX = targetPos.x - transform.position.x;
+        if (deltaX > 0)
         {
-            if (isflip)
-            {
-                transform.localScale = new Vector3(1, 1, 1);
-                isflip = false;
-            }
-            else return;
+            spriteRenderer.flipX = false;
         }
-        else
+        else if (deltaX < 0)
         {
-            if (isflip) return;
-            else
-            {
-                transform.localScale = new Vector3(-1, 1, 1);
-                isflip = true;
-            }
+            spriteRenderer.flipX = true;
         }
     }
     /// <summary>
@@ -232,11 +233,10 @@ public class NpcController : MonoBehaviour
     /// </summary>
     public void sortLayer()
     {
-        int targetOrder = 101 - (int)transform.position.y;
+        int targetOrder = 101 - Mathf.RoundToInt(transform.position.y);
+        float zOffset = targetOrder * -0.01f + (ID * -0.0001f);//防止y轴闪烁
         transform.GetComponent<SpriteRenderer>().sortingOrder = targetOrder;
-        transform.position = new Vector3(transform.position.x, transform.position.y, targetOrder * -0.01f);
-        //武器同层
-        // if (transform.GetChild(0) != null) transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder = targetOrder;
+        transform.position = new Vector3(transform.position.x, transform.position.y, zOffset);
     }
     /// <summary>
     /// 购买过程中进度条显示
@@ -249,11 +249,12 @@ public class NpcController : MonoBehaviour
     /// 切换表情
     /// </summary>
     /// <param name="targetEmo"></param>
-    public void showEmo()
+    public void showEmo(int emoIndex=0)
     {
         var emo = NpcManager.instance.getEmo();
         emo.transform.SetParent(transform);
-        emo.transform.position = new Vector3(0, 1.5f, -0.5f);
+        emo.transform.position = new Vector3(0, 1.5f, -0.5f)+this.transform.position;
+        emo.GetComponent<Emo>().showEmo(105 - (int)transform.position.y,emoIndex);
     }
     #endregion
 }

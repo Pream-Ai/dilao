@@ -16,7 +16,8 @@ MonoBehaviour:
   furnitureName: renwulan
   prefab: {fileID: 4198194286157787631, guid: 1630cd4ef33cdbb4a8b20725eb1543b0, type: 3}
   buildCost: 50
-  baseIncome: 2
+  baseIncome: 10
+  maxCapacity: 0
   buildSize: {x: 3, y: 2}
   setPos: {x: 0, y: 0}
   naviSize: {x: 3, y: 1}

@@ -2,11 +2,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
+
+[RequireComponent(typeof (SpriteRenderer),typeof(ClickMarker))]
 public class furniController : MonoBehaviour
 {
-    public int index;
-
     [Header("data")]
     public FurniData furnidata;
     public int ID;
@@ -19,17 +18,18 @@ public class furniController : MonoBehaviour
     public Vector2Int setPos;
     public Vector2Int naviSize;
     public Vector2Int offset;
-    public bool beUsing = false;
     public int buildId;
-    void Awake()
+    [Header("state")]
+    public bool beUsing = false;
+    protected virtual void Awake()
     {
         initFurni();
     }
-    void Update()
+    protected virtual void Update()
     {
         
     }
-    void initFurni()
+    protected virtual void initFurni()
     {
         ID = furnidata.ID;
         furniName = furnidata.furnitureName;
@@ -45,19 +45,30 @@ public class furniController : MonoBehaviour
         transform.GetComponent<ClickMarker>().Init(0,this.furnidata );
         initSort();
     }
-    public void initSort()=>GetComponent<SpriteRenderer>().sortingOrder=100-(int)transform.position.y+(buildSize.y-naviSize.y);
-    public void remove()
+    public virtual void initSort()=>GetComponent<SpriteRenderer>().sortingOrder=100-(int)transform.position.y+(buildSize.y-naviSize.y);
+    public virtual void remove()
     {
         furniManager.instance.UnregisterFurni(buildId);
         buildSystem.instance.removeFurni(this);
         GameManager.instance.TotalFurni--;
         EnterPool();
     }
-    public void GainReward()=> GameManager.instance.TotalWorth += baseIncome;
+    public virtual void GainReward()=> GameManager.instance.TotalWorth += baseIncome;
 
-    internal void EnterPool()
+    protected virtual void EnterPool()
     {
         gameObject.SetActive(false);
+    }
 
+    ////------------------多态---------------------
+    public virtual void OnInteract()
+    {
+        Debug.Log($"{name}开始交互");
+        beUsing = true;
+    }
+    public virtual void EndInteract()
+    {
+        Debug.Log($"{name}交互结束");
+        beUsing = false;
     }
 }
