@@ -173,7 +173,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f33210078a371d7419434f7934080192, type: 2}
   - {fileID: 11400000, guid: 2204459959502b847bdc061acd7e5992, type: 2}
   - {fileID: 11400000, guid: 252908d143e17f34086db78d9d155701, type: 2}
-  ExitDoor: {fileID: 217791952}
+  ExitDoor: {fileID: 3912297203016501330, guid: 19370f16636c69b498090b699f1791b4, type: 3}
 --- !u!1 &198323402
 GameObject:
   m_ObjectHideFlags: 0
@@ -843,6 +843,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 568439358}
   m_CullTransparentMesh: 1
+--- !u!1001 &577412386
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3177355102689533152, guid: 5e9a5c305cb5801459781d2f1eef3d7f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.9693327
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177355102689533152, guid: 5e9a5c305cb5801459781d2f1eef3d7f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.469685
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177355102689533152, guid: 5e9a5c305cb5801459781d2f1eef3d7f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177355102689533152, guid: 5e9a5c305cb5801459781d2f1eef3d7f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177355102689533152, guid: 5e9a5c305cb5801459781d2f1eef3d7f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177355102689533152, guid: 5e9a5c305cb5801459781d2f1eef3d7f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177355102689533152, guid: 5e9a5c305cb5801459781d2f1eef3d7f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177355102689533152, guid: 5e9a5c305cb5801459781d2f1eef3d7f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177355102689533152, guid: 5e9a5c305cb5801459781d2f1eef3d7f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177355102689533152, guid: 5e9a5c305cb5801459781d2f1eef3d7f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930143311947442383, guid: 5e9a5c305cb5801459781d2f1eef3d7f, type: 3}
+      propertyPath: m_Name
+      value: "\u996E\u6599\u673A"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e9a5c305cb5801459781d2f1eef3d7f, type: 3}
 --- !u!1 &644666113
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,7 +1101,7 @@ MonoBehaviour:
   EmoPrefab: {fileID: 889410599980870512, guid: aed6fa4a153276d43a64ce35c0b7c77f, type: 3}
   EmoPool: {fileID: 514665638}
   NpcPool: {fileID: 2037001935}
-  npcGenerateInterval: 2
+  npcGenerateInterval: 3
   timer: 0
   bathPos: {x: 4, y: -2, z: 0}
 --- !u!1 &813231861
@@ -7021,3 +7078,4 @@ SceneRoots:
   - {fileID: 2125909714}
   - {fileID: 1742968390}
   - {fileID: 813231863}
+  - {fileID: 577412386}

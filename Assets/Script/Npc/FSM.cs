@@ -2,11 +2,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
+using System.Buffers;
 public abstract class baseState
 {
     protected NpcController owner;
     public baseState(NpcController npc) { this.owner = npc; }
-    public abstract void OnEnter();
+    public virtual void OnEnter()
+    {
+        string stateName = this.GetType().Name;
+        owner.currentState=stateName;
+    }
     public abstract void OnExit();
     public abstract void TickPerFrame();
     public abstract void TickDecision();
@@ -30,6 +35,7 @@ public class IdleState : baseState
     List<baseState> nextStatePool = new List<baseState>();
     public override void OnEnter()
     {
+        base.OnEnter();
         nextStatePool.Clear();
         //Debug.Log("进入站立状态");
         owner.changeAnim(false);
@@ -73,6 +79,7 @@ public class WanderState : baseState
     public override void OnEnter()
     {
         //Debug.Log("进入闲逛状态");
+        base.OnEnter();
         owner.changeAnim(true);
         targetPosPool.Clear();
         owner.showEmo(6);
@@ -123,6 +130,7 @@ public class MoveState : baseState
     private float moveSpeed = 5f;
     public override void OnEnter()
     {
+        base.OnEnter();
         if (owner.Decision())
         {
             path = owner.AStar();
@@ -173,7 +181,9 @@ public class WaitState : baseState
     public override void OnEnter()
     {
         //Debug.Log("进入等待状态");
+        base.OnEnter();
         owner.showEmo(4);
+
     }
 
     public override void OnExit()
@@ -204,6 +214,7 @@ public class BuyState : baseState
     public override void OnEnter()
     {
         //Debug.Log("进入购物状态");
+        base.OnEnter();
         owner.changeAnim(false);
         timer = 0f;
         owner.showEmo(2);
@@ -230,6 +241,7 @@ public class BuyState : baseState
             if (owner.money<10)
             {
                 owner.fsm.stateChange(owner.enterPool);
+                return;
             }
             owner.fsm.stateChange(owner.wanderState);
         }
@@ -238,12 +250,15 @@ public class BuyState : baseState
 public class EnterPool : baseState
 {
     public EnterPool(NpcController npc) : base(npc) { }
-
+    int currentIndex = 0;
+    List<Vector2Int> path;
+    bool hasArrive = false;
     public override void OnEnter()
     {
-        Debug.Log("进入对象池");
-        owner.gameObject.SetActive(false);
-        owner.transform.SetParent(NpcManager.instance.NpcPool);
+        //Debug.Log("进入对象池");
+        base.OnEnter();
+        owner.targetFurni = furniManager.instance.ExitDoor;
+        path = owner.AStar();
     }
 
     public override void OnExit()
@@ -254,6 +269,34 @@ public class EnterPool : baseState
     }
     public override void TickPerFrame()
     {
+        move();
+    }
+    void move()
+    {
+        if (!hasArrive)
+        {
+            Vector3 targetPos = new Vector3(path[currentIndex].x, path[currentIndex].y);
+            owner.transform.position = Vector3.MoveTowards(owner.transform.position, targetPos, 5 * Time.deltaTime);
+            if (Vector3.Distance(owner.transform.position, targetPos) < 0.1f)
+            {
+                owner.sortLayer();
+                currentIndex++;
+                if (currentIndex >= path.Count)
+                {
+                    hasArrive = true;
+                }
+            }
+        }
+        else
+        {
+            owner.transform.DOMove(owner.transform.position + new Vector3(0, 0.33f, 0), 1f);
+            owner.GetComponent<SpriteRenderer>().DOFade(0, 1).OnComplete(() =>
+            {
+                owner.gameObject.SetActive(false);
+                owner.transform.SetParent(NpcManager.instance.NpcPool);
+                owner.transform.localPosition = Vector3.zero;
+            });
+        }
     }
 }
 public class ExitPool : baseState
@@ -262,13 +305,15 @@ public class ExitPool : baseState
 
     public override void OnEnter()
     {
-        Debug.Log("出对象池");
+        //Debug.Log("出对象池");
+        base.OnEnter();
         owner.gameObject.SetActive(true);
         owner.transform.SetParent(GameManager.instance.npcParent);
-        owner.transform.DOBlendableMoveBy(new Vector3(0, 2, 0), 1f).OnComplete(() =>
+        owner.GetComponent<SpriteRenderer>().DOFade(1, 2);
+        owner.transform.DOBlendableMoveBy(new Vector3(0, 2.2f, 0), 1f).OnComplete(() =>
         {
             owner.sortLayer();
-            owner.fsm.stateChange(owner.idleState);
+            owner.fsm.stateChange(owner.wanderState);
         });
     }
     public override void OnExit()

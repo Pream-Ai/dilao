@@ -21,6 +21,7 @@ public class NpcController : MonoBehaviour
 
     [Header("状态机")]
     public FSM fsm;
+    public string currentState;
     public IdleState idleState;
     public WanderState wanderState;
     public MoveState moveState;
@@ -71,8 +72,10 @@ public class NpcController : MonoBehaviour
         enterPool = new EnterPool(this);
         exitPool = new ExitPool(this);
         fsm.stateChange(idleState);//默认状态
+        //参数初始化
         decisionTimer = UnityEngine.Random.Range(0, decisionInterval);
         spriteRenderer = this.GetComponent<SpriteRenderer>();
+        spriteRenderer.color = new Color(1,1,1,0);
     }
     public void cleanNpcData()
     {
@@ -108,7 +111,6 @@ public class NpcController : MonoBehaviour
         {
             var targetIndex = UnityEngine.Random.Range(0, CanBeUseFurniList.Count);
             targetFurni = CanBeUseFurniList[targetIndex];
-            Debug.Log($"{name}选择了{targetFurni.name}作为目标");
             NpcManager.instance.TryReseveSlot(targetFurni);
             return true;
         }

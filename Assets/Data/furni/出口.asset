@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9abba72294283364f8c899e7b405ff30, type: 3}
+  m_Name: "\u51FA\u53E3"
+  m_EditorClassIdentifier: 
+  ID: -1
+  furnitureName: exitdoor
+  prefab: {fileID: 8063934227438310911, guid: 19370f16636c69b498090b699f1791b4, type: 3}
+  buildCost: 0
+  baseIncome: 0
+  maxCapacity: 0
+  buildSize: {x: 9, y: 11}
+  setPos: {x: 0, y: 0}
+  naviSize: {x: 1, y: 1}
+  serviveOffset: {x: 0, y: 0}

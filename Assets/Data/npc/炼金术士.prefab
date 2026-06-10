@@ -106,11 +106,11 @@ MonoBehaviour:
   prefab: {fileID: 0}
   level: 0
   money: 0
+  currentState: 
   decisionInterval: 1
   targetFurni: {fileID: 0}
   anim: {fileID: 1265299048022606639}
   emo: {fileID: 0}
-  isflip: 0
 --- !u!61 &7334519433375300283
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -179,7 +179,7 @@ Animator:
   m_GameObject: {fileID: 8498833531911057749}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 610ebd3981f76a64b894ba93bca17bd7, type: 2}
+  m_Controller: {fileID: 9100000, guid: b29b7e913bf191049877bb5306c9d96a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

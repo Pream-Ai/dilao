@@ -63,12 +63,10 @@ public class furniController : MonoBehaviour
     ////------------------多态---------------------
     public virtual void OnInteract()
     {
-        Debug.Log($"{name}开始交互");
         beUsing = true;
     }
     public virtual void EndInteract()
     {
-        Debug.Log($"{name}交互结束");
         beUsing = false;
     }
 }

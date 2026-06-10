@@ -7,7 +7,7 @@ public class furniManager : MonoBehaviour
     public List<FurniData> furniDataList = new List<FurniData>();
     public Dictionary<int, furniController> furniList = new Dictionary<int, furniController>();
     private int nextID = 0;
-    public Transform ExitDoor;
+    public furniController ExitDoor;
 
     private void Awake() => instance = this;
     void Start()
@@ -28,7 +28,6 @@ public class furniManager : MonoBehaviour
         int id = nextID++;
         furniList[id]=ctrl;
         NpcManager.instance.furniList[id] = ctrl;
-        Debug.Log($"×¢²á¼Ò¾ß{id}ºÅ");
         return id;
     }
     /// <summary>
@@ -49,6 +48,7 @@ public class furniManager : MonoBehaviour
         {
             if (kv.Key == id)
             {
+
                 NpcManager.instance.furniList.Remove(id);
                 break;
             }

@@ -101,7 +101,6 @@ public class buildSystem : MonoBehaviour
             furniController controller = furniInstance.GetComponent<furniController>();
             controller.setPos = setPos;
             Click.instance.isPreview = false;
-            Debug.Log($"建造成功：{furniBeSelect.furnitureName} 在 {setPos}");
             Camera.main.GetComponent<Physics2DRaycaster>().enabled = true;
             previewShadow.gameObject.SetActive(false);
         }

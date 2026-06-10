@@ -42,7 +42,6 @@ public class UIManager : MonoBehaviour
     }
     public void selectFurni(int furniID)
     {
-        Debug.Log($"选择了{furniID}号家具");
         Click.instance.isPreview = true;
         onFurniDataSelect?.Invoke(furniManager.instance.furniDataList[furniID]);
     }

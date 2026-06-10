@@ -24,6 +24,11 @@ public class NpcManager : MonoBehaviour
             NpcGenerateMachine();
             timer = 0f;
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            npcGenerateInterval = 1000000;
+        }
     }
     public void OnFurnitureEntityAdd(furniController furni)
     {

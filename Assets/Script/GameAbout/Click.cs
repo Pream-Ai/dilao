@@ -32,7 +32,6 @@ public class Click : MonoBehaviour
             mousePos = GetGridPosUnderMouse();
             if (lastPreviewPos!=mousePos&&mousePos.HasValue)
             {
-                Debug.Log(" Û±ÍŒª“∆");
                 buildSystem.instance.UpdateLawPreview(mousePos.Value);
                 lastPreviewPos = mousePos.Value;
             }
