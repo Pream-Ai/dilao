@@ -253,10 +253,7 @@ public class NpcController : MonoBehaviour
     /// <param name="targetEmo"></param>
     public void showEmo(int emoIndex=0)
     {
-        var emo = NpcManager.instance.getEmo();
-        emo.transform.SetParent(transform);
-        emo.transform.position = new Vector3(0, 1.5f, -0.5f)+this.transform.position;
-        emo.GetComponent<Emo>().showEmo(105 - (int)transform.position.y,emoIndex);
+
     }
     #endregion
 }

@@ -253,6 +253,7 @@ public class EnterPool : baseState
     int currentIndex = 0;
     List<Vector2Int> path;
     bool hasArrive = false;
+    bool isAnimating = false; 
     public override void OnEnter()
     {
         //Debug.Log("进入对象池");
@@ -271,6 +272,7 @@ public class EnterPool : baseState
     {
         move();
     }
+
     void move()
     {
         if (!hasArrive)
@@ -287,14 +289,18 @@ public class EnterPool : baseState
                 }
             }
         }
-        else
+        else if (!isAnimating) 
         {
+            isAnimating = true;
+
             owner.transform.DOMove(owner.transform.position + new Vector3(0, 0.33f, 0), 1f);
             owner.GetComponent<SpriteRenderer>().DOFade(0, 1).OnComplete(() =>
             {
                 owner.gameObject.SetActive(false);
                 owner.transform.SetParent(NpcManager.instance.NpcPool);
                 owner.transform.localPosition = Vector3.zero;
+                hasArrive = false;
+                isAnimating = false;
             });
         }
     }

@@ -1,16 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using Unity.VisualScripting;
 using UnityEngine;
-
 public class juice_machine : furniController
 {
     [Header("饮料配置")]
     public Sprite[] rewardSprites;
-    public Sprite targetSprite;
+    public Transform Node;
+    private SpriteRenderer targetSprite;
+
     [Header("动画参数")]
     public float fastInterval = 0.05f;
-    public float slowInterval = 0.2f;
+    public float slowInterval = 0.1f;
     public float duration = 2f;
     public AnimationCurve speedCurve;
 
@@ -29,9 +31,10 @@ public class juice_machine : furniController
     }
     private void Start()
     {
+        targetSprite = Node.GetComponent<SpriteRenderer>();
         if (speedCurve == null || speedCurve.keys.Length == 0) speedCurve = DefaultCurve;
     }
-    public void StartRoll(int finalIndex)
+    public void getReward(int finalIndex)
     {
         if (rollingCoroutine != null)
             StopCoroutine(rollingCoroutine);
@@ -53,23 +56,33 @@ public class juice_machine : furniController
             if (elapsed < duration - 0.3f)
             {
                 int randomIndex=Random.Range(0, rewardSprites.Length);
-                targetSprite = rewardSprites[randomIndex];
+                targetSprite.sprite = rewardSprites[randomIndex];
             }
             else if (elapsed>=duration-0.3f&&finalRewardIndex>=0)
             {
-                targetSprite=rewardSprites[finalRewardIndex];
+                targetSprite.sprite =rewardSprites[finalRewardIndex];
             }
-            yield return new WaitForSeconds(currentFram);
+            yield return new WaitForSeconds(currentInterval);
             elapsed += currentInterval;
             currentFram++;
         }
         if(finalRewardIndex>=0)
-            targetSprite=rewardSprites[finalRewardIndex];
+            targetSprite.sprite =rewardSprites[finalRewardIndex];
         rollingCoroutine = null;
     }
     public override void OnInteract()
     {
         base.OnInteract();
-        StartRoll(Random.Range(0,rewardSprites.Length));
+        Node.gameObject.SetActive(true);
+        Node.DOScale(Vector3.one,0.1f);
+        getReward(Random.Range(0, rewardSprites.Length));
+    }
+    public override void EndInteract()
+    {
+        base.EndInteract();
+        Node.DOScale(Vector3.zero, 0.1f).OnComplete(() =>
+        {
+            Node.gameObject.SetActive(false);
+        });
     }
 }

@@ -1,7 +1,4 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class NpcManager : MonoBehaviour
@@ -9,12 +6,11 @@ public class NpcManager : MonoBehaviour
     public static NpcManager instance;
     public List<NpcData> npcDataList = new List<NpcData>();
     public Dictionary<int, furniController> furniList = new Dictionary<int, furniController>();
-    public GameObject EmoPrefab;
-    public Transform EmoPool;
     public Transform NpcPool;
     public float npcGenerateInterval = 10f;
     public float timer = 0f;
     public Vector3 bathPos=new Vector3(4,-2,0);
+    public Sprite[] emoArray;
     private void Awake() => instance = this;
     private void Update()
     {
@@ -51,25 +47,6 @@ public class NpcManager : MonoBehaviour
     {
         furni.beUsing = false;
     }
-    /// <summary>
-    /// 表情池
-    /// </summary>
-    /// <returns></returns>
-    public GameObject getEmo()
-    {
-        if (EmoPool.childCount > 0)
-        {
-            Transform child = EmoPool.GetChild(0);
-            if (child != null && !child.gameObject.Equals(null))
-            {
-                return child.gameObject;
-            }
-        }
-        return Instantiate(EmoPrefab);
-    }
-    /// <summary>
-    /// Npc生成机
-    /// </summary>
     public void NpcGenerateMachine()
     {
         int targetNpcId = UnityEngine.Random.Range(0, npcDataList.Count);

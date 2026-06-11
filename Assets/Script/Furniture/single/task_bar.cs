@@ -1,18 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class task_bar : MonoBehaviour
+public class task_bar : furniController
 {
-    // Start is called before the first frame update
-    void Start()
+    public Transform Node;
+    public override void OnInteract()
     {
-        
+        base.OnInteract();
+        Node.gameObject.SetActive(true);
+        Node.DOScale(Vector3.one,0.1f);
     }
-
-    // Update is called once per frame
-    void Update()
+    public override void EndInteract()
     {
-        
+        base.EndInteract();
+        Node.DOScale(Vector3.zero, 0.1f).OnComplete(() =>
+        {
+            Node.gameObject.SetActive(false);
+        });
     }
 }
