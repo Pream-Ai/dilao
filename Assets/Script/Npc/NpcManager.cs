@@ -49,7 +49,7 @@ public class NpcManager : MonoBehaviour
     }
     public void NpcGenerateMachine()
     {
-        int targetNpcId = UnityEngine.Random.Range(0, npcDataList.Count);
+        int targetNpcId = Random.Range(0, npcDataList.Count);
         for (int i=0;i<NpcPool.childCount;i++)
         {
             var npc = NpcPool.GetChild(i).GetComponent<NpcController>();

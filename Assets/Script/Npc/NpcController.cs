@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.UI;
 
 /// <summary>
 /// NPC 总控脚本
@@ -38,6 +39,8 @@ public class NpcController : MonoBehaviour
     public Animator anim;
     private SpriteRenderer spriteRenderer;
     public SpriteRenderer emo;
+    private Image buySlider;
+    private RectTransform buySlider_handle;
     private void OnEnable()
     {
         initNpcData();
@@ -76,6 +79,8 @@ public class NpcController : MonoBehaviour
         decisionTimer = UnityEngine.Random.Range(0, decisionInterval);
         spriteRenderer = this.GetComponent<SpriteRenderer>();
         spriteRenderer.color = new Color(1,1,1,0);
+        buySlider = transform.GetChild(0).GetChild(0).GetChild(1).GetComponent<Image>();
+        buySlider_handle = transform.GetChild(0).GetChild(0).GetChild(2).GetComponent<RectTransform>();
     }
     public void cleanNpcData()
     {
@@ -245,7 +250,25 @@ public class NpcController : MonoBehaviour
     /// </summary>
     public void buy()
     {
-        //Debug.Log("进度条推动");
+        transform.GetChild(0).GetChild(0).gameObject.SetActive(true);
+        DOTween.To(()=>buySlider.fillAmount, x => buySlider.fillAmount = x, 1, 3f);
+        Vector3 currentPos = buySlider_handle.anchoredPosition;
+        float target = currentPos.x + 1;
+        DOTween.To(
+            () => buySlider_handle.anchoredPosition.x,
+            x => {
+            Vector3 pos = buySlider_handle.anchoredPosition;
+            pos.x = x;
+            buySlider_handle.anchoredPosition = pos;
+            },
+            target,
+            3f
+         ).OnComplete(() =>
+         {
+             transform.GetChild(0).GetChild(0).gameObject.SetActive(false);
+             buySlider.fillAmount = 0;
+             buySlider_handle.anchoredPosition = currentPos;
+         });
     }
     /// <summary>
     /// 切换表情

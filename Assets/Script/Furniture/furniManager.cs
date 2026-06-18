@@ -7,8 +7,8 @@ public class furniManager : MonoBehaviour
     public List<FurniData> furniDataList = new List<FurniData>();
     public Dictionary<int, furniController> furniList = new Dictionary<int, furniController>();
     private int nextID = 0;
+    //other
     public furniController ExitDoor;
-
     private void Awake() => instance = this;
     void Start()
     {

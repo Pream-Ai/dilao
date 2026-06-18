@@ -219,6 +219,7 @@ public class BuyState : baseState
         timer = 0f;
         owner.showEmo(2);
         owner.targetFurni.OnInteract();
+        owner.buy();
     }
     public override void OnExit()
     {
@@ -231,7 +232,6 @@ public class BuyState : baseState
     }
     public override void TickPerFrame()
     {
-        owner.buy();
         timer += Time.deltaTime;
         if (timer >= waitTime)
         {

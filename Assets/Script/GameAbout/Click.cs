@@ -68,7 +68,6 @@ public class Click : MonoBehaviour
 
         return new Vector2Int(x, y);
     }
-
     public void RegisterAction(int key, Action<object[]> action)
     {
         methodDict[key] = action;
