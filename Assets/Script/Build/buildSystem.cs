@@ -20,8 +20,6 @@ public class buildSystem : MonoBehaviour
     public Transform greenGridParent;
     public Transform redGridParent;
     public bool showHot = false;
-    public Transform duizhang;
-    private Animator duizhang_animator;
     private void Awake()
     {
         instance = this;
@@ -34,8 +32,6 @@ public class buildSystem : MonoBehaviour
         previewShadow.AddComponent<SpriteRenderer>();
         previewShadow.GetComponent<SpriteRenderer>().sortingLayerName = "sort";
         previewShadow.GetComponent<SpriteRenderer>().sortingOrder = 1000;
-
-        duizhang_animator=duizhang.GetComponent<Animator>();
     }
     private void Update()
     {
@@ -78,15 +74,11 @@ public class buildSystem : MonoBehaviour
     {
         Vector2Int build_size = furniBeSelect.buildSize;
         Vector2Int navi_size = furniBeSelect.naviSize;
-        duizhang.position = new Vector3(setPos.x,setPos.y);
         if (build_size.x <= 0) build_size.x = 1;
         if (build_size.y <= 0) build_size.y = 1;
 
         if (canBuildFurni(build_size, setPos))
         {
-            duizhang_animator.SetTrigger("build");
-            duizhang.gameObject.SetActive(true);
-            DOVirtual.DelayedCall(1f, () => duizhang.gameObject.SetActive(false));
             for (int i = setPos.x; i < setPos.x + build_size.x; i++)
             {
                 for (int j = setPos.y; j < setPos.y + build_size.y; j++)
