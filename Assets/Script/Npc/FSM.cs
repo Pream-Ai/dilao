@@ -159,6 +159,7 @@ public class MoveState : baseState
     }
     void move()
     {
+        if (currentIndex>path.Count||currentIndex<0)owner.fsm.stateChange(owner.idleState) ;
         Vector3 targetPos = new Vector3(path[currentIndex].x + 0.5f, path[currentIndex].y + 0.5f);
         owner.transform.position = Vector3.MoveTowards(owner.transform.position, targetPos, moveSpeed * Time.deltaTime);
         if (Vector3.Distance(owner.transform.position, targetPos) < 0.1f)
@@ -258,8 +259,15 @@ public class EnterPool : baseState
     {
         //Debug.Log("进入对象池");
         base.OnEnter();
+        currentIndex = 0;
         owner.targetFurni = furniManager.instance.ExitDoor;
         path = owner.AStar();
+        // 2. 核心修复：防御性检查，防止 A* 找不到路返回空列表
+        if (path == null || path.Count == 0)
+        {
+            Debug.LogWarning($"{owner.name} 找不到去出口的路或路径为空，直接开始淡出动画。");
+            hasArrive = true; // 找不到路就直接原地淡出，防止卡死报错
+        }
     }
 
     public override void OnExit()

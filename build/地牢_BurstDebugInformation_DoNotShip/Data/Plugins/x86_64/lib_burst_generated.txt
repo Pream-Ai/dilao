@@ -11,7 +11,7 @@ Library: D:\unity\dilao\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\unity\dilao\Temp\Burst
 --debug=Full
---key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.57f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
+--key-folder=D:/unity/2022.3.44f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=D:\unity\dilao\Library\Burst
 --output=D:\unity\dilao\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -59,7 +59,7 @@ Library: D:\unity\dilao\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\unity\dilao\Temp\Burst
 --debug=Full
---key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.57f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
+--key-folder=D:/unity/2022.3.44f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=D:\unity\dilao\Library\Burst
 --output=D:\unity\dilao\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/

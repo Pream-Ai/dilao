@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 74244163
+CRC: 1108952861
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0b864bd96a3c6f7c1e6596c8f9e2be3f
+    Hash: f8a19c69f40eec7d5ee8f38df8854f04
   TypeTreeHash:
     serializedVersion: 2
     Hash: cbc6f680eb2bc46385e0da923c1857cc
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 0b864bd96a3c6f7c1e6596c8f9e2be3f
+    Hash: f8a19c69f40eec7d5ee8f38df8854f04
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -234,6 +234,7 @@ Assets:
 - Assets/Data/npc/jiqiren.asset
 - "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u884C\u8D70/5.png"
 - "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u7AD9\u59FF/7.png"
+- Assets/Data/npc/cike.asset
 - "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/13.png"
 - "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u884C\u8D70/5.png"
 - "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/20.png"
@@ -340,6 +341,7 @@ Assets:
 - "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u884C\u8D70/8.png"
 - "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u884C\u8D70/3.png"
 - "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u884C\u8D70/3.png"
+- Assets/Data/npc/cike.prefab
 - "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u884C\u8D70/4.png"
 - "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u884C\u8D70/3.png"
 - "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u884C\u8D70/1.png"
