@@ -61,12 +61,17 @@ public class NpcManager : MonoBehaviour
                 return;
             }
         }
+
         var newNpc = Instantiate(
-            npcDataList[targetNpcId].prefab
-            ,bathPos
-            ,Quaternion.identity
-            ,GameManager.instance.npcParent
+            RunTimeAssetManager.instance.LoadFromFile<GameObject>("npcres",npcDataList[targetNpcId].name)
+            , bathPos
+            , Quaternion.identity
+            , GameManager.instance.npcParent
             );
+        if (newNpc==null)
+        {
+            Debug.Log(npcDataList[targetNpcId].name);
+        }
         var ctrl = newNpc.GetComponent<NpcController>();
         ctrl.fsm.stateChange(ctrl.exitPool);
     }

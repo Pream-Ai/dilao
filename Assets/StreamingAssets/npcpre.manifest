@@ -1,0 +1,81 @@
+ManifestFileVersion: 0
+CRC: 1697276998
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f884841aed8f104e956b9cd2e79a30b1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 57ce73ce7d81ad39eaee624d0204dbbd
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f884841aed8f104e956b9cd2e79a30b1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7034f921ef48ac141892c8eb3000eb33, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6a9f85d7773e97b4abe5c69f247373a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9690e7164fb246a4ea69f60774e93092, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- "Assets/Data/npc/\u5723\u9A91\u58EB.prefab"
+- "Assets/Data/npc/\u72FC\u4EBA.prefab"
+- "Assets/Data/npc/\u5978\u5546.prefab"
+- "Assets/Data/npc/\u70BC\u91D1\u672F\u58EB.prefab"
+- "Assets/Data/npc/\u7A0B\u5E8F\u5458.prefab"
+- "Assets/Data/npc/\u72C2\u6218\u58EB.prefab"
+- "Assets/Data/npc/\u6E38\u4FA0.prefab"
+- "Assets/Data/npc/\u523A\u5BA2.prefab"
+- "Assets/Data/npc/\u5FB7\u9C81\u4F0A.prefab"
+- "Assets/Data/npc/\u74E6\u514B\u6069.prefab"
+- "Assets/Data/npc/\u7267\u5E08.prefab"
+- "Assets/Data/npc/\u6CD5\u5E08.prefab"
+- "Assets/Data/npc/\u5531\u7247\u672F\u58EB.prefab"
+- "Assets/Data/npc/\u673A\u5668\u4EBA.prefab"
+- "Assets/Data/npc/\u5438\u8840\u9B3C.prefab"
+- "Assets/Data/npc/\u9A91\u58EB.prefab"
+- "Assets/Data/npc/\u7CBE\u7075.prefab"
+Dependencies:
+- D:/unity/dilao/Assets/StreamingAssets/npcdata

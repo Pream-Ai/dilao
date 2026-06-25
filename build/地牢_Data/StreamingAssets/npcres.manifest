@@ -1,0 +1,359 @@
+ManifestFileVersion: 0
+CRC: 74244163
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0b864bd96a3c6f7c1e6596c8f9e2be3f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cbc6f680eb2bc46385e0da923c1857cc
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0b864bd96a3c6f7c1e6596c8f9e2be3f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7034f921ef48ac141892c8eb3000eb33, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6a9f85d7773e97b4abe5c69f247373a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9690e7164fb246a4ea69f60774e93092, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u7AD9\u59FF/6.png"
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u7AD9\u59FF/3.png"
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u884C\u8D70/3.png"
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u884C\u8D70/8.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u884C\u8D70/3.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u884C\u8D70/5.png"
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u7AD9\u59FF/7.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u7AD9\u59FF/2.png"
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u7AD9\u59FF/3.png"
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u7AD9\u59FF/5.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u7AD9\u59FF/7.png"
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u884C\u8D70/4.png"
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u884C\u8D70/5.png"
+- Assets/Data/npc/youxia.prefab
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u7AD9\u59FF/2.png"
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u884C\u8D70/7.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u7AD9\u59FF/8.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u884C\u8D70/1.png"
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u884C\u8D70/8.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u884C\u8D70/1.png"
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u7AD9\u59FF/3.png"
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u7AD9\u59FF/3.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u884C\u8D70/4.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u7AD9\u59FF/3.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u7AD9\u59FF/7.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u884C\u8D70/7.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u7AD9\u59FF/5.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u884C\u8D70/5.png"
+- Assets/Data/npc/xixuegui.prefab
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u884C\u8D70/8.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u884C\u8D70/8.png"
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/3.png"
+- Assets/Data/npc/xixuegui.asset
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u884C\u8D70/4.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u884C\u8D70/4.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u884C\u8D70/8.png"
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u7AD9\u59FF/3.png"
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u7AD9\u59FF/3.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u7AD9\u59FF/3.png"
+- Assets/Data/npc/mushi.asset
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u7AD9\u59FF/8.png"
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u884C\u8D70/5.png"
+- Assets/Data/npc/langren.prefab
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u7AD9\u59FF/6.png"
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u884C\u8D70/5.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/5.png"
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u7AD9\u59FF/3.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/19.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u7AD9\u59FF/2.png"
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u884C\u8D70/7.png"
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u7AD9\u59FF/7.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u7AD9\u59FF/5.png"
+- Assets/Data/npc/chengxuyuan.asset
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u884C\u8D70/7.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u7AD9\u59FF/5.png"
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u7AD9\u59FF/5.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u7AD9\u59FF/2.png"
+- Assets/Data/npc/deluyi.prefab
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/14.png"
+- Assets/Data/npc/mushi.prefab
+- Assets/Data/npc/waken.asset
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u884C\u8D70/4.png"
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u7AD9\u59FF/1.png"
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u7AD9\u59FF/5.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u7AD9\u59FF/5.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u884C\u8D70/7.png"
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u7AD9\u59FF/2.png"
+- Assets/Data/npc/jingling.prefab
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u884C\u8D70/7.png"
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u884C\u8D70/5.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u7AD9\u59FF/6.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/10.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u7AD9\u59FF/4.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u7AD9\u59FF/8.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u7AD9\u59FF/5.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/21.png"
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u884C\u8D70/1.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/12.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u884C\u8D70/8.png"
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u7AD9\u59FF/5.png"
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u884C\u8D70/3.png"
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u7AD9\u59FF/4.png"
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u7AD9\u59FF/3.png"
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u884C\u8D70/8.png"
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u7AD9\u59FF/6.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u7AD9\u59FF/2.png"
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u7AD9\u59FF/8.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u7AD9\u59FF/1.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/17.png"
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u7AD9\u59FF/8.png"
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u884C\u8D70/7.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u7AD9\u59FF/4.png"
+- Assets/Data/npc/fashi.prefab
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u884C\u8D70/3.png"
+- Assets/Data/npc/langren.asset
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u7AD9\u59FF/7.png"
+- Assets/Data/npc/changpianshushi.prefab
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/18.png"
+- Assets/Data/npc/shengqishi.prefab
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u7AD9\u59FF/7.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u7AD9\u59FF/2.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u7AD9\u59FF/1.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u7AD9\u59FF/6.png"
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u884C\u8D70/3.png"
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u884C\u8D70/7.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u7AD9\u59FF/5.png"
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u7AD9\u59FF/6.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u7AD9\u59FF/3.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u7AD9\u59FF/4.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u884C\u8D70/4.png"
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u884C\u8D70/1.png"
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u884C\u8D70/4.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/4.png"
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u7AD9\u59FF/2.png"
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u7AD9\u59FF/6.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u884C\u8D70/1.png"
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u7AD9\u59FF/1.png"
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u884C\u8D70/7.png"
+- Assets/Data/npc/fashi.asset
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u7AD9\u59FF/1.png"
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u884C\u8D70/4.png"
+- Assets/Data/npc/waken.prefab
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u884C\u8D70/3.png"
+- Assets/Data/npc/kzs.asset
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u7AD9\u59FF/7.png"
+- Assets/Data/npc/jingling.asset
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u884C\u8D70/8.png"
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u7AD9\u59FF/4.png"
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u7AD9\u59FF/8.png"
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u7AD9\u59FF/7.png"
+- Assets/Data/npc/jianshang.asset
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u7AD9\u59FF/4.png"
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u7AD9\u59FF/5.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u884C\u8D70/1.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u7AD9\u59FF/8.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u7AD9\u59FF/1.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u7AD9\u59FF/6.png"
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u884C\u8D70/1.png"
+- Assets/Data/npc/kzs.prefab
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u884C\u8D70/5.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u884C\u8D70/7.png"
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u7AD9\u59FF/1.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/16.png"
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u7AD9\u59FF/2.png"
+- Assets/Data/npc/lianjinshushi.asset
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u7AD9\u59FF/1.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u7AD9\u59FF/8.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u7AD9\u59FF/6.png"
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u7AD9\u59FF/1.png"
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u7AD9\u59FF/7.png"
+- Assets/Data/npc/jiqiren.asset
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u884C\u8D70/5.png"
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u7AD9\u59FF/7.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/13.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u884C\u8D70/5.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/20.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u7AD9\u59FF/6.png"
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u884C\u8D70/1.png"
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u7AD9\u59FF/6.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u884C\u8D70/1.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u7AD9\u59FF/1.png"
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u7AD9\u59FF/2.png"
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u7AD9\u59FF/1.png"
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u7AD9\u59FF/5.png"
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u7AD9\u59FF/6.png"
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u884C\u8D70/5.png"
+- Assets/Data/npc/deluyi.asset
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u884C\u8D70/7.png"
+- Assets/Data/npc/youxia.asset
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u884C\u8D70/8.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u884C\u8D70/4.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u7AD9\u59FF/2.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u7AD9\u59FF/8.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u884C\u8D70/3.png"
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u7AD9\u59FF/5.png"
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u884C\u8D70/3.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u7AD9\u59FF/8.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u7AD9\u59FF/3.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u884C\u8D70/8.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u7AD9\u59FF/7.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u884C\u8D70/4.png"
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u884C\u8D70/3.png"
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u7AD9\u59FF/1.png"
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u7AD9\u59FF/6.png"
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u884C\u8D70/3.png"
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u7AD9\u59FF/6.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/15.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/11.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u884C\u8D70/5.png"
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u884C\u8D70/1.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u7AD9\u59FF/4.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/22.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u7AD9\u59FF/4.png"
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u7AD9\u59FF/7.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/8.png"
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u7AD9\u59FF/3.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u884C\u8D70/8.png"
+- Assets/Data/npc/jianshang.prefab
+- Assets/Data/npc/qishi.asset
+- Assets/Data/npc/lianjinshushi.prefab
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u7AD9\u59FF/5.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u884C\u8D70/1.png"
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u884C\u8D70/7.png"
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u884C\u8D70/3.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/1.png"
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u884C\u8D70/4.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u7AD9\u59FF/2.png"
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u7AD9\u59FF/2.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u884C\u8D70/4.png"
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u7AD9\u59FF/7.png"
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u884C\u8D70/7.png"
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u884C\u8D70/8.png"
+- "Assets/Resource/charactor/\u5FB7\u9C81\u4F0A/\u5FB7\u9C81\u4F0A\u7ECF\u5178/\u5FB7\u9C81\u4F0A\u7AD9\u59FF/8.png"
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u7AD9\u59FF/4.png"
+- Assets/Data/npc/shengqishi.asset
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u884C\u8D70/8.png"
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u884C\u8D70/1.png"
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u7AD9\u59FF/8.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u884C\u8D70/1.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/7.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u884C\u8D70/5.png"
+- Assets/Data/npc/jiqiren.prefab
+- Assets/Data/npc/qishi.prefab
+- "Assets/Resource/charactor/\u673A\u5668\u4EBA/\u673A\u5668\u4EBA\u7ECF\u5178/\u673A\u5668\u4EBA\u7AD9\u59FF/1.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u884C\u8D70/5.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u884C\u8D70/7.png"
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u884C\u8D70/5.png"
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u884C\u8D70/7.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u7AD9\u59FF/4.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u7AD9\u59FF/2.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u7AD9\u59FF/7.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u7AD9\u59FF/7.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u884C\u8D70/2.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u7AD9\u59FF/5.png"
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u7AD9\u59FF/4.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u7AD9\u59FF/1.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u7AD9\u59FF/4.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u7AD9\u59FF/2.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u7AD9\u59FF/3.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u884C\u8D70/4.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u884C\u8D70/4.png"
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u7AD9\u59FF/2.png"
+- Assets/Data/npc/changpianshushi.asset
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u7AD9\u59FF/6.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u7AD9\u59FF/3.png"
+- Assets/Data/npc/chengxuyuan.prefab
+- "Assets/Resource/charactor/\u5DE5\u7A0B\u5E08/\u7A0B\u5E8F\u733F/\u7A0B\u5E8F\u733F\u884C\u8D70/9.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u5978\u5546/\u5978\u5546\u884C\u8D70/8.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u5531\u7247\u672F\u58EB/\u5531\u7247\u672F\u58EB\u884C\u8D70/3.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u884C\u8D70/3.png"
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u884C\u8D70/4.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u884C\u8D70/3.png"
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u884C\u8D70/1.png"
+- "Assets/Resource/charactor/\u7CBE\u7075/\u7CBE\u7075\u7ECF\u5178/\u7CBE\u7075\u7AD9\u59FF/8.png"
+- "Assets/Resource/charactor/\u7267\u5E08/\u7267\u5E08\u7ECF\u5178/\u7267\u5E08\u7AD9\u59FF/4.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u74E6\u514B\u6069/\u74E6\u514B\u6069\u884C\u8D70/1.png"
+- "Assets/Resource/charactor/\u5438\u8840\u9B3C/\u5438\u8840\u9B3C\u7ECF\u5178/\u5438\u8840\u9B3C\u7AD9\u59FF/8.png"
+- "Assets/Resource/charactor/\u70BC\u91D1\u672F\u5E08/\u70BC\u91D1\u7ECF\u5178/\u70BC\u91D1\u672F\u58EB\u7AD9\u59FF/8.png"
+- "Assets/Resource/charactor/\u9A91\u58EB/\u9A91\u58EB\u7ECF\u5178/\u9A91\u58EB\u884C\u8D70/5.png"
+- "Assets/Resource/charactor/\u5723\u9A91\u58EB/\u5723\u9A91\u58EB\u7ECF\u5178/\u5723\u9A91\u58EB\u7AD9\u59FF/4.png"
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u7AD9\u59FF/4.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u7AD9\u59FF/1.png"
+- "Assets/Resource/charactor/\u6CD5\u5E08/\u6CD5\u5E08\u7ECF\u5178/\u6CD5\u5E08\u884C\u8D70/8.png"
+- "Assets/Resource/charactor/\u72C2\u6218\u58EB/\u7ECF\u5178/\u72C2\u6218\u58EB\u884C\u8D70/6.png"
+- "Assets/Resource/charactor/\u6E38\u4FA0/\u6E38\u4FA0\u7ECF\u5178/\u6E38\u4FA0\u884C\u8D70/3.png"
+- "Assets/Resource/charactor/\u72FC\u4EBA/\u72FC\u4EBA\u7ECF\u5178/\u72FC\u4EBA\u7AD9\u59FF/1.png"
+Dependencies: []

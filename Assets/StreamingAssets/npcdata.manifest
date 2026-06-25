@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 1334838646
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9e5181f7872b9f0f978dc7c32dd2a2d3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f0ee7fc52c8437c08be122881afb4be9
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9e5181f7872b9f0f978dc7c32dd2a2d3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9690e7164fb246a4ea69f60774e93092, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/Data/npc/\u7267\u5E08.asset"
+- "Assets/Data/npc/\u5978\u5546.asset"
+- "Assets/Data/npc/\u5FB7\u9C81\u4F0A.asset"
+- "Assets/Data/npc/\u9A91\u58EB.asset"
+- "Assets/Data/npc/\u5531\u7247\u672F\u58EB.asset"
+- "Assets/Data/npc/\u6E38\u4FA0.asset"
+- "Assets/Data/npc/\u70BC\u91D1\u672F\u58EB.asset"
+- "Assets/Data/npc/\u7A0B\u5E8F\u5458.asset"
+- "Assets/Data/npc/\u5723\u9A91\u58EB.asset"
+- "Assets/Data/npc/\u673A\u5668\u4EBA.asset"
+- "Assets/Data/npc/\u6CD5\u5E08.asset"
+- "Assets/Data/npc/\u74E6\u514B\u6069.asset"
+- "Assets/Data/npc/\u72C2\u6218\u58EB.asset"
+- "Assets/Data/npc/\u72FC\u4EBA.asset"
+- "Assets/Data/npc/\u523A\u5BA2.asset"
+- "Assets/Data/npc/\u7CBE\u7075.asset"
+- "Assets/Data/npc/\u5438\u8840\u9B3C.asset"
+Dependencies:
+- D:/unity/dilao/Assets/StreamingAssets/npcpre

@@ -1,0 +1,84 @@
+ManifestFileVersion: 0
+CRC: 586899820
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c19a32f04067725df46b6c4d5214df52
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 30200dcc7146d6c89e8f416d61971ae1
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c19a32f04067725df46b6c4d5214df52
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7034f921ef48ac141892c8eb3000eb33, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1c12e7563ae8eeb4bbbe94a5ac36d92a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7f365d1fad48ff54b8583578f4b156ce, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3ba07ebb18e80b64cb7c128239f31812, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 23b36eb0fc8583c41be908a48f928086, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 93b4ad72ca33d8d4eaf86cb9d331870f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9abba72294283364f8c899e7b405ff30, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 23436f77a7303fe468df884dc6018b97, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/Resource/\u5BB6\u5177/yuanqishouce.png"
+- "Assets/Data/furni/\u996E\u6599\u673A.asset"
+- "Assets/Resource/\u5BB6\u5177/duihuanji.png"
+- "Assets/Data/furni/\u6E38\u620F\u673A.prefab"
+- "Assets/Resource/\u5BB6\u5177/yaoshuiji.png"
+- "Assets/Resource/\u5BB6\u5177/shejitai.png"
+- "Assets/Data/furni/\u51FA\u53E3.asset"
+- "Assets/Data/furni/\u7535\u89C6\u673A.prefab"
+- "Assets/Data/furni/\u4EFB\u52A1\u680F.prefab"
+- "Assets/Resource/\u5BB6\u5177/bingxiang.png"
+- "Assets/Data/furni/\u7535\u89C6\u673A.asset"
+- "Assets/Data/furni/\u996E\u6599\u673A.prefab"
+- "Assets/Resource/\u5BB6\u5177/wuqiji.png"
+- "Assets/Resource/\u5BB6\u5177/penzai.png"
+- "Assets/Data/furni/\u51FA\u53E3.prefab"
+- "Assets/Resource/\u5BB6\u5177/dianshiji.png"
+- "Assets/Data/furni/\u626D\u86CB\u673A.prefab"
+- "Assets/Resource/\u5BB6\u5177/baoxianxiang.png"
+- "Assets/Data/furni/\u6E38\u620F\u673A.asset"
+- "Assets/Resource/\u5BB6\u5177/jijiatai.png"
+- "Assets/Resource/\u5BB6\u5177/renwulan.png"
+- "Assets/Data/furni/\u4EFB\u52A1\u680F.asset"
+- "Assets/Resource/\u5BB6\u5177/niudanji.png"
+- "Assets/Resource/\u5BB6\u5177/shuji.png"
+- "Assets/Data/furni/\u626D\u86CB\u673A.asset"
+- "Assets/Resource/\u5BB6\u5177/yinliaoji.png"
+- "Assets/Data/furni/\u51B0\u7BB1.prefab"
+- "Assets/Resource/\u5BB6\u5177/maoliang.png"
+- "Assets/Data/furni/\u51B0\u7BB1.asset"
+- "Assets/Resource/\u5BB6\u5177/youxiji.png"
+- "Assets/Resource/\u5BB6\u5177/duanzaotai.png"
+- "Assets/Resource/\u5BB6\u5177/yugang.png"
+- "Assets/Resource/\u5BB6\u5177/xunlianzhuang.png"
+Dependencies: []

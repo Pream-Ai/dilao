@@ -16,7 +16,6 @@ public class NpcController : MonoBehaviour
     public NpcData data;
     public int ID;
     public string name;
-    public GameObject prefab;
     public int level;
     public int money;
 
@@ -41,7 +40,7 @@ public class NpcController : MonoBehaviour
     public SpriteRenderer emo;
     private Image buySlider;
     private RectTransform buySlider_handle;
-    private void OnEnable()
+    private void Awake()
     {
         initNpcData();
         transform.GetComponent<ClickMarker>().Init(1, this.data);
@@ -62,9 +61,9 @@ public class NpcController : MonoBehaviour
         //数据初始化
         ID = data.ID;
         name = data.name;
-        prefab = data.prefab;
         level = data.level;
         money = data.money;
+        //icon = RunTimeAssetManager.instance.LoadFromFile<Sprite>("npcres",name);
         //状态机初始化
         fsm = new FSM();
         idleState = new IdleState(this);
@@ -86,7 +85,6 @@ public class NpcController : MonoBehaviour
     {
         ID = -1;
         name = null;
-        prefab = null;
         level = -1;
         money = -1;
     }

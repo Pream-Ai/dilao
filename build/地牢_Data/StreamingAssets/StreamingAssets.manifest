@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 3964465115
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: furnires
+      Dependencies: {}
+    Info_1:
+      Name: npcres
+      Dependencies: {}
