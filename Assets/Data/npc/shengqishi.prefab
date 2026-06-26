@@ -165,7 +165,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4559460916099560370
 Transform:
   m_ObjectHideFlags: 0
@@ -465,7 +465,6 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: 731075c05dd7241039f502c3b7dfc6a8, type: 2}
   ID: 0
   name: 
-  prefab: {fileID: 0}
   level: 0
   money: 0
   currentState: 

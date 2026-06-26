@@ -262,11 +262,9 @@ public class EnterPool : baseState
         currentIndex = 0;
         owner.targetFurni = furniManager.instance.ExitDoor;
         path = owner.AStar();
-        // 2. 核心修复：防御性检查，防止 A* 找不到路返回空列表
         if (path == null || path.Count == 0)
         {
-            Debug.LogWarning($"{owner.name} 找不到去出口的路或路径为空，直接开始淡出动画。");
-            hasArrive = true; // 找不到路就直接原地淡出，防止卡死报错
+            hasArrive = true; 
         }
     }
 
