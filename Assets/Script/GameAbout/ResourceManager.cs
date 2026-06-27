@@ -4,9 +4,9 @@ using System.IO;
 using UnityEngine;
 
 //³¡¾°1£ºfurnires,npcres
-public class RunTimeAssetManager : MonoBehaviour
+public class ResourceManager: MonoBehaviour
 {
-    public static RunTimeAssetManager instance { get; private set; }
+    public static ResourceManager instance { get; private set; }
     private void Awake()
     {
         if (instance == null) instance = this;

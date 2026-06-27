@@ -2,7 +2,7 @@
 - Project name: dilao
 - Unity version: Unity 2022.3.57f1c1
 - Active game object:
-  - Name: screenCanvas
+  - Name: assetManager
   - Tag: Untagged
-  - Layer: UI
+  - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

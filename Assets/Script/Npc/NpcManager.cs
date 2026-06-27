@@ -62,12 +62,12 @@ public class NpcManager : MonoBehaviour
             }
         }
 
-        if (RunTimeAssetManager.instance.LoadFromFile<GameObject>("npcres", npcDataList[targetNpcId].name) == null)
+        if (ResourceManager.instance.LoadFromFile<GameObject>("npcres", npcDataList[targetNpcId].name) == null)
         {
             Debug.Log(npcDataList[targetNpcId].name);
         }
         var newNpc = Instantiate(
-            RunTimeAssetManager.instance.LoadFromFile<GameObject>("npcres",npcDataList[targetNpcId].name)
+            ResourceManager.instance.LoadFromFile<GameObject>("npcres",npcDataList[targetNpcId].name)
             , bathPos
             , Quaternion.identity
             , GameManager.instance.npcParent

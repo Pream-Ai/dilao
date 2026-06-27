@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 using UnityEngine;
 using XLua;
 using System.IO;
+[XLua.LuaCallCSharp]
 public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
@@ -92,6 +93,7 @@ public class UIManager : MonoBehaviour
     {
         if (globalLuaEnv != null)
         {
+            globalLuaEnv.DoString("mainPanel.OnDestroy()");
             globalLuaEnv.Dispose();
             globalLuaEnv = null;
         }
