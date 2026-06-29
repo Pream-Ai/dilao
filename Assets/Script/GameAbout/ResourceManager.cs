@@ -4,13 +4,11 @@ using System.IO;
 using UnityEngine;
 
 //³¡¾°1£ºfurnires,npcres
-public class ResourceManager: MonoBehaviour
+public class ResourceManager: Singleton<ResourceManager>
 {
-    public static ResourceManager instance { get; private set; }
-    private void Awake()
+    protected override void Awake()
     {
-        if (instance == null) instance = this;
-        else Destroy(this);
+        base.Awake();
     }
     public T LoadFromFile<T>(string abName ,string assetName) where T : Object
     {

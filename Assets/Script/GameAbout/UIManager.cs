@@ -4,13 +4,10 @@ using UnityEngine;
 using XLua;
 using System.IO;
 [XLua.LuaCallCSharp]
-public class UIManager : MonoBehaviour
+public class UIManager : Singleton<UIManager>
 {
-    public static UIManager instance;
     public static Action<FurniData> onFurniDataSelect;
-
     private LuaEnv globalLuaEnv;
-
     /// <summary>
     /// ∏Ò Ω:
     /// --name
@@ -19,9 +16,9 @@ public class UIManager : MonoBehaviour
     /// </summary>
     public GameObject furniWindow;
     public GameObject npcWindow;
-    private void Awake()
+    protected override void Awake()
     {
-        instance = this;
+        base.Awake();
         InitLuaEnviroment();
     }
     void Start()
@@ -93,7 +90,7 @@ public class UIManager : MonoBehaviour
     {
         if (globalLuaEnv != null)
         {
-            globalLuaEnv.DoString("mainPanel.OnDestroy()");
+            globalLuaEnv.DoString("BuildBtn.OnDestroy()");
             globalLuaEnv.Dispose();
             globalLuaEnv = null;
         }

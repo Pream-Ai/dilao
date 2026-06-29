@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class furniManager : MonoBehaviour
+public class furniManager : Singleton<furniManager>
 {
     public static furniManager instance;
     public List<FurniData> furniDataList = new List<FurniData>();
@@ -9,7 +9,10 @@ public class furniManager : MonoBehaviour
     private int nextID = 0;
     //other
     public furniController ExitDoor;
-    private void Awake() => instance = this;
+    protected override void Awake()
+    {
+        base.Awake(); 
+    }
     void Start()
     {
         

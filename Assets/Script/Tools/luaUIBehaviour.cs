@@ -17,14 +17,12 @@ public class luaUIBehaviour : MonoBehaviour
     [Header("lua生命周期")]
     private Action<LuaTable> luaAwake;
     private Action<LuaTable> luaStart;
-    private Action<LuaTable> luaOnBuildClick;
     private Action<LuaTable> luaOnDestory;
 
     [Header("UI组件绑定")]
     public Button[] buttons;
     public TextMeshProUGUI[] tmps;
     public GameObject[] gameobjects;
-
 
     private void Awake()
     {
@@ -42,7 +40,7 @@ public class luaUIBehaviour : MonoBehaviour
             scriptEnv.SetMetaTable(meta);
         }
         // 将当前 C# 实例指针传给 Lua 层的 env.Self
-        scriptEnv.Set("Self", this);
+        scriptEnv.Set("Self", this); 
         // 这一步执行时，xLua 会自动调用你在 UIManager 里注册的 CustomLuaLoader 去检索 Assets/LuaScripts/ 下的物理文件
         // 并将文件返回的母表存入 C# 变量 resultTable 中
         object[] results = luaEnv.DoString($"return require('{luaScriptName}')", luaScriptName, scriptEnv);
@@ -51,7 +49,7 @@ public class luaUIBehaviour : MonoBehaviour
             // 从返回的母表中物理抓取生命周期函数指针
             resultTable.Get("Awake", out luaAwake);
             resultTable.Get("Start", out luaStart);
-            resultTable.Get("OnBuildClick", out luaOnBuildClick);
+            //resultTable.Get("OnBuildClick", out luaOnBuildClick);
             resultTable.Get("OnDestroy", out luaOnDestory); 
             // 释放临时拿到的母表引用
             resultTable.Dispose();
@@ -71,14 +69,12 @@ public class luaUIBehaviour : MonoBehaviour
     {
         if (luaStart != null) luaStart(scriptEnv);
     }
-
     private void OnDestroy()
     {
         if (luaOnDestory != null) luaOnDestory(scriptEnv);
         luaAwake = null;
         luaStart = null;
         luaOnDestory = null;
-        luaOnBuildClick = null;
         
         if (scriptEnv != null)
         {

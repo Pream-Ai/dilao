@@ -3,12 +3,14 @@ using UnityEngine.EventSystems;
 using System;
 using System.Collections.Generic;
 using Unity.VisualScripting;
-public class Click : MonoBehaviour 
+public class Click : Singleton<Click> 
 {
-    public static Click instance;
     public bool isPreview = false;
     private Dictionary<int, Action<object[]>> methodDict = new Dictionary<int, Action<object[]>>();
-    private void Awake()=>instance=this;
+    protected override void Awake()
+    {
+        base.Awake();
+    }
     private Vector2Int lastPreviewPos;
     private Vector2Int? mousePos;
     void Update()

@@ -426,19 +426,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 198323405}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1321313131}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: selectFurni
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &198323405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -704,19 +692,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 233773756}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1321313131}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: selectFurni
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &233773756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1647,19 +1623,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 644666116}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1321313131}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: selectFurni
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &644666116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2018,19 +1982,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 863173459}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1321313131}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: selectFurni
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &863173459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2561,19 +2513,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1045600908}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1321313131}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: selectFurni
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1045600908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3296,19 +3236,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1169334670}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1321313131}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: selectFurni
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1169334670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3847,9 +3775,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e8ad79b0ffef2048a414eddf5990f7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  luaScriptName: mainPanel
+  luaScriptName: BuildBtn
   buttons:
   - {fileID: 863173458}
+  - {fileID: 198323404}
+  - {fileID: 644666115}
+  - {fileID: 1045600907}
+  - {fileID: 1169334669}
+  - {fileID: 233773755}
   tmps:
   - {fileID: 1994492096}
   gameobjects: []

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager : Singleton<GameManager>
 {
     public static GameManager instance;
     [Header("¸¸ÈÝÆ÷")]
@@ -18,9 +18,9 @@ public class GameManager : MonoBehaviour
     public int Year;
     public int Month;
     public int Day;
-    private void Awake()
+    protected override void Awake()
     {
-        instance = this;
+        base.Awake();
     }
     void Start()
     {
