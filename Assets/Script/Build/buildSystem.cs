@@ -93,7 +93,7 @@ public class buildSystem : MonoBehaviour
                 }
             }
             GameObject furniInstance = Instantiate(
-                furniBeSelect.prefab
+                ResourceManager.instance.LoadFromFile<GameObject>("furnires",furniBeSelect.furnitureName)
                 , new Vector3(setPos.x, setPos.y, 0)
                 , Quaternion.identity
                 , GameManager.instance.furniParent
@@ -160,9 +160,9 @@ public class buildSystem : MonoBehaviour
             if (previewPos.HasValue)
             {
                 previewShadow.transform.position = new Vector3(previewPos.Value.x, previewPos.Value.y, 0);
-                if (furniBeSelect != null && furniBeSelect.prefab != null)
+                if (furniBeSelect != null )
                 {
-                    previewShadow.GetComponent<SpriteRenderer>().sprite = furniBeSelect.prefab.GetComponent<SpriteRenderer>().sprite;
+                    previewShadow.GetComponent<SpriteRenderer>().sprite = ResourceManager.instance.LoadFromFile<Sprite>("furnires",furniBeSelect.name);
                 }
                 previewShadow.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0.8f);
             }

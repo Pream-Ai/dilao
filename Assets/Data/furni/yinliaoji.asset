@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9abba72294283364f8c899e7b405ff30, type: 3}
-  m_Name: "\u626D\u86CB\u673A"
+  m_Name: yinliaoji
   m_EditorClassIdentifier: 
-  ID: 2
-  furnitureName: gacha
-  prefab: {fileID: 54564002437287438, guid: e235ddd05d0dd5d44a13ded0eb2361b0, type: 3}
-  buildCost: 150
-  baseIncome: 25
-  maxCapacity: 0
+  ID: 3
+  furnitureName: yinliaoji
+  buildCost: 300
+  baseIncome: 30
   buildSize: {x: 1, y: 2}
   setPos: {x: 0, y: 0}
   naviSize: {x: 1, y: 1}

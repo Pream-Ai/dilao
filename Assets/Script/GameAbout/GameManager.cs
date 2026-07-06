@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
+using XLua;
+using System.IO;
+[XLua.LuaCallCSharp]
 public class GameManager : Singleton<GameManager>
 {
-    public static GameManager instance;
     [Header("¸¸ÈÝÆ÷")]
     public Transform furniParent;
     public Transform furniPool;
@@ -18,6 +17,8 @@ public class GameManager : Singleton<GameManager>
     public int Year;
     public int Month;
     public int Day;
+
+
     protected override void Awake()
     {
         base.Awake();
@@ -28,6 +29,10 @@ public class GameManager : Singleton<GameManager>
     }
     void Update()
     {
-        
     }
+    void GameLanuch()
+    {
+
+    }
+    
 }

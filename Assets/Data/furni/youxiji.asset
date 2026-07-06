@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9abba72294283364f8c899e7b405ff30, type: 3}
-  m_Name: "\u996E\u6599\u673A"
+  m_Name: youxiji
   m_EditorClassIdentifier: 
-  ID: 3
-  furnitureName: drinkbar
-  prefab: {fileID: 7930143311947442383, guid: 5e9a5c305cb5801459781d2f1eef3d7f, type: 3}
-  buildCost: 300
-  baseIncome: 30
+  ID: 4
+  furnitureName: youxiji
+  prefab: {fileID: 7930143311947442383, guid: 4f529c5f73abd2a4783c18486c71ad07, type: 3}
+  buildCost: 1000
+  baseIncome: 120
   maxCapacity: 0
   buildSize: {x: 1, y: 2}
   setPos: {x: 0, y: 0}

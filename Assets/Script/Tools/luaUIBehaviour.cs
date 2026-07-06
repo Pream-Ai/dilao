@@ -1,11 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using XLua;
 using System;
 using UnityEngine.UI;
 using TMPro;
-using Cysharp.Threading.Tasks;
 public class luaUIBehaviour : MonoBehaviour
 {
     [Tooltip("对应的lua脚本名")]
@@ -26,7 +23,7 @@ public class luaUIBehaviour : MonoBehaviour
 
     private void Awake()
     {
-        luaEnv = UIManager.instance.GetEnv();
+        luaEnv = XLuaManager.instance.GetEnv();
         if (luaEnv == null)
         {
             Debug.LogError("虚拟机获取失败");

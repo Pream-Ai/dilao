@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9abba72294283364f8c899e7b405ff30, type: 3}
-  m_Name: "\u6E38\u620F\u673A"
+  m_Name: bingxiang
   m_EditorClassIdentifier: 
-  ID: 4
-  furnitureName: youxiji
-  prefab: {fileID: 7930143311947442383, guid: 4f529c5f73abd2a4783c18486c71ad07, type: 3}
-  buildCost: 1000
-  baseIncome: 120
-  maxCapacity: 0
+  ID: 1
+  furnitureName: bingxiang
+  buildCost: 100
+  baseIncome: 25
   buildSize: {x: 1, y: 2}
   setPos: {x: 0, y: 0}
   naviSize: {x: 1, y: 1}

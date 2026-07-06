@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9abba72294283364f8c899e7b405ff30, type: 3}
-  m_Name: "\u51FA\u53E3"
+  m_Name: dianshiji
   m_EditorClassIdentifier: 
-  ID: -1
-  furnitureName: exitdoor
-  prefab: {fileID: 8063934227438310911, guid: 19370f16636c69b498090b699f1791b4, type: 3}
-  buildCost: 0
-  baseIncome: 0
-  maxCapacity: 0
-  buildSize: {x: 9, y: 11}
+  ID: 4
+  furnitureName: dianshiji
+  buildCost: 300
+  baseIncome: 30
+  buildSize: {x: 2, y: 2}
   setPos: {x: 0, y: 0}
-  naviSize: {x: 1, y: 1}
-  serviveOffset: {x: 0, y: 0}
+  naviSize: {x: 2, y: 1}
+  serviveOffset: {x: 0, y: 1}

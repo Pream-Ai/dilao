@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 213689896449552716}
   - component: {fileID: 3912297203016501330}
   m_Layer: 0
-  m_Name: "\u51FA\u53E3"
+  m_Name: exitdoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

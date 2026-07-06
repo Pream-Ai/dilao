@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class furniManager : Singleton<furniManager>
 {
-    public static furniManager instance;
     public List<FurniData> furniDataList = new List<FurniData>();
     public Dictionary<int, furniController> furniList = new Dictionary<int, furniController>();
     private int nextID = 0;

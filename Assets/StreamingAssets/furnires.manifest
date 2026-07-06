@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 407194498
+CRC: 2450089026
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 057173b6064a9d8e268a557f2d561e67
+    Hash: 568a1f6a74f4bcf35f84424129ab5320
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 22bf80101684d653b8333d38c3b116f0
+    Hash: 7e14f475939ea19972d56087c37b2dcd
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 057173b6064a9d8e268a557f2d561e67
+    Hash: 568a1f6a74f4bcf35f84424129ab5320
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,21 +25,21 @@ ClassTypes:
 - Class: 61
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: 93b4ad72ca33d8d4eaf86cb9d331870f, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 7034f921ef48ac141892c8eb3000eb33, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 23436f77a7303fe468df884dc6018b97, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 23b36eb0fc8583c41be908a48f928086, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 9abba72294283364f8c899e7b405ff30, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 3ba07ebb18e80b64cb7c128239f31812, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1c12e7563ae8eeb4bbbe94a5ac36d92a, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7f365d1fad48ff54b8583578f4b156ce, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3ba07ebb18e80b64cb7c128239f31812, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 23b36eb0fc8583c41be908a48f928086, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 93b4ad72ca33d8d4eaf86cb9d331870f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9abba72294283364f8c899e7b405ff30, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 23436f77a7303fe468df884dc6018b97, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 212
@@ -49,34 +49,34 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - "Assets/Resource/\u5BB6\u5177/yuanqishouce.png"
-- "Assets/Data/furni/\u996E\u6599\u673A.asset"
+- Assets/Data/furni/yinliaoji.asset
 - "Assets/Resource/\u5BB6\u5177/duihuanji.png"
-- "Assets/Data/furni/\u6E38\u620F\u673A.prefab"
+- Assets/Data/furni/youxiji.prefab
 - "Assets/Resource/\u5BB6\u5177/yaoshuiji.png"
 - "Assets/Resource/\u5BB6\u5177/shejitai.png"
-- "Assets/Data/furni/\u51FA\u53E3.asset"
-- "Assets/Data/furni/\u7535\u89C6\u673A.prefab"
-- "Assets/Data/furni/\u4EFB\u52A1\u680F.prefab"
+- Assets/Data/furni/exitdoor.asset
+- Assets/Data/furni/dianshiji.prefab
+- Assets/Data/furni/renwulan.prefab
 - "Assets/Resource/\u5BB6\u5177/bingxiang.png"
-- "Assets/Data/furni/\u7535\u89C6\u673A.asset"
-- "Assets/Data/furni/\u996E\u6599\u673A.prefab"
+- Assets/Data/furni/dianshiji.asset
+- Assets/Data/furni/yinliaoji.prefab
 - "Assets/Resource/\u5BB6\u5177/wuqiji.png"
 - "Assets/Resource/\u5BB6\u5177/penzai.png"
-- "Assets/Data/furni/\u51FA\u53E3.prefab"
+- Assets/Data/furni/exitdoor.prefab
 - "Assets/Resource/\u5BB6\u5177/dianshiji.png"
-- "Assets/Data/furni/\u626D\u86CB\u673A.prefab"
+- Assets/Data/furni/niudanji.prefab
 - "Assets/Resource/\u5BB6\u5177/baoxianxiang.png"
-- "Assets/Data/furni/\u6E38\u620F\u673A.asset"
+- Assets/Data/furni/youxiji.asset
 - "Assets/Resource/\u5BB6\u5177/jijiatai.png"
 - "Assets/Resource/\u5BB6\u5177/renwulan.png"
-- "Assets/Data/furni/\u4EFB\u52A1\u680F.asset"
+- Assets/Data/furni/renwulan.asset
 - "Assets/Resource/\u5BB6\u5177/niudanji.png"
 - "Assets/Resource/\u5BB6\u5177/shuji.png"
-- "Assets/Data/furni/\u626D\u86CB\u673A.asset"
+- Assets/Data/furni/niudanji.asset
 - "Assets/Resource/\u5BB6\u5177/yinliaoji.png"
-- "Assets/Data/furni/\u51B0\u7BB1.prefab"
+- Assets/Data/furni/bingxiang.prefab
 - "Assets/Resource/\u5BB6\u5177/maoliang.png"
-- "Assets/Data/furni/\u51B0\u7BB1.asset"
+- Assets/Data/furni/bingxiang.asset
 - "Assets/Resource/\u5BB6\u5177/youxiji.png"
 - "Assets/Resource/\u5BB6\u5177/duanzaotai.png"
 - "Assets/Resource/\u5BB6\u5177/yugang.png"

@@ -10,7 +10,6 @@ public class furniController : MonoBehaviour
     public FurniData furnidata;
     public int ID;
     public string furniName;
-    public GameObject prefab;
     public int buildCost;
     public int baseIncome;
     public int maxCapacity;
@@ -33,10 +32,8 @@ public class furniController : MonoBehaviour
     {
         ID = furnidata.ID;
         furniName = furnidata.furnitureName;
-        prefab = furnidata.prefab;
         buildCost = furnidata.buildCost;
         baseIncome = furnidata.baseIncome;
-        maxCapacity = furnidata.maxCapacity;
         buildSize = furnidata.buildSize;
         setPos = Vector2Int.zero;
         naviSize = furnidata.naviSize;

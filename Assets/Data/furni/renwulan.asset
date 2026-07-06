@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9abba72294283364f8c899e7b405ff30, type: 3}
-  m_Name: "\u7535\u89C6\u673A"
+  m_Name: renwulan
   m_EditorClassIdentifier: 
-  ID: 3
-  furnitureName: tv
-  prefab: {fileID: 7930143311947442383, guid: b960c54f59881b3448cca578800228e5, type: 3}
-  buildCost: 300
-  baseIncome: 30
+  ID: 0
+  furnitureName: renwulan
+  prefab: {fileID: 4198194286157787631, guid: 1630cd4ef33cdbb4a8b20725eb1543b0, type: 3}
+  buildCost: 50
+  baseIncome: 10
   maxCapacity: 0
-  buildSize: {x: 2, y: 2}
+  buildSize: {x: 3, y: 2}
   setPos: {x: 0, y: 0}
-  naviSize: {x: 2, y: 1}
-  serviveOffset: {x: 0, y: 1}
+  naviSize: {x: 3, y: 1}
+  serviveOffset: {x: 1, y: -1}

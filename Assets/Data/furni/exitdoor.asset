@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9abba72294283364f8c899e7b405ff30, type: 3}
-  m_Name: "\u4EFB\u52A1\u680F"
+  m_Name: exitdoor
   m_EditorClassIdentifier: 
-  ID: 0
-  furnitureName: renwulan
-  prefab: {fileID: 4198194286157787631, guid: 1630cd4ef33cdbb4a8b20725eb1543b0, type: 3}
-  buildCost: 50
-  baseIncome: 10
+  ID: -1
+  furnitureName: exitdoor
+  prefab: {fileID: 8063934227438310911, guid: 19370f16636c69b498090b699f1791b4, type: 3}
+  buildCost: 0
+  baseIncome: 0
   maxCapacity: 0
-  buildSize: {x: 3, y: 2}
+  buildSize: {x: 9, y: 11}
   setPos: {x: 0, y: 0}
-  naviSize: {x: 3, y: 1}
-  serviveOffset: {x: 1, y: -1}
+  naviSize: {x: 1, y: 1}
+  serviveOffset: {x: 0, y: 0}

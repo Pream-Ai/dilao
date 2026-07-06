@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
-
+using UnityEngine.Playables;
 //³¡¾°1£ºfurnires,npcres
 public class ResourceManager: Singleton<ResourceManager>
 {
@@ -22,5 +22,13 @@ public class ResourceManager: Singleton<ResourceManager>
         T targetAsset=localBundle.LoadAsset<T>(assetName);
         localBundle.Unload(false);
         return targetAsset;
+    }
+
+    public UnityEngine.Object GetAssetCache(string name,string type_name)
+    {
+#if UNITY_EDITOR
+
+#endif
+        return null;
     }
 }

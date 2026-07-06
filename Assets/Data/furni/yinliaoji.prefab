@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 53831704478193637}
   - component: {fileID: 119994641226970336}
   m_Layer: 0
-  m_Name: "\u996E\u6599\u673A"
+  m_Name: yinliaoji
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
