@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Npc_youxia
+  m_EditorClassIdentifier: 
+  m_GroupName: Npc_youxia
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0f5d0a9b5d26f4553b4b9729e99f3fa1
+  m_SerializeEntries:
+  - m_GUID: aad39673591763944884872aea52ef75
+    m_Address: Assets/Resource/charactor/youxia/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78440437fdd813541af5c9ac5464640d
+    m_Address: Assets/Resource/charactor/youxia/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09ab748dc7db8484884c492d461d4e7c
+    m_Address: Assets/Resource/charactor/youxia/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03bfb03a2af58184a87803ad923341d4
+    m_Address: Assets/Resource/charactor/youxia/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4888dbd69efd0c4e8e2db8ebf78b7fb
+    m_Address: Assets/Resource/charactor/youxia/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 767fdfd55550eab44ad92c6f8f256375
+    m_Address: Assets/Resource/charactor/youxia/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b1df86c871d057499671bdfe66e0562
+    m_Address: Assets/Resource/charactor/youxia/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9cef910c280b91439d98f21f0079fe0
+    m_Address: Assets/Resource/charactor/youxia/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01977955273ab9d4989f89f70e17684e
+    m_Address: Assets/Resource/charactor/youxia/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e879da65d7ae7f4aa72fffb3e42c474
+    m_Address: Assets/Resource/charactor/youxia/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a1d865467751104098bea0657f42032
+    m_Address: Assets/Resource/charactor/youxia/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fa8fc29753719349a05d9f954df6da4
+    m_Address: Assets/Resource/charactor/youxia/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c2ac68e42945f948868b0be8bc649fc
+    m_Address: Assets/Resource/charactor/youxia/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59f51c18789e4ba4c879f646d466ebfa
+    m_Address: Assets/Resource/charactor/youxia/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 192ac6be63ac28b439da41ee6fdd30bf
+    m_Address: Assets/Resource/charactor/youxia/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0590f4b934cc55e4b84da7bbc032a622
+    m_Address: Assets/Resource/charactor/youxia/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f91b129167989084286f6024a332a648
+    m_Address: Assets/Resource/charactor/youxia/classic/youxia.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17e43bb214b7aee498ac45969ccd6192
+    m_Address: Assets/Resource/charactor/youxia/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab33a054727df3941ab63d958ea9bd95
+    m_Address: Assets/Resource/charactor/youxia/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2bac7607c931428c952af1be1e4b1b8
+    m_Address: Npc/youxia/Data
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c0760d70ce0342b2a6730df19435e7c
+    m_Address: Npc/youxia
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028aa0b468b364cf586b730269549ed0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9de685f4e1f7c480eb054a2db891e18c, type: 2}
+    - {fileID: 11400000, guid: 83d2d17419cbd485784e2d6718f02bca, type: 2}

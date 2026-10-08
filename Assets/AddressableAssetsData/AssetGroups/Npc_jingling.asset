@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Npc_jingling
+  m_EditorClassIdentifier: 
+  m_GroupName: Npc_jingling
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2c06db8ac4ffb44dabe61dcf1bbe1b17
+  m_SerializeEntries:
+  - m_GUID: a50cacda5edfc9a4eb48cd8710dc226f
+    m_Address: Assets/Resource/charactor/jingling/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4375f6cd5346e0f41ac12079729abdf8
+    m_Address: Assets/Resource/charactor/jingling/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db4e8c37b03977d4cafba59e7f84dd7b
+    m_Address: Assets/Resource/charactor/jingling/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc3029f1936528c47929cf43b90b9d07
+    m_Address: Assets/Resource/charactor/jingling/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d9a887ac847d314ea688fe770b9ed96
+    m_Address: Assets/Resource/charactor/jingling/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d56d21d4c0815d74d827a6f58ac6d31e
+    m_Address: Assets/Resource/charactor/jingling/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a70fc02ecc0f934e9ef864333ddcf4f
+    m_Address: Assets/Resource/charactor/jingling/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71eb37980d8407e4dbc6f917494457d7
+    m_Address: Assets/Resource/charactor/jingling/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96a97c6f31f1dcc49b8be7684fe29476
+    m_Address: Assets/Resource/charactor/jingling/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f978798864ce0284197ff4e6678d129a
+    m_Address: Assets/Resource/charactor/jingling/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d50dee95afbf8c46953686b4b42af1f
+    m_Address: Assets/Resource/charactor/jingling/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff9e074046c12d741be6e0622dc69299
+    m_Address: Assets/Resource/charactor/jingling/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1502bea968d1f54c8c2ecb999eb9b5d
+    m_Address: Assets/Resource/charactor/jingling/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7180228ae86e89a49b52dcd5b87664c2
+    m_Address: Assets/Resource/charactor/jingling/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4192896d4f016d74c964890ef72f0c57
+    m_Address: Assets/Resource/charactor/jingling/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a28c3e733e99efc4e9c32e4cae049f7b
+    m_Address: Assets/Resource/charactor/jingling/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd2bf4833f1fee642aec652e94806479
+    m_Address: Assets/Resource/charactor/jingling/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 522e75e35cf9edc4aa2251323946b68c
+    m_Address: Assets/Resource/charactor/jingling/classic/jingling.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca41d9e1c68625b4c9ea021748ef7890
+    m_Address: Assets/Resource/charactor/jingling/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aad3dcbbacc634056b39a0e17b031259
+    m_Address: Npc/jingling/Data
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0c531d70f1694148ac196bca358efdf
+    m_Address: Npc/jingling
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028aa0b468b364cf586b730269549ed0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 62172f496354f4b4b823f0f641bd83aa, type: 2}
+    - {fileID: 11400000, guid: 970d4158dacf6447783b442a10d4b445, type: 2}

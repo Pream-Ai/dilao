@@ -63,7 +63,6 @@ public class NpcController : MonoBehaviour
         name = data.name;
         level = data.level;
         money = data.money;
-        //icon = RunTimeAssetManager.instance.LoadFromFile<Sprite>("npcres",name);
         //状态机初始化
         fsm = new FSM();
         idleState = new IdleState(this);

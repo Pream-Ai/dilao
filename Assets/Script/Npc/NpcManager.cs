@@ -31,7 +31,7 @@ public class NpcManager : MonoBehaviour
        
     }
     /// <summary>
-    /// Ô¤¶¨·þÎñÎ»£¬·µ»ØÊÇ·ñÔ¤¶¨³É¹¦
+    /// Ô¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½Ô¤ï¿½ï¿½ï¿½É¹ï¿½
     /// </summary>
     /// <param name="furni"></param>
     public void TryReseveSlot(furniController furni)
@@ -40,38 +40,37 @@ public class NpcManager : MonoBehaviour
         furni.beUsing = true;
     }
     /// <summary>
-    /// ·þÎñÎ»ÊÍ·Å
+    /// ï¿½ï¿½ï¿½ï¿½Î»ï¿½Í·ï¿½
     /// </summary>
     /// <param name="furni"></param>
     public void ReleaseSlot(furniController furni)
     {
         furni.beUsing = false;
     }
-    public void NpcGenerateMachine()
+    public async void NpcGenerateMachine()
     {
+        if (npcDataList.Count == 0) return;
         int targetNpcId = Random.Range(0, npcDataList.Count);
         for (int i=0;i<NpcPool.childCount;i++)
         {
             var npc = NpcPool.GetChild(i).GetComponent<NpcController>();
             if (npc.data.ID==targetNpcId)
             {
-                Debug.Log($"¾Í¾ö¶¨ÊÇÄãÁË{targetNpcId}ºÅ");
+                Debug.Log($"ï¿½Í¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{targetNpcId}ï¿½ï¿½");
                 npc.transform.position = bathPos;
                 npc.fsm.stateChange(npc.exitPool);
                 return;
             }
         }
 
-        if (ResourceManager.instance.LoadFromFile<GameObject>("npcres", npcDataList[targetNpcId].name) == null)
+        var npcName = npcDataList[targetNpcId].name;
+        var newNpc = await AssetService.Instance.InstantiateAsync($"Npc/{npcName}", GameManager.instance.npcParent);
+        if (newNpc == null)
         {
-            Debug.Log(npcDataList[targetNpcId].name);
+            Debug.LogError($"åŠ è½½NPCå¤±è´¥: {npcName}");
+            return;
         }
-        var newNpc = Instantiate(
-            ResourceManager.instance.LoadFromFile<GameObject>("npcres",npcDataList[targetNpcId].name)
-            , bathPos
-            , Quaternion.identity
-            , GameManager.instance.npcParent
-            );
+        newNpc.transform.position = bathPos;
         var ctrl = newNpc.GetComponent<NpcController>();
         ctrl.fsm.stateChange(ctrl.exitPool);
     }

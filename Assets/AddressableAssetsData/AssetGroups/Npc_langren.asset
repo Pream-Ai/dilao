@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Npc_langren
+  m_EditorClassIdentifier: 
+  m_GroupName: Npc_langren
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b7785b4871d8f4fd3b1f77ecb51dfc8a
+  m_SerializeEntries:
+  - m_GUID: a4d538355d0ea444b8289425656be504
+    m_Address: Assets/Resource/charactor/langren/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bbb005829a833f4fb51654d2adf92d4
+    m_Address: Assets/Resource/charactor/langren/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2937cc7c6e762ee4a98da6275f0b93ca
+    m_Address: Assets/Resource/charactor/langren/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a9df97545ae6a94bbeda458e669e4b8
+    m_Address: Assets/Resource/charactor/langren/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd6ab9105e621554e95f1ce7f79db3c1
+    m_Address: Assets/Resource/charactor/langren/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 843dfec22738574438a923e09b23ebe9
+    m_Address: Assets/Resource/charactor/langren/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32c02ffc047d7ea488262f97d275ca40
+    m_Address: Assets/Resource/charactor/langren/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42162a61fa23ca34081d8ce195a85f1a
+    m_Address: Assets/Resource/charactor/langren/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19114c69ea208024183f1ea81e2a057b
+    m_Address: Assets/Resource/charactor/langren/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e500c8560d871064f84d00059db1a668
+    m_Address: Assets/Resource/charactor/langren/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4920b3a614eabcd4fb8f706d4aee43b7
+    m_Address: Assets/Resource/charactor/langren/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81d69dad7ff7893448cfbead4651d0a5
+    m_Address: Assets/Resource/charactor/langren/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a86c3b8952c0fd943a5aef5a109d5797
+    m_Address: Assets/Resource/charactor/langren/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5d5e1ca2680ba145b6356fb30e77b28
+    m_Address: Assets/Resource/charactor/langren/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c32d2d831b07ce44a80a75dccce029f
+    m_Address: Assets/Resource/charactor/langren/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32cf73ba24a48484a8015dc3394f7857
+    m_Address: Assets/Resource/charactor/langren/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c1a8d8c3d96c7847a0a5e57e800c410
+    m_Address: Assets/Resource/charactor/langren/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 278dbda7045d69944a47946d815c32ba
+    m_Address: Assets/Resource/charactor/langren/classic/langren.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4eeeea77819c452479bfc9ccd1e9dcf1
+    m_Address: Assets/Resource/charactor/langren/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4aa261402c49a474894809e72d158d13
+    m_Address: Npc/langren/Data
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ba923f3464054f3089f595c0e56ea30
+    m_Address: Npc/langren
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028aa0b468b364cf586b730269549ed0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 537810f8ff1e0406aaa58bf1caba958c, type: 2}
+    - {fileID: 11400000, guid: 9908e0e47ae41448ab10bd4ebd224e05, type: 2}

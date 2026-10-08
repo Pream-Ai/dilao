@@ -1,0 +1,865 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Remote_Misc
+  m_EditorClassIdentifier: 
+  m_GroupName: Remote_Misc
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8914696b5042f40c7a0b15b8a686db66
+  m_SerializeEntries:
+  - m_GUID: f1c3a7ec76428c74dac09eef252cb7ee
+    m_Address: Assets/Resource/furniture/interact/watercooler/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b587381eb3674f94393230dc159e5934
+    m_Address: Assets/Resource/furniture/interact/watercooler/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49b23f131c461fa478e1541d147bab92
+    m_Address: Assets/Resource/furniture/interact/watercooler/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb7da9757f336a5459b9aee0437ad10c
+    m_Address: Assets/Resource/furniture/interact/punchbag/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e908012a47d0fbc498b8ac5774c49137
+    m_Address: Assets/Resource/furniture/interact/punchbag/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24fdfc825ce8c5b4eb7e417469e41e35
+    m_Address: Assets/Resource/furniture/interact/punchbag/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5fc45819ffb31f4f8a6c67513201817
+    m_Address: Assets/Resource/furniture/interact/punchbag/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 476cc005da5c65e45b406a0a262d9d27
+    m_Address: Assets/Resource/furniture/interact/punchbag/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbef0ffd05378a443bc39934d4457413
+    m_Address: Assets/Resource/furniture/interact/niudanji/gacha.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 348085ed4e78f584397d7d2f2f545571
+    m_Address: Assets/Resource/furniture/interact/clawmachine/clawmachine_idle.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27ff291159a09954cbb759ffb17334c4
+    m_Address: Assets/Resource/furniture/interact/clawmachine/clawmachine_idle.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0f5dd8cc6829ce46a527a05e84acfa5
+    m_Address: Assets/Resource/furniture/interact/clawmachine/clawmachine.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c23a5a431d066443a968e78e17a9add
+    m_Address: Assets/Resource/furniture/interact/fridge_open.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96565b4e1259f17428646798362e114d
+    m_Address: Assets/Resource/furniture/interact/exchanger_on.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02ef8ac9388cda44f99a6141477376b3
+    m_Address: Assets/Resource/furniture/interact/bubble.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64aecc479d52a7141ace2e430c55d84a
+    m_Address: Assets/Resource/furniture/yugang.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba35efb4da2c74944abb7a2bfe03def5
+    m_Address: Assets/Resource/furniture/yuanqishouce.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30ac076a678078a4c9c8e489a18ac794
+    m_Address: Assets/Resource/furniture/yaoshuiji.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ad1c00eb3d531040a7af45233f14098
+    m_Address: Assets/Resource/furniture/xunlianzhuang.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9cfd5d39b82bb74d9a05d6b1ead5140
+    m_Address: Assets/Resource/furniture/wuqiji.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2e5e51e3edfbcb4b8b62419aadfacf6
+    m_Address: Assets/Resource/furniture/shuji.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9827bd70c3ecd6b4ab1a9bcdeb7a26a5
+    m_Address: Assets/Resource/furniture/shejitai.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af99b54ded3de4b43b352d3fc7cf281f
+    m_Address: Assets/Resource/furniture/penzai.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 248f953b5daba9f4a8bd1844732b9ce9
+    m_Address: Assets/Resource/furniture/maoliang.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60ef8cbf4e96696438f392e1971c3fff
+    m_Address: Assets/Resource/furniture/jijiatai.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acc2a138317f73a4d8e903ffc57543a2
+    m_Address: Assets/Resource/furniture/duihuanji.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2905af2d6cb78f4aba2a85c24be7a70
+    m_Address: Assets/Resource/furniture/duanzaotai.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24dc9f0caaf95fe45b0d44d66384a66a
+    m_Address: Assets/Resource/furniture/baoxianxiang.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06d1c5c4e85f0df4199e64277ce892d4
+    m_Address: Assets/Resource/livingroom/wall/Materials/wall5.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c9d145e7802cd240a46908b95ac875c
+    m_Address: Assets/Resource/livingroom/wall/wall9.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c289bd5d14034244b9c976e0a8807a8b
+    m_Address: Assets/Resource/livingroom/wall/wall8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0029d1742883be94ca0c0d869f5e1193
+    m_Address: Assets/Resource/livingroom/wall/wall7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59651d899210e6a47b9a00d24e8d3a51
+    m_Address: Assets/Resource/livingroom/wall/wall6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88ba3040312c6d746b6ce3f24ba061be
+    m_Address: Assets/Resource/livingroom/wall/wall5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43aab0ac6db5a9546a873b68b1756c31
+    m_Address: Assets/Resource/livingroom/wall/wall1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea539889bd9966f408b07678a2bc30f2
+    m_Address: Assets/Resource/livingroom/wall/wall.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dfbe6ef5f986414a84b1d8a000329a0
+    m_Address: Assets/Resource/livingroom/wall/stage.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b993d532bbb2bfb47b16d51bb6ac99ce
+    m_Address: Assets/Resource/livingroom/wall/roadblock.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77b3428c1b8317747aa8772ff66c92ce
+    m_Address: Assets/Resource/livingroom/wall/door.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64d7403b3a8453742af78e0ce45668f1
+    m_Address: Assets/Resource/livingroom/floor/wall9.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0659b7a2477a24f4baf034d9d44889e4
+    m_Address: Assets/Resource/livingroom/floor/wall8.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4df4e1e88dba14f47a6a19648374ca8b
+    m_Address: Assets/Resource/livingroom/floor/wall7.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64500ef75b84b9240b9359939868218e
+    m_Address: Assets/Resource/livingroom/floor/wall6.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b34c4af50d607d8478b8512f1792901d
+    m_Address: Assets/Resource/livingroom/floor/wall5.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48ac8d4e42dcf82438b5e2e429ad9ca7
+    m_Address: Assets/Resource/livingroom/floor/wall1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94e55c2452bc5104ca69b1463a3d9406
+    m_Address: Assets/Resource/livingroom/floor/unity_tmp_sprite_asset_usage_3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df0e1d12fc47f6c47b0e9874664e324d
+    m_Address: Assets/Resource/livingroom/floor/part_35.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a48931ea1ea119943aed38128b5212b4
+    m_Address: Assets/Resource/livingroom/floor/part_35.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab3ef2fbf9869ea499f1ad9d78a2ac41
+    m_Address: Assets/Resource/livingroom/floor/part_34.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 047e482b4acf151479a765176f8b10b3
+    m_Address: Assets/Resource/livingroom/floor/part_34.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15c50772d4dc23a4db2466f436327a37
+    m_Address: Assets/Resource/livingroom/floor/part_33.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e749a6d0f70db4a488bdd00cadf3df02
+    m_Address: Assets/Resource/livingroom/floor/part_33.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15aca7d5d9c1bd3478efadc9221010bb
+    m_Address: Assets/Resource/livingroom/floor/part_32.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34f355e1e2a2a5748bb546d60ea5c30e
+    m_Address: Assets/Resource/livingroom/floor/part_32.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 296249bfeb58ee74bbb1c95f4a4083ea
+    m_Address: Assets/Resource/livingroom/floor/part_31.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21511ac2f14d8c945825b0f0b538d46d
+    m_Address: Assets/Resource/livingroom/floor/part_31.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9862e35655454e0438fa8ad220e8ff98
+    m_Address: Assets/Resource/livingroom/floor/part_30.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74b7d06185db43a45afc6062da22d525
+    m_Address: Assets/Resource/livingroom/floor/part_30.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23ea23c905de4fe4fbad468faf7f7d55
+    m_Address: Assets/Resource/livingroom/floor/part_29.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22fd42afe1e91da4d9c11b2c382b7185
+    m_Address: Assets/Resource/livingroom/floor/part_29.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a2cb3dbd07680341b0c5dacba2d4a15
+    m_Address: Assets/Resource/livingroom/floor/part_28.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ac5b1b0a6ab37b4f97bd21a6315d19b
+    m_Address: Assets/Resource/livingroom/floor/part_28.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3e2152240c15694b9724742118395da
+    m_Address: Assets/Resource/livingroom/floor/part_27.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5b2fdfb8ce96da4aa6c6b46f7cc3b1f
+    m_Address: Assets/Resource/livingroom/floor/part_27.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5690bdebdf5548f49beadd46dc71e8a4
+    m_Address: Assets/Resource/livingroom/floor/part_26.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3396d983b73a96748911424813f2dbec
+    m_Address: Assets/Resource/livingroom/floor/part_26.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 336d47244fe2df444b89a2026da0e8a4
+    m_Address: Assets/Resource/livingroom/floor/part_25.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ad7f9f2b067b8a47bd18284c45716a2
+    m_Address: Assets/Resource/livingroom/floor/part_25.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c0afc10124bd8644bf1d89879bb4dff
+    m_Address: Assets/Resource/livingroom/floor/part_24.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3beaf292046489f498b6ebf6321f5f8e
+    m_Address: Assets/Resource/livingroom/floor/part_24.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9bec47a53e29845469442f8f70193bf7
+    m_Address: Assets/Resource/livingroom/floor/part_23.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddb42a617df33264d8258a6d9aad804e
+    m_Address: Assets/Resource/livingroom/floor/part_23.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12c57ff923c818647bd05cb8f2c448c8
+    m_Address: Assets/Resource/livingroom/floor/part_22.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 490c16a4543a2a14cafa16b22cf2bb89
+    m_Address: Assets/Resource/livingroom/floor/part_22.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e984f830b289dfd4ea65aef224ec84e8
+    m_Address: Assets/Resource/livingroom/floor/part_21.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c84532bb699ba9447ab3d81f302bde8c
+    m_Address: Assets/Resource/livingroom/floor/part_21.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f0ad1b099d69d346bd6f510357020c3
+    m_Address: Assets/Resource/livingroom/floor/part_20.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fb5bcfcd464a684e81cab9bab387e8a
+    m_Address: Assets/Resource/livingroom/floor/part_20.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50be0d9b849914d44ad6284ff3052e0a
+    m_Address: Assets/Resource/livingroom/floor/part_19.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ec1aaac921b2b6479aad26a0af51519
+    m_Address: Assets/Resource/livingroom/floor/part_19.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2584c366663b9de4ea3d049798052123
+    m_Address: Assets/Resource/livingroom/floor/part_18.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b24dc4cf131998d44bf102b3cfc107ef
+    m_Address: Assets/Resource/livingroom/floor/part_18.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f3216c244923d543a217271e6a23010
+    m_Address: Assets/Resource/livingroom/floor/part_17.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c8ba84953dcaa1439f9264997352fd5
+    m_Address: Assets/Resource/livingroom/floor/part_17.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb459e41b333fb94da4769db51be617d
+    m_Address: Assets/Resource/livingroom/floor/part_16.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62f0b72a59261944290a9c56244812a8
+    m_Address: Assets/Resource/livingroom/floor/part_16.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c99642f2e63030746b4d435265fb8d4c
+    m_Address: Assets/Resource/livingroom/floor/part_15.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 742553acdef221c4780b1c3003ed724e
+    m_Address: Assets/Resource/livingroom/floor/part_15.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53c5e2555f47d8d42920e099f65b727b
+    m_Address: Assets/Resource/livingroom/floor/part_14.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39df46743129b1e498604c2c7f0e708e
+    m_Address: Assets/Resource/livingroom/floor/part_14.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7857f2bf630fa2c41a38a7e983e52ebc
+    m_Address: Assets/Resource/livingroom/floor/part_13.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c8386dd03052a346b79ab4edf0401e9
+    m_Address: Assets/Resource/livingroom/floor/part_13.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4874ba2e95b19d5488ff53deb5ab7906
+    m_Address: Assets/Resource/livingroom/floor/part_12.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89072e830f8d83140aa785272b454401
+    m_Address: Assets/Resource/livingroom/floor/part_12.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e32644f5800b5454cad309a4e98bc33a
+    m_Address: Assets/Resource/livingroom/floor/part_11.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b88cb32cba7fad54da81c47302682a0f
+    m_Address: Assets/Resource/livingroom/floor/part_11.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75063b3bb4f927c4991e68d0618cf6d0
+    m_Address: Assets/Resource/livingroom/floor/part_10.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9ae93b8edab6bb43b8b391a1cd0e42b
+    m_Address: Assets/Resource/livingroom/floor/part_10.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 816e1af3556ad204d8bfb41b0492663f
+    m_Address: Assets/Resource/livingroom/floor/part_09.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74db34fca758e2548a246fbabef89eda
+    m_Address: Assets/Resource/livingroom/floor/part_09.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee55cd8f3b9b17545a4e604b0d383cc4
+    m_Address: Assets/Resource/livingroom/floor/part_08.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee7d4d00618fe9742801bba87e35f286
+    m_Address: Assets/Resource/livingroom/floor/part_08.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7050ebbb7e2144f4bbdddc487eab3534
+    m_Address: Assets/Resource/livingroom/floor/part_07.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b935e68212ddb58469ad0354748fc6ef
+    m_Address: Assets/Resource/livingroom/floor/part_07.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0838770e44cf05543a1b0ca7b0f75264
+    m_Address: Assets/Resource/livingroom/floor/part_06.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a3ad198fe6c5604a8c49a78d3e93b38
+    m_Address: Assets/Resource/livingroom/floor/part_06.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5add1e6952b25947a4bc40bb173153a
+    m_Address: Assets/Resource/livingroom/floor/part_05.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b265711909176f84b9f4fe8b96ad2cc7
+    m_Address: Assets/Resource/livingroom/floor/part_05.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: def06ba4470f4f0409765746af2a86f3
+    m_Address: Assets/Resource/livingroom/floor/part_04.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e419094ce738c704593642f6bb026f14
+    m_Address: Assets/Resource/livingroom/floor/part_04.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e738e256929d4e4438f2738ea4cb8cdf
+    m_Address: Assets/Resource/livingroom/floor/part_03.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 650c30ae9a4917e46b596c6e5becb3c6
+    m_Address: Assets/Resource/livingroom/floor/part_03.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd7a052df89b3b241a64b5e97f9ea00c
+    m_Address: Assets/Resource/livingroom/floor/part_02.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 059670ab6141e384a9acbd9f5a0a1779
+    m_Address: Assets/Resource/livingroom/floor/part_02.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e1b8777fc96e254abcbe9836c85d935
+    m_Address: Assets/Resource/livingroom/floor/part_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3b11e3d4786a41489864f4169127797
+    m_Address: Assets/Resource/livingroom/floor/part_01.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33366b9ca68fc50418f917ad7e2a953d
+    m_Address: Assets/Resource/livingroom/floor/ground.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5de3134d1f2dba149b2f3831f023a01d
+    m_Address: Assets/Resource/livingroom/mailbox.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b2f44640c6680e4e83693eeef9b4fbe
+    m_Address: Assets/Resource/livingroom/emoji_girl.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 005b648bc0a7cff49a6ade4424a4e492
+    m_Address: Assets/Resource/livingroom/decorator.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08d9107cc498fbe45904477228157225
+    m_Address: Assets/Resource/livingroom/decorator.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe4b6db36527e3842b9c9395ef7d8230
+    m_Address: Assets/Resource/livingroom/decorator.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70f71925f8b1fb64e961643851742733
+    m_Address: Assets/Resource/materials/wood.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1d81c19e3bb4f74eaa57f96f49a7539
+    m_Address: Assets/Resource/materials/parts.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 549cab801ba34f24688b16f46e5e0e77
+    m_Address: Assets/Resource/materials/magic_shard_red.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: baee55ef51ba4434ba773abe2edc2cd4
+    m_Address: Assets/Resource/materials/magic_shard_purple.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cb989a20263c064fae78991f6ee529b
+    m_Address: Assets/Resource/materials/magic_shard_orange.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97270e4b44d728c46bab31bc2c0ad880
+    m_Address: Assets/Resource/materials/magic_shard_obsidian.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dad2f8ed2ddc134429b8c91602739864
+    m_Address: Assets/Resource/materials/magic_shard_green.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2311a7eb1d8b8404bac4f8d94e7bc5ff
+    m_Address: Assets/Resource/materials/magic_shard_cyan.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be9a1a21d910a9c4d8a0dbabf8c7e0cd
+    m_Address: Assets/Resource/materials/magic_shard_blue.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ada19d53704f6ec488cc0551f82f47c5
+    m_Address: Assets/Resource/materials/iron_ore.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 943ca88c149fbd942b61c4c9c6395cab
+    m_Address: Assets/Resource/materials/biomass.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df4ecf452903bf94e915e274662d6827
+    m_Address: Assets/Resource/materials/battery.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 226139a0e2e44994492ac2d6f5d221db
+    m_Address: Assets/Resource/furniture/interact/watercooler/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc3313f14f2b4b24c8403710ce09631b
+    m_Address: Assets/Resource/furniture/interact/yinliaoji/drinks/coffee.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 908ab3c0c2b440e4aa3fcbc7ad236783
+    m_Address: Assets/Resource/furniture/interact/yinliaoji/drinks/juice.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53e53c7ed7bb5424dae839600ca74ed5
+    m_Address: Assets/Resource/furniture/interact/yinliaoji/drinks/milk.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d14269c3e8cfd764a9dcf0fb11a996a5
+    m_Address: Assets/Resource/furniture/interact/yinliaoji/drinks/redbull.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a7563bf745fd154b8d1e7bb8c11b822
+    m_Address: Assets/Resource/furniture/interact/yinliaoji/drinks/soda.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - misc
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028aa0b468b364cf586b730269549ed0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7f1564937109344eb8845d02f9c06541, type: 2}
+    - {fileID: 11400000, guid: 91491c3b427744c1ba91dffae8b32c22, type: 2}

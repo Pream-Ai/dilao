@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Npc_kzs
+  m_EditorClassIdentifier: 
+  m_GroupName: Npc_kzs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ade7187114be34869851ba69e21bb4ad
+  m_SerializeEntries:
+  - m_GUID: 470a65a158dc9784ab575d62bcced3a9
+    m_Address: Assets/Resource/charactor/kzs/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 227919703354cce4eb0ff1a25f3703ce
+    m_Address: Assets/Resource/charactor/kzs/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a5a2f11326e0c441aa3c3c8e150631c
+    m_Address: Assets/Resource/charactor/kzs/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39fbec685e6e7ae468e4645c260318a4
+    m_Address: Assets/Resource/charactor/kzs/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 173b1b0cc5135ca499940f39fee74fe3
+    m_Address: Assets/Resource/charactor/kzs/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47935de139bbc1b4496db56a93663061
+    m_Address: Assets/Resource/charactor/kzs/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 502d22aa5592c234c83c4d4dcb2d4648
+    m_Address: Assets/Resource/charactor/kzs/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37e322e91fa62234b8a217b9847a69d7
+    m_Address: Assets/Resource/charactor/kzs/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f75581c5979915f4a9be3dd7b3380c53
+    m_Address: Assets/Resource/charactor/kzs/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a744896f69f6324ca48ea9979a4ccf3
+    m_Address: Assets/Resource/charactor/kzs/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e6b6826f216c4947ae4d63f4b7e12ff
+    m_Address: Assets/Resource/charactor/kzs/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f68eee7892e6a84abd2f0e63278a86e
+    m_Address: Assets/Resource/charactor/kzs/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40169e88926c2244c913af0726e9f34b
+    m_Address: Assets/Resource/charactor/kzs/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b97d1c4a9b8fce2438ab86f574e6ca80
+    m_Address: Assets/Resource/charactor/kzs/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 394ae2eeb0f941c4198bdb3433ab9845
+    m_Address: Assets/Resource/charactor/kzs/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a35a7b3a0a2bd7d4b99d60e00aea2c15
+    m_Address: Assets/Resource/charactor/kzs/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20582b829ecac734589c90fed40fcac4
+    m_Address: Assets/Resource/charactor/kzs/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb770e5c1d28ffd4baa44b5e6c849c42
+    m_Address: Assets/Resource/charactor/kzs/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f84ef1699da6c154093a9d0fa24f1e66
+    m_Address: Assets/Resource/charactor/kzs/classic/glove_front.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 610ebd3981f76a64b894ba93bca17bd7
+    m_Address: Assets/Resource/charactor/kzs/classic/classic.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b16f170a0cbcf5e42a0330e1b09ef8d5
+    m_Address: Npc/kzs/Data
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc0d40d6a7dc0c64a88d462c04bb6497
+    m_Address: Npc/kzs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028aa0b468b364cf586b730269549ed0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 940a0aae746d34a9f8124f3f8ad34d2a, type: 2}
+    - {fileID: 11400000, guid: f3ecd134a0b354c78a7b8aeee131e94c, type: 2}

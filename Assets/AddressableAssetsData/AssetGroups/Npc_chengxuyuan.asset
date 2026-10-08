@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Npc_chengxuyuan
+  m_EditorClassIdentifier: 
+  m_GroupName: Npc_chengxuyuan
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1cab47384ae83434195f73dee9222977
+  m_SerializeEntries:
+  - m_GUID: 50e12addacdf0074dab729fcc4f0eef3
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/9.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00fcb56bc642500439c07a138c129d8b
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4ef521d80a0fe14cbd32f718ba2052f
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffd4a0ac9b368af4daf730f09b64bbcb
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f7d2f8f26276ff46a14a72914ba3e9c
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8227475f2e35a345b8431a79c921e80
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1376e542d86c597469f0cc1e9e50255a
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83bd521df2797744a8bfd9c3a8438f49
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/22.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5177dfd30932a374dbb9efc1774cf731
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/21.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa67353deafbad94cbc784627f9f7cdb
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/20.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cb7206cba1614940a4e2b35456bbd2f
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d82f26c6320b4464f99935cff3f4aa3d
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/19.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d800f362a735764f813e8129f499e8a
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/18.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9479c49c1caf5347b10bfc54ba19c87
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/17.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7eadc60d843729546be3e0701e909b06
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/16.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcb35afd12933e54cabd14425dbd3c15
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/15.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f75d54c148abf9d42b89e49e20441635
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/14.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6487cc9035f4d15488ee71a3739f657d
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/13.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e96a23de5263dad4ba041f61d508493e
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/12.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47a201598973a304582539e0dda809a9
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/11.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4073c565cb302b4eb79991505f2e570
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/10.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc3ce978fc60b0444ac5e61d88b0e52c
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3315998b68d11b94a90f79592eb93f80
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c8c98efa81dadf4ca99cbfbfa830f3f
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43e414da3539e6d44aa22e059fe66655
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fb379b26080d9d47be284bfffc5b3f6
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21b5cfa304d38774b95c5e490e6908c1
+    m_Address: Assets/Resource/charactor/engineer/chengxuyuan/chengxuyuan.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2742bf263d7c44db9bfc228b29fbbdf6
+    m_Address: Npc/chengxuyuan/Data
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef4c3c1c56c234145b3b48896c7ad13a
+    m_Address: Npc/chengxuyuan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028aa0b468b364cf586b730269549ed0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bb1c88fbb5f754685b3d7cd27ef9e734, type: 2}
+    - {fileID: 11400000, guid: ce6761940880349d38b351479ccf1b83, type: 2}

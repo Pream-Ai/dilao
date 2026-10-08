@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Npc_qishi
+  m_EditorClassIdentifier: 
+  m_GroupName: Npc_qishi
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f657b0c9f695c4496b14431bececfdee
+  m_SerializeEntries:
+  - m_GUID: 9df227a343a891f43afa84a8d5631c3c
+    m_Address: Assets/Resource/charactor/qishi/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b16c3c97bf807ae4fa52098d60401e85
+    m_Address: Assets/Resource/charactor/qishi/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17266d3ecc1994443aab9adf00b847fb
+    m_Address: Assets/Resource/charactor/qishi/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1e4b8419e7cfde40a584178720be98b
+    m_Address: Assets/Resource/charactor/qishi/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b84c09f316b4b1c4ba4288e58d4972c9
+    m_Address: Assets/Resource/charactor/qishi/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1487d545278a194dad734c37fe98665
+    m_Address: Assets/Resource/charactor/qishi/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ba017d92cb2894478ef95ed44756419
+    m_Address: Assets/Resource/charactor/qishi/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0687b8ee98ec214295543d91b0d4365
+    m_Address: Assets/Resource/charactor/qishi/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61fbb77406ce37c45b4a1f00709359ac
+    m_Address: Assets/Resource/charactor/qishi/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f55e4286ed45c141a2a605f966b2ab2
+    m_Address: Assets/Resource/charactor/qishi/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d182aa4fa35bf941b2d162842254c96
+    m_Address: Assets/Resource/charactor/qishi/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4134b181e95d394c979a0b2dd6965c1
+    m_Address: Assets/Resource/charactor/qishi/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ceff530bb96b67346ab5f611c51f2b1f
+    m_Address: Assets/Resource/charactor/qishi/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34e2070a3e720ed4f8a5b94f7e3813df
+    m_Address: Assets/Resource/charactor/qishi/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 298cccab540ff2c4c9362851db9520a9
+    m_Address: Assets/Resource/charactor/qishi/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4a615d96b5d3354288c40155eef5ec0
+    m_Address: Assets/Resource/charactor/qishi/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d000e0ca9c0c0e47a5fcc59f2110270
+    m_Address: Assets/Resource/charactor/qishi/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 869cf0f788d42284e9782165da9418be
+    m_Address: Assets/Resource/charactor/qishi/classic/qishi.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 959c7cc22c6ad4648a2d8aed2e30f67e
+    m_Address: Assets/Resource/charactor/qishi/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cfa55df1d6e444b6a806905a0b5efa6
+    m_Address: Npc/qishi/Data
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 237b30a68c1b9415aa10425d534fc692
+    m_Address: Npc/qishi
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028aa0b468b364cf586b730269549ed0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 462c36c2fd9a84fef82d74efd10ea875, type: 2}
+    - {fileID: 11400000, guid: 264ec4e3d195643cabd76c648a29af37, type: 2}

@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Npc_cike
+  m_EditorClassIdentifier: 
+  m_GroupName: Npc_cike
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 51680f07111a44bd1aff3f44b7efae7f
+  m_SerializeEntries:
+  - m_GUID: 9ba3306889dcf894d89cb74df7e3ae59
+    m_Address: Assets/Resource/charactor/cike/cike/cike_run/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f087cb996575974badb62a3634f12e0
+    m_Address: Assets/Resource/charactor/cike/cike/cike_run/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd337b7b92c9ebf40a8d8596a0d8c08e
+    m_Address: Assets/Resource/charactor/cike/cike/cike_run/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 794ff70c8af12d147bfce135b7786245
+    m_Address: Assets/Resource/charactor/cike/cike/cike_run/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 431d4b6fb17c9f44faea0ca9f92322d2
+    m_Address: Assets/Resource/charactor/cike/cike/cike_run/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9cc18bdfdff9794cb179a7a36b02664
+    m_Address: Assets/Resource/charactor/cike/cike/cike_run/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09441f9e7eeb4b74d8d4c55bc98e5e23
+    m_Address: Assets/Resource/charactor/cike/cike/cike_run/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f00152ddceb1a7a4293d5ed762c89e61
+    m_Address: Assets/Resource/charactor/cike/cike/cike_run/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c68bcd6e73e631640a4b3454fcf8b824
+    m_Address: Assets/Resource/charactor/cike/cike/cike_idle/cike.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df9719fadbb451845b2319c915115046
+    m_Address: Assets/Resource/charactor/cike/cike/cike_idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b329bfd455a17484ca89592b7780dc84
+    m_Address: Assets/Resource/charactor/cike/cike/cike_idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8881fe5cb2b940542892b85c660fb487
+    m_Address: Assets/Resource/charactor/cike/cike/cike_idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef297edf189ddb7428bf5c40149e38d7
+    m_Address: Assets/Resource/charactor/cike/cike/cike_idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee241928e46defc499aa69e7264615d9
+    m_Address: Assets/Resource/charactor/cike/cike/cike_idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c863e0b28388c484fbe6f499161d799b
+    m_Address: Assets/Resource/charactor/cike/cike/cike_idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52d5cfc3ad8eac545bfc857c30be5f09
+    m_Address: Assets/Resource/charactor/cike/cike/cike_idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 001dec8ef3614044ba431cec37738496
+    m_Address: Assets/Resource/charactor/cike/cike/cike_run.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53bc92ebb09c84b499c1da889574adb7
+    m_Address: Assets/Resource/charactor/cike/cike/cike_idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edf11fad82052714dbce8984741e5782
+    m_Address: Assets/Resource/charactor/cike/cike/cike_ctrl.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd96780c12ed54a0d99b4dae251ce060
+    m_Address: Npc/cike/Data
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fa6247d8696c44b398acb84f0e1b198
+    m_Address: Npc/cike
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028aa0b468b364cf586b730269549ed0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b49cdbaad463549edbf4b37aa3981af6, type: 2}
+    - {fileID: 11400000, guid: 447e1004955e141ab9a53b1a28f1bbf6, type: 2}

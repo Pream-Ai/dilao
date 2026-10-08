@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Npc_jiqiren
+  m_EditorClassIdentifier: 
+  m_GroupName: Npc_jiqiren
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fa52e3253c85b4a01b0124f2408e0dea
+  m_SerializeEntries:
+  - m_GUID: a04ff13a176ce0f4ea976392b868365f
+    m_Address: Assets/Resource/charactor/jiqiren/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52e2f23dc7328094398c7e91ba13939b
+    m_Address: Assets/Resource/charactor/jiqiren/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d14f9fcb8bbb04941919d56ab7246150
+    m_Address: Assets/Resource/charactor/jiqiren/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43fff5254761d9b43bd6b637c1518839
+    m_Address: Assets/Resource/charactor/jiqiren/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9a0c09a94d152840840d7f2d4cd3198
+    m_Address: Assets/Resource/charactor/jiqiren/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5659c929cac8ed64e8f8d7882c5dd867
+    m_Address: Assets/Resource/charactor/jiqiren/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16431c37b6dce7948917ca2c212e1b01
+    m_Address: Assets/Resource/charactor/jiqiren/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f0b25ef8416f254593b2f0bf605ee69
+    m_Address: Assets/Resource/charactor/jiqiren/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cbe98b5e096af447824a2f0e549438d
+    m_Address: Assets/Resource/charactor/jiqiren/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbd9511efe8983749bbbb91fb397d7c2
+    m_Address: Assets/Resource/charactor/jiqiren/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f8e47b763183f9448f6b5e71a8aa4cb
+    m_Address: Assets/Resource/charactor/jiqiren/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2b48ff82b5df6540aba47275e5c103b
+    m_Address: Assets/Resource/charactor/jiqiren/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cb22b4830209aa449c96fea2112ed85
+    m_Address: Assets/Resource/charactor/jiqiren/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8db68002f521e2241bae5f8e625896fd
+    m_Address: Assets/Resource/charactor/jiqiren/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4760242b6f2cd6d47a8341fe775aa946
+    m_Address: Assets/Resource/charactor/jiqiren/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b2a0e080dd320b43ae4d74156ef0788
+    m_Address: Assets/Resource/charactor/jiqiren/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 837225f77f6aa6e4a8e8d611f105b31c
+    m_Address: Assets/Resource/charactor/jiqiren/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34e9a386e17403b488bfbde02d55ac72
+    m_Address: Assets/Resource/charactor/jiqiren/classic/jiqiren.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82d4cf1f2fd82434996626574c30d8b4
+    m_Address: Assets/Resource/charactor/jiqiren/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7e1b1f9af1e343669996578d70cf97a
+    m_Address: Npc/jiqiren/Data
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76b80e025e45d4e31be03eb31e6397c0
+    m_Address: Npc/jiqiren
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028aa0b468b364cf586b730269549ed0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d8eb35475f0e348bda4031524f84e7e9, type: 2}
+    - {fileID: 11400000, guid: e6a8994eca87746fca2c29e9511a339d, type: 2}

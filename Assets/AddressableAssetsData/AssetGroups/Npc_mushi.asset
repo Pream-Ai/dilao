@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Npc_mushi
+  m_EditorClassIdentifier: 
+  m_GroupName: Npc_mushi
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0ee0cf87254ee462eb399ff2400daef8
+  m_SerializeEntries:
+  - m_GUID: 0daaf1cc46fe2cc4c8c18346fd6c0630
+    m_Address: Assets/Resource/charactor/mushi/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81a52303ed9bd8d4cadf05ecfd04d241
+    m_Address: Assets/Resource/charactor/mushi/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e770b8eaf4fc6b47953cffb1d5d0730
+    m_Address: Assets/Resource/charactor/mushi/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6e2c8f5a44ae1542add29a194a66142
+    m_Address: Assets/Resource/charactor/mushi/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbefd9686cfd54041a4dfa1873ce8c24
+    m_Address: Assets/Resource/charactor/mushi/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6ccb627fc8dc0c4a977c132380acd73
+    m_Address: Assets/Resource/charactor/mushi/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33de91eb632909642a3266d267cd705e
+    m_Address: Assets/Resource/charactor/mushi/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38fdccb4db2973341a3c0a1397e1965f
+    m_Address: Assets/Resource/charactor/mushi/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 030807e7da8cd5b4ca92349b24bd2e69
+    m_Address: Assets/Resource/charactor/mushi/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f06f1eb6d60461d41bb792eb543f7f2b
+    m_Address: Assets/Resource/charactor/mushi/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 188bd8b9d971691478b9d5bf5f13bd4b
+    m_Address: Assets/Resource/charactor/mushi/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9299de11b58117479b017522c6a4e1b
+    m_Address: Assets/Resource/charactor/mushi/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4081f2cd26ed386479baf6542d7ddb1c
+    m_Address: Assets/Resource/charactor/mushi/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eaa0b8303d3cc0a4892e382d46e76563
+    m_Address: Assets/Resource/charactor/mushi/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cb0f0753e0c3b74fae171a637ec6356
+    m_Address: Assets/Resource/charactor/mushi/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de24c15c402f1bd4fbcd8b1a3c8819a2
+    m_Address: Assets/Resource/charactor/mushi/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01a022c6166ffc84e9750a5c2566898a
+    m_Address: Assets/Resource/charactor/mushi/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a576c0ce7598c5d49a573dae7be25437
+    m_Address: Assets/Resource/charactor/mushi/classic/mushi.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 483ccdb7ff7349245be989d4a69e22a2
+    m_Address: Assets/Resource/charactor/mushi/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46591b901bd164172938038586f79d0c
+    m_Address: Npc/mushi/Data
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d4d8386fd081422c83ef13bafa5de51
+    m_Address: Npc/mushi
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - npc
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028aa0b468b364cf586b730269549ed0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5dbdc0b8ff1ae497fa03d509a1dc7eb8, type: 2}
+    - {fileID: 11400000, guid: 742cbd67aa54949f6bb5f062824c7071, type: 2}
