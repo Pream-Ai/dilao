@@ -80,7 +80,13 @@ public class buildSystem : MonoBehaviour
 
         if (canBuildFurni(build_size, setPos))
         {
-            var prefab = await AssetService.Instance.LoadAssetAsync<GameObject>($"Furni/{furniBeSelect.furnitureName}");
+            var address = AAConst.GetAddress(furniBeSelect.furnitureName);
+            if (string.IsNullOrEmpty(address))
+            {
+                Debug.LogError($"找不到家具地址: {furniBeSelect.furnitureName}");
+                return;
+            }
+            var prefab = await AssetService.Instance.LoadAssetAsync<GameObject>(address);
             if (prefab == null)
             {
                 Debug.LogError($"加载家具预制体失败: {furniBeSelect.furnitureName}");
@@ -193,7 +199,9 @@ public class buildSystem : MonoBehaviour
             previewShadow.GetComponent<SpriteRenderer>().sprite = _previewIcon;
             return;
         }
-        var sprite = await AssetService.Instance.LoadAssetAsync<Sprite>($"Furni/{furniName}/Icon");
+        var address = AAConst.GetAddress("icons_" + furniName);
+        if (string.IsNullOrEmpty(address)) return;
+        var sprite = await AssetService.Instance.LoadAssetAsync<Sprite>(address);
         _previewIconKey = furniName;
         _previewIcon = sprite;
         if (previewShadow != null && sprite != null)

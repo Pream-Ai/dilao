@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: 392307abcce6249149151444cd0abfcd
+  m_DefaultGroup: 4f184be97abad45b2884eb93a3e2d49b
   m_currentHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
@@ -20,7 +20,7 @@ MonoBehaviour:
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
-  m_DisableCatalogUpdateOnStart: 0
+  m_DisableCatalogUpdateOnStart: 1
   m_IgnoreUnsupportedFilesInBuild: 0
   m_UniqueBundleIds: 0
   m_NonRecursiveBuilding: 1
@@ -39,40 +39,19 @@ MonoBehaviour:
   m_RemoteCatalogLoadPath:
     m_Id: a49dbcce247c64baa9e11807c3c7c691
   m_ContentStateBuildPathProfileVariableName: 
-  m_CustomContentStateBuildPath: 
-  m_ContentStateBuildPath: 
+  m_CustomContentStateBuildPath: ServerData
+  m_ContentStateBuildPath: ServerData
   m_BuildAddressablesWithPlayerBuild: 0
-  m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
+  m_overridePlayerVersion: 
   m_GroupAssets:
   - {fileID: 11400000, guid: 83b9601c6e64045c5a04472a9b3359b3, type: 2}
-  - {fileID: 11400000, guid: 8c75e8ffbb9db4f43b676921209e4106, type: 2}
-  - {fileID: 11400000, guid: a3484ee4e160a4b559a4cecbb7f2993a, type: 2}
-  - {fileID: 11400000, guid: b232b5db728394eb4b789c3969b6fa80, type: 2}
-  - {fileID: 11400000, guid: e44a7b21a3752423aa2d411b81ac0046, type: 2}
-  - {fileID: 11400000, guid: 2747eab488a26478c9c87bc53b69c03c, type: 2}
-  - {fileID: 11400000, guid: 2d67143d926724d889af4d4cdf4fc1d3, type: 2}
-  - {fileID: 11400000, guid: aaee24cbe79a14e6ebdd049bb8dd6eed, type: 2}
-  - {fileID: 11400000, guid: a2d05377bb10648e692041ebd8197667, type: 2}
-  - {fileID: 11400000, guid: 9688ff0b0cc954d5ca27bf586522aee8, type: 2}
-  - {fileID: 11400000, guid: 4962e3a469d38412288c5ea998e15cc4, type: 2}
-  - {fileID: 11400000, guid: 6bf323ee4b0274ca5b75acf4bb6c8cdc, type: 2}
-  - {fileID: 11400000, guid: a20a8c94cb941430ba408de3f8918751, type: 2}
-  - {fileID: 11400000, guid: f1c973f96f9ee42c4b1e53be769982a5, type: 2}
-  - {fileID: 11400000, guid: 82ad00e534fc8487399e879040f4e984, type: 2}
-  - {fileID: 11400000, guid: 2876690034f39429ba56877b656d2485, type: 2}
-  - {fileID: 11400000, guid: 2fd85507bb227477fad45b4f9f38c4d2, type: 2}
-  - {fileID: 11400000, guid: 53440344ab6c0445bba27a937263e17b, type: 2}
-  - {fileID: 11400000, guid: d7f55691555494ade949a27076d2e9ca, type: 2}
-  - {fileID: 11400000, guid: d268316c80e044894b9d57f39d3217f8, type: 2}
-  - {fileID: 11400000, guid: 133344281ba6f4cde9cc360e4976ede1, type: 2}
-  - {fileID: 11400000, guid: 77ecf8cf3d6144207bd7d8992d1270f8, type: 2}
-  - {fileID: 11400000, guid: 17f2afb5d06ec40c899b856fab08b679, type: 2}
-  - {fileID: 11400000, guid: 31f4308d1009f4d208335ec3a912464a, type: 2}
-  - {fileID: 11400000, guid: ed8e4b87c59954a0e8c131f8b4bb9a89, type: 2}
-  - {fileID: 11400000, guid: 43cfdb875e6924c4194fd16b9e226d09, type: 2}
-  - {fileID: 11400000, guid: 142637b0a3d7045b79fba0c89c763482, type: 2}
-  - {fileID: 11400000, guid: 8393178aa86484910be19f121f67fc93, type: 2}
-  - {fileID: 11400000, guid: 595227201be46476e9b371bc2fea6b6d, type: 2}
+  - {fileID: 11400000, guid: 9206d8f3fab3845ec9646032c1235ef6, type: 2}
+  - {fileID: 11400000, guid: 234baceaf431741aa805fe3481ae64f3, type: 2}
+  - {fileID: 11400000, guid: 5ef9dd0f2899b45f4b3a63ee0cd8051f, type: 2}
+  - {fileID: 11400000, guid: 76c72031ccf9044f28a1a2e122125ca3, type: 2}
+  - {fileID: 11400000, guid: dddb0ad727cbf46589ef039eece63191, type: 2}
+  - {fileID: 11400000, guid: ee676a918fd884af1a6fdc2823ccc19d, type: 2}
+  - {fileID: 11400000, guid: 6ba279719280d4a36983c896fb5ecf33, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -120,6 +99,11 @@ MonoBehaviour:
     - misc
     - furni
     - npc
+    - m_audio_dl_r
+    - Remote
+    - m_character_dl_r
+    - m_furniture_dl_r
+    - m_scene_dl_r
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 0c2bf9d9f3e6c481aa8f5906cf1dc552, type: 2}

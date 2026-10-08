@@ -64,7 +64,13 @@ public class NpcManager : MonoBehaviour
         }
 
         var npcName = npcDataList[targetNpcId].name;
-        var newNpc = await AssetService.Instance.InstantiateAsync($"Npc/{npcName}", GameManager.instance.npcParent);
+        var address = AAConst.GetAddress(npcName);
+        if (string.IsNullOrEmpty(address))
+        {
+            Debug.LogError($"找不到NPC地址: {npcName}");
+            return;
+        }
+        var newNpc = await AssetService.Instance.InstantiateAsync(address, GameManager.instance.npcParent);
         if (newNpc == null)
         {
             Debug.LogError($"加载NPC失败: {npcName}");

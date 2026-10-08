@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: m_ui
+  m_EditorClassIdentifier: 
+  m_GroupName: m_ui
+  m_Data:
+    m_SerializedData: []
+  m_GUID: eb412c89274f24e3b8edfb2f693eab07
+  m_SerializeEntries:
+  - m_GUID: bda5d5ee7103b6544aee1835d37cfcf4
+    m_Address: m_ui/emoji/1.gif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08e925a77367f5946bb4975f065992ed
+    m_Address: m_ui/emoji/2.gif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20ab671d386f4dc47801f41f7875fb2c
+    m_Address: m_ui/emoji/3.gif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7aa25145d5745d49b5a0917ce8b503c
+    m_Address: m_ui/emoji/4.gif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6754f07d13c5f254a82cce9c842e8919
+    m_Address: m_ui/emoji/bubble emotes july update.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fffa303f1178e847831df60a521faa7
+    m_Address: m_ui/emoji/emoji_angry.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f6cd78717ca9094eba1de0b68dd4230
+    m_Address: m_ui/emoji/emoji_angry.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0636523a1f354294281e036bba4c8487
+    m_Address: m_ui/emoji/emoji_bozi.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9373f6ec6e65c9a4a8b116bd6d8766b3
+    m_Address: m_ui/emoji/emoji_clock.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ff52b6dc7bd48640b29e56c52e16bd1
+    m_Address: m_ui/emoji/emoji_cry.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 225e682c9c33a934691c54a3ce8c9549
+    m_Address: m_ui/emoji/emoji_cry.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95583a9fed35fc548aca71acfb96c1a4
+    m_Address: m_ui/emoji/emoji_dice.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e70f0545f5f75f448c30b81307c43ce
+    m_Address: m_ui/emoji/emoji_excited.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7a4d08678c65ad47afd14687f788eb3
+    m_Address: m_ui/emoji/emoji_funny.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b8a5e3d6264f9e428a94a525cb1cfda
+    m_Address: m_ui/emoji/emoji_funny.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75a843fa1ca444b4994a7cf9a893c2ad
+    m_Address: m_ui/emoji/emoji_laugh.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2d9f8361dc5e1142a0fd314387b69ab
+    m_Address: m_ui/emoji/emoji_like.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfc55f91e5e146244ae56241e0daca76
+    m_Address: m_ui/emoji/emoji_question.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 084508130a9aefb409261c57e2e9b09d
+    m_Address: m_ui/emoji/emoji_smile.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e67de214605498448bbcd721a39dc638
+    m_Address: m_ui/emoji/emoji_sweat.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aed6fa4a153276d43a64ce35c0b7c77f
+    m_Address: m_ui/emoji/EmoPrefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88de445cbcc435247af775e6a0306554
+    m_Address: m_ui/emoji/progress_ring.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: faffbcfc0422f574cb86104d590fc130
+    m_Address: m_ui/emoji/specialroom.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89fed290abd48704cb0d49a1fc642895
+    m_Address: m_ui/Freebuttons/Freebuttons/ClassicalButtons.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efe523a966f2360418c614c31ca5a005
+    m_Address: m_ui/Freebuttons/Freebuttons/freebuttons2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b963c9527ec03d479ac92f5b1317a80
+    m_Address: m_ui/Freebuttons/Freebuttons/LittleButtons.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fc5e5cef2e6a894e978803ede65df93
+    m_Address: m_ui/Freebuttons/Freebuttons/LongButtons.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d267e5a136a060043b6f03ae0f85154d
+    m_Address: m_ui/Freebuttons/Freebuttons/LongButtons2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ec1e6f235825994da3f95d7f5f5dc28
+    m_Address: m_ui/Interiors_free_32x32.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6e5269854c7add498087ab750613d63
+    m_Address: m_ui/pixel art UI panel, completely empty, blank interior, no icons,
+      no text, no decorations, just an emp.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1339cb3c2dd0cd4999f9a26bf8ca4b4
+    m_Address: m_ui/square.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028aa0b468b364cf586b730269549ed0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5dce27fb5aeac426d966a1e6823d632e, type: 2}
+    - {fileID: 11400000, guid: ae009a440f6f04582911b79a5b8a4d04, type: 2}
