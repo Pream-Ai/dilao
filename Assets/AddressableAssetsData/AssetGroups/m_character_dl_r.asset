@@ -1,0 +1,2587 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: m_character_dl_r
+  m_EditorClassIdentifier: 
+  m_GroupName: m_character_dl_r
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e7067c8de1d394e009e080e89a255c53
+  m_SerializeEntries:
+  - m_GUID: b365c07d5bd5d4806be91bb6d2ff29e3
+    m_Address: m_character_dl_r/changpianshushi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef4c3c1c56c234145b3b48896c7ad13a
+    m_Address: m_character_dl_r/chengxuyuan.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fa6247d8696c44b398acb84f0e1b198
+    m_Address: m_character_dl_r/cike.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbd444ecacb3241f7af311d207530fc3
+    m_Address: m_character_dl_r/deluyi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e65c55034e6484d9fa3aeab6ca614b6b
+    m_Address: m_character_dl_r/fashi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d5b5724811614b7bafdfa9f66019b5c
+    m_Address: m_character_dl_r/jianshang.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0c531d70f1694148ac196bca358efdf
+    m_Address: m_character_dl_r/jingling.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76b80e025e45d4e31be03eb31e6397c0
+    m_Address: m_character_dl_r/jiqiren.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc0d40d6a7dc0c64a88d462c04bb6497
+    m_Address: m_character_dl_r/kzs.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ba923f3464054f3089f595c0e56ea30
+    m_Address: m_character_dl_r/langren.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee45c1d669de945b8954b4826b434fcf
+    m_Address: m_character_dl_r/lianjinshushi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d4d8386fd081422c83ef13bafa5de51
+    m_Address: m_character_dl_r/mushi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c6d18f8a61eb412888654e1a33f8d37
+    m_Address: m_character_dl_r/npc_data/changpianshushi.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2742bf263d7c44db9bfc228b29fbbdf6
+    m_Address: m_character_dl_r/npc_data/chengxuyuan.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd96780c12ed54a0d99b4dae251ce060
+    m_Address: m_character_dl_r/npc_data/cike.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eaeacc326a11842ef9739d783634e7c8
+    m_Address: m_character_dl_r/npc_data/deluyi.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0114563784ac4c30b28a0bf909ba735
+    m_Address: m_character_dl_r/npc_data/fashi.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 042747963e08e4d9696e7ed160361fab
+    m_Address: m_character_dl_r/npc_data/jianshang.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aad3dcbbacc634056b39a0e17b031259
+    m_Address: m_character_dl_r/npc_data/jingling.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7e1b1f9af1e343669996578d70cf97a
+    m_Address: m_character_dl_r/npc_data/jiqiren.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b16f170a0cbcf5e42a0330e1b09ef8d5
+    m_Address: m_character_dl_r/npc_data/kzs.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4aa261402c49a474894809e72d158d13
+    m_Address: m_character_dl_r/npc_data/langren.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6977bee44dc44a3c9219f3cbbfa26b8
+    m_Address: m_character_dl_r/npc_data/lianjinshushi.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46591b901bd164172938038586f79d0c
+    m_Address: m_character_dl_r/npc_data/mushi.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cfa55df1d6e444b6a806905a0b5efa6
+    m_Address: m_character_dl_r/npc_data/qishi.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 731075c05dd7241039f502c3b7dfc6a8
+    m_Address: m_character_dl_r/npc_data/shengqishi.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f79deb73c03d54f54bea22822493c390
+    m_Address: m_character_dl_r/npc_data/waken.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 303d2d637cd3e4fcbbd92bcc7eca6fa7
+    m_Address: m_character_dl_r/npc_data/xixuegui.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2bac7607c931428c952af1be1e4b1b8
+    m_Address: m_character_dl_r/npc_data/youxia.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 237b30a68c1b9415aa10425d534fc692
+    m_Address: m_character_dl_r/qishi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4c245576349846268746506298fabb6
+    m_Address: m_character_dl_r/shengqishi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a416e3abf2db6f41b57139213621b12
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/changpianshushi.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 644dda5d64a14db4f9e879ac545c9489
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70c995dfb3a01524fb6b44ceda14054c
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e7d11321901f634fa045b717201cd6c
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3df906694de178a44bd8cc23fde9bb56
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a710085338e2d74b969eeac339bc8df
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acec3996a63e82e40b50b4de2e3b3f65
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2d1806f3668e2248902a12282b907cc
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 902d311470758eb458dd5afbf7e3e41b
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 878ef66bee736b84fbd5887493bf53fc
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a4d9038691955b4fa955d441837054f
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0440244194945646864b99beb6fd90c
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6c4a109e9278ca478588128371578f8
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb0dc713546c78e46954bc3f23777f88
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9f0a3129f4b62143a2acca996bea204
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af337b3349303c4429ed96302c6dfbeb
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f636bea325105b941bb9b96e3b7e1f43
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 217202a16ce2b204aaa1818295ff7b85
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4d38be84aa7c4449847ee80d2030012
+    m_Address: m_character_dl_r/sprite/alchemist/changpianshushi/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a037901af923d1d479637f2667e45d89
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b29b7e913bf191049877bb5306c9d96a
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/idle.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e455a1e7e656a7a4aa0a3b80c0f5b484
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a12f2277ab08d84db158c6b87496fd9
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43509c8f3106916489d02f7b8acfe42d
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35fbeae9811d72d4c90d61a80319ad22
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 886d7c8c58c3579439539472df31c0f7
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89358987fe97a504f9ae79c6208a4368
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfb2364aaea36e249959952ff66a6ba3
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00e61987286195c4ea83adc80cb07b29
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b71e72f2383be6542863a60f5f06e7e3
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd1ea5b75710408489caaad63b6fe782
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9abe01bc2e576af43ab375cc3622e95f
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9079a0116974b34c825440ce6e0a97b
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3707feb1378f29e4ca8cd5c301227e2a
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98504efa6706aec4b81a4adcb8499f46
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e744ef3c76a609843af37b56b3f6f206
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dc4d7c8e2f9b6d45a2ec23c9ac52d15
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc16a404590bd954a8264b95ff54b22c
+    m_Address: m_character_dl_r/sprite/alchemist/lianjinshushi/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ce05f711ccaafe4aa48de52e8bcd449
+    m_Address: m_character_dl_r/sprite/alchemist/waken/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c391e8789b5d96448af6638a0d37b74
+    m_Address: m_character_dl_r/sprite/alchemist/waken/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f46ff01e98177914a813cee248f94b36
+    m_Address: m_character_dl_r/sprite/alchemist/waken/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2dcd35ba36b98c84198277a8a8f3a108
+    m_Address: m_character_dl_r/sprite/alchemist/waken/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d93c010510308cf4c8c833f12f3595a8
+    m_Address: m_character_dl_r/sprite/alchemist/waken/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a407e642cfcb474ea91975554b45faa
+    m_Address: m_character_dl_r/sprite/alchemist/waken/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7e299b780670d942b9b1300d3c497dc
+    m_Address: m_character_dl_r/sprite/alchemist/waken/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9a723714df9b67418f123c47bf5400a
+    m_Address: m_character_dl_r/sprite/alchemist/waken/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e3e11f0c819f2240b0dd0a83e55487a
+    m_Address: m_character_dl_r/sprite/alchemist/waken/waken.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84dfb84fb8cbd20449897ae1ebcd2420
+    m_Address: m_character_dl_r/sprite/alchemist/waken/waken.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3674273abebeda04d8fbdda09fa7e4e1
+    m_Address: m_character_dl_r/sprite/alchemist/waken/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81b1aaece3de22a4b88052d36e79cf8a
+    m_Address: m_character_dl_r/sprite/alchemist/waken/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69c0d8df4cfcb8f49b7de20c1ff4af82
+    m_Address: m_character_dl_r/sprite/alchemist/waken/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40169b3f94c5f6742a44b021eedad02e
+    m_Address: m_character_dl_r/sprite/alchemist/waken/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25b353ac4a500534ca05fb8d3fd36fb8
+    m_Address: m_character_dl_r/sprite/alchemist/waken/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69fae31e5a8bc8c448ba7bf094f1fa12
+    m_Address: m_character_dl_r/sprite/alchemist/waken/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5629dfe2ae911924eba9b55ea1a1b858
+    m_Address: m_character_dl_r/sprite/alchemist/waken/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03010cfbc148dcf4d9a9d82327684ab3
+    m_Address: m_character_dl_r/sprite/alchemist/waken/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fd319b4996958a4f997425348fd1b81
+    m_Address: m_character_dl_r/sprite/alchemist/waken/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edf11fad82052714dbce8984741e5782
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_ctrl.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53bc92ebb09c84b499c1da889574adb7
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52d5cfc3ad8eac545bfc857c30be5f09
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c863e0b28388c484fbe6f499161d799b
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee241928e46defc499aa69e7264615d9
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef297edf189ddb7428bf5c40149e38d7
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8881fe5cb2b940542892b85c660fb487
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b329bfd455a17484ca89592b7780dc84
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df9719fadbb451845b2319c915115046
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c68bcd6e73e631640a4b3454fcf8b824
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_idle/cike.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 001dec8ef3614044ba431cec37738496
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_run.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f00152ddceb1a7a4293d5ed762c89e61
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_run/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09441f9e7eeb4b74d8d4c55bc98e5e23
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_run/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9cc18bdfdff9794cb179a7a36b02664
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_run/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 431d4b6fb17c9f44faea0ca9f92322d2
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_run/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 794ff70c8af12d147bfce135b7786245
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_run/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd337b7b92c9ebf40a8d8596a0d8c08e
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_run/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f087cb996575974badb62a3634f12e0
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_run/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ba3306889dcf894d89cb74df7e3ae59
+    m_Address: m_character_dl_r/sprite/cike/cike/cike_run/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5cc154a4ab22b549bbc950ca6ce79de
+    m_Address: m_character_dl_r/sprite/deluyi/classic/deluyi.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d883d541b9cce04db581a04b90e2b26
+    m_Address: m_character_dl_r/sprite/deluyi/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61239073c9e6e35478f10092f2958235
+    m_Address: m_character_dl_r/sprite/deluyi/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9abafe1c694ddbb40bb571f705179a86
+    m_Address: m_character_dl_r/sprite/deluyi/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25686f26f1ba6ed469c6cd9c18c7191e
+    m_Address: m_character_dl_r/sprite/deluyi/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06e99a1dca6f6a24e86fcc6622a8f206
+    m_Address: m_character_dl_r/sprite/deluyi/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bea1b22762f1e374a9332a80646a969d
+    m_Address: m_character_dl_r/sprite/deluyi/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa85111d1899da040b565a0fd5d3a05d
+    m_Address: m_character_dl_r/sprite/deluyi/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ab66d179adc2104d9f4c97a92e857ea
+    m_Address: m_character_dl_r/sprite/deluyi/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3967243db94e00d41b31c62814b4b0d1
+    m_Address: m_character_dl_r/sprite/deluyi/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c35b860e387ad14f8f8e1502a130982
+    m_Address: m_character_dl_r/sprite/deluyi/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1496ca4592682b543bbd0fe89dc2210c
+    m_Address: m_character_dl_r/sprite/deluyi/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f90be924596578f488dc09e53dc78879
+    m_Address: m_character_dl_r/sprite/deluyi/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64d45cbf499940a4695a9da516a3d0ea
+    m_Address: m_character_dl_r/sprite/deluyi/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 931277861f198a44d83b5e7253a34d3d
+    m_Address: m_character_dl_r/sprite/deluyi/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7e13ca22e5e8bd418893f1eabe2aab8
+    m_Address: m_character_dl_r/sprite/deluyi/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbccf36edec1460499b1392ca2146b4d
+    m_Address: m_character_dl_r/sprite/deluyi/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ccba5b46f2d1ad4bbc63f60cb08452b
+    m_Address: m_character_dl_r/sprite/deluyi/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64a042ce3325d394fa78fcda954f5580
+    m_Address: m_character_dl_r/sprite/deluyi/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21b5cfa304d38774b95c5e490e6908c1
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/chengxuyuan.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fb379b26080d9d47be284bfffc5b3f6
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c8c98efa81dadf4ca99cbfbfa830f3f
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3315998b68d11b94a90f79592eb93f80
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43e414da3539e6d44aa22e059fe66655
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc3ce978fc60b0444ac5e61d88b0e52c
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4073c565cb302b4eb79991505f2e570
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/10.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47a201598973a304582539e0dda809a9
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/11.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e96a23de5263dad4ba041f61d508493e
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/12.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6487cc9035f4d15488ee71a3739f657d
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/13.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f75d54c148abf9d42b89e49e20441635
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/14.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcb35afd12933e54cabd14425dbd3c15
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/15.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7eadc60d843729546be3e0701e909b06
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/16.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9479c49c1caf5347b10bfc54ba19c87
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/17.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d800f362a735764f813e8129f499e8a
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/18.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d82f26c6320b4464f99935cff3f4aa3d
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/19.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cb7206cba1614940a4e2b35456bbd2f
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa67353deafbad94cbc784627f9f7cdb
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/20.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5177dfd30932a374dbb9efc1774cf731
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/21.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83bd521df2797744a8bfd9c3a8438f49
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/22.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1376e542d86c597469f0cc1e9e50255a
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8227475f2e35a345b8431a79c921e80
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f7d2f8f26276ff46a14a72914ba3e9c
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffd4a0ac9b368af4daf730f09b64bbcb
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4ef521d80a0fe14cbd32f718ba2052f
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00fcb56bc642500439c07a138c129d8b
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50e12addacdf0074dab729fcc4f0eef3
+    m_Address: m_character_dl_r/sprite/engineer/chengxuyuan/walk/9.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f22f78997e06cea49bbbdf4722b10400
+    m_Address: m_character_dl_r/sprite/fashi/classic/fashi.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f4b2caf83810054d9a8d3620955e471
+    m_Address: m_character_dl_r/sprite/fashi/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 236e4597c563e9746a94556f1004d114
+    m_Address: m_character_dl_r/sprite/fashi/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2dbf95dc07e4c5c43a9da8313c68998f
+    m_Address: m_character_dl_r/sprite/fashi/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fc84536a9e36534db69fe306a43d987
+    m_Address: m_character_dl_r/sprite/fashi/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f05f59e3d082064aada13d095353ddd
+    m_Address: m_character_dl_r/sprite/fashi/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8b9b921a9df1174a8005955d637a93f
+    m_Address: m_character_dl_r/sprite/fashi/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48c4731db7fb7d146a56df8fe60d93f5
+    m_Address: m_character_dl_r/sprite/fashi/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b59ba5642317cb4db0b3fee60b935e1
+    m_Address: m_character_dl_r/sprite/fashi/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 206443d55f8454544915ff76812510e7
+    m_Address: m_character_dl_r/sprite/fashi/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c62ca7952f239ce41a58472be58719e9
+    m_Address: m_character_dl_r/sprite/fashi/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c544ec593761544aaefd04cf7594e62
+    m_Address: m_character_dl_r/sprite/fashi/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddf8770ebdeb2ba41ad004a1854aec09
+    m_Address: m_character_dl_r/sprite/fashi/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2957152651b3e5942a10803e24023026
+    m_Address: m_character_dl_r/sprite/fashi/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bc96fcaf0597de4484a46ae784f5393
+    m_Address: m_character_dl_r/sprite/fashi/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 223ed8cf808f8a34b91d1456baecf443
+    m_Address: m_character_dl_r/sprite/fashi/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f4036b23175e44478a8dedc82ce659d
+    m_Address: m_character_dl_r/sprite/fashi/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38bf644e10e0b3048a89acc632fc3ff0
+    m_Address: m_character_dl_r/sprite/fashi/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a5df7aae2fb82149bc89dcefb5789a7
+    m_Address: m_character_dl_r/sprite/fashi/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca41d9e1c68625b4c9ea021748ef7890
+    m_Address: m_character_dl_r/sprite/jingling/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a28c3e733e99efc4e9c32e4cae049f7b
+    m_Address: m_character_dl_r/sprite/jingling/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4192896d4f016d74c964890ef72f0c57
+    m_Address: m_character_dl_r/sprite/jingling/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7180228ae86e89a49b52dcd5b87664c2
+    m_Address: m_character_dl_r/sprite/jingling/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1502bea968d1f54c8c2ecb999eb9b5d
+    m_Address: m_character_dl_r/sprite/jingling/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff9e074046c12d741be6e0622dc69299
+    m_Address: m_character_dl_r/sprite/jingling/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d50dee95afbf8c46953686b4b42af1f
+    m_Address: m_character_dl_r/sprite/jingling/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f978798864ce0284197ff4e6678d129a
+    m_Address: m_character_dl_r/sprite/jingling/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96a97c6f31f1dcc49b8be7684fe29476
+    m_Address: m_character_dl_r/sprite/jingling/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 522e75e35cf9edc4aa2251323946b68c
+    m_Address: m_character_dl_r/sprite/jingling/classic/jingling.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd2bf4833f1fee642aec652e94806479
+    m_Address: m_character_dl_r/sprite/jingling/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71eb37980d8407e4dbc6f917494457d7
+    m_Address: m_character_dl_r/sprite/jingling/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a70fc02ecc0f934e9ef864333ddcf4f
+    m_Address: m_character_dl_r/sprite/jingling/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d56d21d4c0815d74d827a6f58ac6d31e
+    m_Address: m_character_dl_r/sprite/jingling/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d9a887ac847d314ea688fe770b9ed96
+    m_Address: m_character_dl_r/sprite/jingling/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc3029f1936528c47929cf43b90b9d07
+    m_Address: m_character_dl_r/sprite/jingling/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db4e8c37b03977d4cafba59e7f84dd7b
+    m_Address: m_character_dl_r/sprite/jingling/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4375f6cd5346e0f41ac12079729abdf8
+    m_Address: m_character_dl_r/sprite/jingling/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a50cacda5edfc9a4eb48cd8710dc226f
+    m_Address: m_character_dl_r/sprite/jingling/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82d4cf1f2fd82434996626574c30d8b4
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b2a0e080dd320b43ae4d74156ef0788
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4760242b6f2cd6d47a8341fe775aa946
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8db68002f521e2241bae5f8e625896fd
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cb22b4830209aa449c96fea2112ed85
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2b48ff82b5df6540aba47275e5c103b
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f8e47b763183f9448f6b5e71a8aa4cb
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbd9511efe8983749bbbb91fb397d7c2
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cbe98b5e096af447824a2f0e549438d
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34e9a386e17403b488bfbde02d55ac72
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/jiqiren.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 837225f77f6aa6e4a8e8d611f105b31c
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f0b25ef8416f254593b2f0bf605ee69
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16431c37b6dce7948917ca2c212e1b01
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5659c929cac8ed64e8f8d7882c5dd867
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9a0c09a94d152840840d7f2d4cd3198
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43fff5254761d9b43bd6b637c1518839
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d14f9fcb8bbb04941919d56ab7246150
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52e2f23dc7328094398c7e91ba13939b
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a04ff13a176ce0f4ea976392b868365f
+    m_Address: m_character_dl_r/sprite/jiqiren/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 610ebd3981f76a64b894ba93bca17bd7
+    m_Address: m_character_dl_r/sprite/kzs/classic/classic.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f84ef1699da6c154093a9d0fa24f1e66
+    m_Address: m_character_dl_r/sprite/kzs/classic/glove_front.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb770e5c1d28ffd4baa44b5e6c849c42
+    m_Address: m_character_dl_r/sprite/kzs/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a35a7b3a0a2bd7d4b99d60e00aea2c15
+    m_Address: m_character_dl_r/sprite/kzs/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 394ae2eeb0f941c4198bdb3433ab9845
+    m_Address: m_character_dl_r/sprite/kzs/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b97d1c4a9b8fce2438ab86f574e6ca80
+    m_Address: m_character_dl_r/sprite/kzs/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40169e88926c2244c913af0726e9f34b
+    m_Address: m_character_dl_r/sprite/kzs/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f68eee7892e6a84abd2f0e63278a86e
+    m_Address: m_character_dl_r/sprite/kzs/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e6b6826f216c4947ae4d63f4b7e12ff
+    m_Address: m_character_dl_r/sprite/kzs/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a744896f69f6324ca48ea9979a4ccf3
+    m_Address: m_character_dl_r/sprite/kzs/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f75581c5979915f4a9be3dd7b3380c53
+    m_Address: m_character_dl_r/sprite/kzs/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20582b829ecac734589c90fed40fcac4
+    m_Address: m_character_dl_r/sprite/kzs/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37e322e91fa62234b8a217b9847a69d7
+    m_Address: m_character_dl_r/sprite/kzs/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 502d22aa5592c234c83c4d4dcb2d4648
+    m_Address: m_character_dl_r/sprite/kzs/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47935de139bbc1b4496db56a93663061
+    m_Address: m_character_dl_r/sprite/kzs/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 173b1b0cc5135ca499940f39fee74fe3
+    m_Address: m_character_dl_r/sprite/kzs/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39fbec685e6e7ae468e4645c260318a4
+    m_Address: m_character_dl_r/sprite/kzs/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a5a2f11326e0c441aa3c3c8e150631c
+    m_Address: m_character_dl_r/sprite/kzs/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 227919703354cce4eb0ff1a25f3703ce
+    m_Address: m_character_dl_r/sprite/kzs/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 470a65a158dc9784ab575d62bcced3a9
+    m_Address: m_character_dl_r/sprite/kzs/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4eeeea77819c452479bfc9ccd1e9dcf1
+    m_Address: m_character_dl_r/sprite/langren/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32cf73ba24a48484a8015dc3394f7857
+    m_Address: m_character_dl_r/sprite/langren/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c32d2d831b07ce44a80a75dccce029f
+    m_Address: m_character_dl_r/sprite/langren/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5d5e1ca2680ba145b6356fb30e77b28
+    m_Address: m_character_dl_r/sprite/langren/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a86c3b8952c0fd943a5aef5a109d5797
+    m_Address: m_character_dl_r/sprite/langren/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81d69dad7ff7893448cfbead4651d0a5
+    m_Address: m_character_dl_r/sprite/langren/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4920b3a614eabcd4fb8f706d4aee43b7
+    m_Address: m_character_dl_r/sprite/langren/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e500c8560d871064f84d00059db1a668
+    m_Address: m_character_dl_r/sprite/langren/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19114c69ea208024183f1ea81e2a057b
+    m_Address: m_character_dl_r/sprite/langren/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 278dbda7045d69944a47946d815c32ba
+    m_Address: m_character_dl_r/sprite/langren/classic/langren.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c1a8d8c3d96c7847a0a5e57e800c410
+    m_Address: m_character_dl_r/sprite/langren/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42162a61fa23ca34081d8ce195a85f1a
+    m_Address: m_character_dl_r/sprite/langren/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32c02ffc047d7ea488262f97d275ca40
+    m_Address: m_character_dl_r/sprite/langren/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 843dfec22738574438a923e09b23ebe9
+    m_Address: m_character_dl_r/sprite/langren/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd6ab9105e621554e95f1ce7f79db3c1
+    m_Address: m_character_dl_r/sprite/langren/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a9df97545ae6a94bbeda458e669e4b8
+    m_Address: m_character_dl_r/sprite/langren/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2937cc7c6e762ee4a98da6275f0b93ca
+    m_Address: m_character_dl_r/sprite/langren/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bbb005829a833f4fb51654d2adf92d4
+    m_Address: m_character_dl_r/sprite/langren/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4d538355d0ea444b8289425656be504
+    m_Address: m_character_dl_r/sprite/langren/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 483ccdb7ff7349245be989d4a69e22a2
+    m_Address: m_character_dl_r/sprite/mushi/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de24c15c402f1bd4fbcd8b1a3c8819a2
+    m_Address: m_character_dl_r/sprite/mushi/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cb0f0753e0c3b74fae171a637ec6356
+    m_Address: m_character_dl_r/sprite/mushi/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eaa0b8303d3cc0a4892e382d46e76563
+    m_Address: m_character_dl_r/sprite/mushi/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4081f2cd26ed386479baf6542d7ddb1c
+    m_Address: m_character_dl_r/sprite/mushi/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9299de11b58117479b017522c6a4e1b
+    m_Address: m_character_dl_r/sprite/mushi/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 188bd8b9d971691478b9d5bf5f13bd4b
+    m_Address: m_character_dl_r/sprite/mushi/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f06f1eb6d60461d41bb792eb543f7f2b
+    m_Address: m_character_dl_r/sprite/mushi/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 030807e7da8cd5b4ca92349b24bd2e69
+    m_Address: m_character_dl_r/sprite/mushi/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a576c0ce7598c5d49a573dae7be25437
+    m_Address: m_character_dl_r/sprite/mushi/classic/mushi.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01a022c6166ffc84e9750a5c2566898a
+    m_Address: m_character_dl_r/sprite/mushi/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38fdccb4db2973341a3c0a1397e1965f
+    m_Address: m_character_dl_r/sprite/mushi/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33de91eb632909642a3266d267cd705e
+    m_Address: m_character_dl_r/sprite/mushi/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6ccb627fc8dc0c4a977c132380acd73
+    m_Address: m_character_dl_r/sprite/mushi/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbefd9686cfd54041a4dfa1873ce8c24
+    m_Address: m_character_dl_r/sprite/mushi/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6e2c8f5a44ae1542add29a194a66142
+    m_Address: m_character_dl_r/sprite/mushi/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e770b8eaf4fc6b47953cffb1d5d0730
+    m_Address: m_character_dl_r/sprite/mushi/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81a52303ed9bd8d4cadf05ecfd04d241
+    m_Address: m_character_dl_r/sprite/mushi/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0daaf1cc46fe2cc4c8c18346fd6c0630
+    m_Address: m_character_dl_r/sprite/mushi/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 959c7cc22c6ad4648a2d8aed2e30f67e
+    m_Address: m_character_dl_r/sprite/qishi/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4a615d96b5d3354288c40155eef5ec0
+    m_Address: m_character_dl_r/sprite/qishi/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 298cccab540ff2c4c9362851db9520a9
+    m_Address: m_character_dl_r/sprite/qishi/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34e2070a3e720ed4f8a5b94f7e3813df
+    m_Address: m_character_dl_r/sprite/qishi/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ceff530bb96b67346ab5f611c51f2b1f
+    m_Address: m_character_dl_r/sprite/qishi/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4134b181e95d394c979a0b2dd6965c1
+    m_Address: m_character_dl_r/sprite/qishi/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d182aa4fa35bf941b2d162842254c96
+    m_Address: m_character_dl_r/sprite/qishi/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f55e4286ed45c141a2a605f966b2ab2
+    m_Address: m_character_dl_r/sprite/qishi/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61fbb77406ce37c45b4a1f00709359ac
+    m_Address: m_character_dl_r/sprite/qishi/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 869cf0f788d42284e9782165da9418be
+    m_Address: m_character_dl_r/sprite/qishi/classic/qishi.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d000e0ca9c0c0e47a5fcc59f2110270
+    m_Address: m_character_dl_r/sprite/qishi/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0687b8ee98ec214295543d91b0d4365
+    m_Address: m_character_dl_r/sprite/qishi/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ba017d92cb2894478ef95ed44756419
+    m_Address: m_character_dl_r/sprite/qishi/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1487d545278a194dad734c37fe98665
+    m_Address: m_character_dl_r/sprite/qishi/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b84c09f316b4b1c4ba4288e58d4972c9
+    m_Address: m_character_dl_r/sprite/qishi/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1e4b8419e7cfde40a584178720be98b
+    m_Address: m_character_dl_r/sprite/qishi/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17266d3ecc1994443aab9adf00b847fb
+    m_Address: m_character_dl_r/sprite/qishi/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b16c3c97bf807ae4fa52098d60401e85
+    m_Address: m_character_dl_r/sprite/qishi/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9df227a343a891f43afa84a8d5631c3c
+    m_Address: m_character_dl_r/sprite/qishi/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8019941045fa4b40a76739461426220
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf69131b1f37a6e40b4ded31065195ae
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/idle.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2282d362e6de9c74dbf01085794c669d
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: addd8873c30b98b488bd679297a2f740
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fad7bb5cf5cc714ba06f158e0c189a2
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f371ce4d7650c6e418ad182c1c978dd2
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2e5e4d23a7729a4f8b394cd3ed58466
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f27153574d3b6a43b1f0445109d8649
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b84cfaf5241865048913c4dbf0d8efc0
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddbf898b756cd214e8a4acd46538b12e
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2625beeb604e0c742bbd6a498e67d456
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eaea09e7ff7d0a54f9793b5db4e99855
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 133187f9899b2754aad85081f5be3868
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a2b5f7e664b1e74d99a5a9d64e26c26
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd40b5f7d5f1855499bb1c845a11b8d5
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11eaa894952b57e4f839ec0f091a4813
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba25831c458f31a4f8253eccd60f7fcb
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c8d87872bbff584e819a0f3f1b49f12
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29e0354e4a5ad2f4cb8137df84c18754
+    m_Address: m_character_dl_r/sprite/shengqishi/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1887329b3b10bd4da528ae28dbce055
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7745934db1d8915429ddf3f1d78f6a77
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5f118626cf1ac24bbe0ebf04ea95977
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 246ab628c319c9547af2712a745a8e4d
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af02dbe0276044641853eb0b4c82f1c3
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 767af8d63140fcb48aec11d47e658e4a
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6bc5ae6363aa0044b6bd6e947e0ba7d
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50df18fd651c0ef4e8c8b8e6fb67b620
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58e643230e4ed2a428270bf2743ef642
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1cf6f1fc741de3418046a29f181eef4
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd4676fc04864494fbcf7b694a378824
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89e0a23b2c81af24784594213d48d8af
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efe17d38171a082469b5617370d48eac
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51ecdd196329921438416e7d70d7cc45
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ff8adce6b18bf043a0d6985d02c7c1f
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7270216f08f386d42a7d55e380685d6f
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dff91e6aeacfc4b40a480978e91678ca
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 626c5f5db5bf58242a98f4efbefd8bd9
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db47b9f11b7c69a4982141e940166ebb
+    m_Address: m_character_dl_r/sprite/xixuegui/classic/xixuegui.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab33a054727df3941ab63d958ea9bd95
+    m_Address: m_character_dl_r/sprite/youxia/classic/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0590f4b934cc55e4b84da7bbc032a622
+    m_Address: m_character_dl_r/sprite/youxia/classic/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 192ac6be63ac28b439da41ee6fdd30bf
+    m_Address: m_character_dl_r/sprite/youxia/classic/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59f51c18789e4ba4c879f646d466ebfa
+    m_Address: m_character_dl_r/sprite/youxia/classic/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c2ac68e42945f948868b0be8bc649fc
+    m_Address: m_character_dl_r/sprite/youxia/classic/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fa8fc29753719349a05d9f954df6da4
+    m_Address: m_character_dl_r/sprite/youxia/classic/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a1d865467751104098bea0657f42032
+    m_Address: m_character_dl_r/sprite/youxia/classic/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e879da65d7ae7f4aa72fffb3e42c474
+    m_Address: m_character_dl_r/sprite/youxia/classic/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01977955273ab9d4989f89f70e17684e
+    m_Address: m_character_dl_r/sprite/youxia/classic/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17e43bb214b7aee498ac45969ccd6192
+    m_Address: m_character_dl_r/sprite/youxia/classic/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9cef910c280b91439d98f21f0079fe0
+    m_Address: m_character_dl_r/sprite/youxia/classic/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b1df86c871d057499671bdfe66e0562
+    m_Address: m_character_dl_r/sprite/youxia/classic/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 767fdfd55550eab44ad92c6f8f256375
+    m_Address: m_character_dl_r/sprite/youxia/classic/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4888dbd69efd0c4e8e2db8ebf78b7fb
+    m_Address: m_character_dl_r/sprite/youxia/classic/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03bfb03a2af58184a87803ad923341d4
+    m_Address: m_character_dl_r/sprite/youxia/classic/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09ab748dc7db8484884c492d461d4e7c
+    m_Address: m_character_dl_r/sprite/youxia/classic/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78440437fdd813541af5c9ac5464640d
+    m_Address: m_character_dl_r/sprite/youxia/classic/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aad39673591763944884872aea52ef75
+    m_Address: m_character_dl_r/sprite/youxia/classic/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f91b129167989084286f6024a332a648
+    m_Address: m_character_dl_r/sprite/youxia/classic/youxia.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bc3dc52930c4374b9bb54dbc5d76707
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96f7504904cf4314cba910096d9b47c6
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/idle/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74df206ca6ab76b498342cf9bfb903c3
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/idle/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 551c880a2ae343f4996f436930c26230
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/idle/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76316d89b823d314a9cdf0e2bb888ea9
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/idle/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e2528498df7501489729bf2ecf88a3f
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/idle/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32dd8871d736fda44b775a956302ab21
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/idle/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbe7e06611dc41547b62a0fe66d63a78
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/idle/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09e73837018615e43889899dca2d678b
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/idle/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07df16dbc77026644a7304ea9848e5be
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/jianshang.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbd250a246e5c234f98292808feec96f
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/walk.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15460aecbe87c6040aff2f41a36e01d4
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/walk/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fb1f3c37b5a9d34aa746c68af697692
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/walk/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86de91f138b587c449a4f612d63cb07b
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/walk/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77369d305779f424d8d55547dfb2eaa0
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/walk/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1a409ffa7b0a4c48afec65dbf51bbf6
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/walk/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 914406d19d1561f41a161bcbdbc4e54a
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/walk/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72abc760767441b4ba3df5fb24ce7fff
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/walk/7.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d9db32fc00db254b91d3cead69302ac
+    m_Address: m_character_dl_r/sprite/youxia/jianshang/walk/8.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02b8c5d42f9234d778e4a37b1eb69863
+    m_Address: m_character_dl_r/waken.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55f0c52c4dbd045959ab146072f282ee
+    m_Address: m_character_dl_r/xixuegui.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c0760d70ce0342b2a6730df19435e7c
+    m_Address: m_character_dl_r/youxia.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_character_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028aa0b468b364cf586b730269549ed0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e3f6f4e9231fa417490e6731ebe84938, type: 2}
+    - {fileID: 11400000, guid: 3d2ac5607c1ec4e5bb5f28919984a44f, type: 2}

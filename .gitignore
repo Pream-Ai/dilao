@@ -21,3 +21,11 @@
 
 # Addressables
 [Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# macOS / archive junk
+.DS_Store
+._*
+__MACOSX/
+
+# Remote content staging
+ServerData/

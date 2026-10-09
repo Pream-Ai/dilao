@@ -6,15 +6,17 @@ public class GameLaunch : MonoBehaviour
 {
     private void Awake()
     {
-        //初始化游戏资源，网络模块，ui模块
+        //锟斤拷始锟斤拷锟斤拷戏锟斤拷源锟斤拷锟斤拷锟斤拷模锟介，ui模锟斤拷
 
         //
     }
     void Start()
     {
-        //检查服务器资源版本，下载更新包
+        //锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷源锟芥本锟斤拷锟斤拷锟截革拷锟铰帮拷
 
-        //进入游戏
+        //锟斤拷锟斤拷锟斤拷戏
+        AssetService.Instance.InitializeAsync();
+
         XLuaManager.instance.EnterGame();
     }
 
