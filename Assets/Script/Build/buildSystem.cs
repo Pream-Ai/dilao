@@ -19,6 +19,8 @@ public class buildSystem : MonoBehaviour
     public Transform greenGridParent;
     public Transform redGridParent;
     public bool showHot = false;
+    private string _previewIconKey;
+    private Sprite _previewIcon;
     private void Awake()
     {
         instance = this;
@@ -69,7 +71,7 @@ public class buildSystem : MonoBehaviour
     /// </summary>
     /// <param name="furniData"></param>
     /// <param name="setPos"></param>
-    public void buildFurni(Vector2Int setPos)
+    public async void buildFurni(Vector2Int setPos)
     {
         Vector2Int build_size = furniBeSelect.buildSize;
         Vector2Int navi_size = furniBeSelect.naviSize;
@@ -78,6 +80,19 @@ public class buildSystem : MonoBehaviour
 
         if (canBuildFurni(build_size, setPos))
         {
+            var address = AAConst.GetAddress(furniBeSelect.furnitureName);
+            if (string.IsNullOrEmpty(address))
+            {
+                Debug.LogError($"找不到家具地址: {furniBeSelect.furnitureName}");
+                return;
+            }
+            var prefab = await AssetService.Instance.LoadAssetAsync<GameObject>(address);
+            if (prefab == null)
+            {
+                Debug.LogError($"加载家具预制体失败: {furniBeSelect.furnitureName}");
+                return;
+            }
+
             for (int i = setPos.x; i < setPos.x + build_size.x; i++)
             {
                 for (int j = setPos.y; j < setPos.y + build_size.y; j++)
@@ -93,7 +108,7 @@ public class buildSystem : MonoBehaviour
                 }
             }
             GameObject furniInstance = Instantiate(
-                ResourceManager.instance.LoadFromFile<GameObject>("furnires",furniBeSelect.furnitureName)
+                prefab
                 , new Vector3(setPos.x, setPos.y, 0)
                 , Quaternion.identity
                 , GameManager.instance.furniParent
@@ -162,7 +177,7 @@ public class buildSystem : MonoBehaviour
                 previewShadow.transform.position = new Vector3(previewPos.Value.x, previewPos.Value.y, 0);
                 if (furniBeSelect != null )
                 {
-                    previewShadow.GetComponent<SpriteRenderer>().sprite = ResourceManager.instance.LoadFromFile<Sprite>("furnires",furniBeSelect.name);
+                    UpdatePreviewIcon(furniBeSelect.name);
                 }
                 previewShadow.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0.8f);
             }
@@ -172,6 +187,26 @@ public class buildSystem : MonoBehaviour
             previewShadow.GetComponent<SpriteRenderer>().sprite = null;
             previewShadow.SetActive(false);
             initLawPreview();
+        }
+    }
+    /// <summary>
+    /// 异步加载并缓存家具预览图标（按需，避免每帧重复加载）
+    /// </summary>
+    async void UpdatePreviewIcon(string furniName)
+    {
+        if (_previewIconKey == furniName && _previewIcon != null)
+        {
+            previewShadow.GetComponent<SpriteRenderer>().sprite = _previewIcon;
+            return;
+        }
+        var address = AAConst.GetAddress("icons_" + furniName);
+        if (string.IsNullOrEmpty(address)) return;
+        var sprite = await AssetService.Instance.LoadAssetAsync<Sprite>(address);
+        _previewIconKey = furniName;
+        _previewIcon = sprite;
+        if (previewShadow != null && sprite != null)
+        {
+            previewShadow.GetComponent<SpriteRenderer>().sprite = sprite;
         }
     }
     /// <summary>

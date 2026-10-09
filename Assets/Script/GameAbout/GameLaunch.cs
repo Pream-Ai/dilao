@@ -1,20 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameLaunch : MonoBehaviour
 {
     private void Awake()
     {
-        //³õÊ¼»¯ÓÎÏ·×ÊÔ´£¬ÍøÂçÄ£¿é£¬uiÄ£¿é
-
-        //
+        // åˆå§‹åŒ–æ¸¸æˆèµ„æºã€æ•°æ®æ¨¡å—ä¸ UI æ¨¡å—
     }
-    void Start()
-    {
-        //¼ì²é·şÎñÆ÷×ÊÔ´°æ±¾£¬ÏÂÔØ¸üĞÂ°ü
 
-        //½øÈëÓÎÏ·
+    async void Start()
+    {
+        // åˆå§‹åŒ–èµ„æºç³»ç»Ÿï¼Œæ£€æŸ¥ catalog æ›´æ–°å¹¶ä¸‹è½½è¿œç«¯å†…å®¹
+        bool ready = await ResourceBootstrap.PrepareAsync();
+        if (!ready)
+        {
+            Debug.LogError("[GameLaunch] èµ„æºå‡†å¤‡å¤±è´¥ï¼Œæ¸¸æˆå¯èƒ½æ— æ³•æ­£å¸¸åŠ è½½");
+        }
+
+        // è¿›å…¥æ¸¸æˆ
         XLuaManager.instance.EnterGame();
     }
 

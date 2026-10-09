@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: m_audio_dl_r
+  m_EditorClassIdentifier: 
+  m_GroupName: m_audio_dl_r
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8c8cea55460164dd7920589e7cc77f2f
+  m_SerializeEntries:
+  - m_GUID: ffd9729c8e92c42bfa2491f3433af3f6
+    m_Address: m_audio_dl_r/full_of_energy.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_audio_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028aa0b468b364cf586b730269549ed0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6754731e4dfe2429db5a030a3db0b670, type: 2}
+    - {fileID: 11400000, guid: 9e788bb1b3a4043eba46cfc6f708187d, type: 2}

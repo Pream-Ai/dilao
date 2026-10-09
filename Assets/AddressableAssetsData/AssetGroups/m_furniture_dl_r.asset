@@ -1,0 +1,403 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: m_furniture_dl_r
+  m_EditorClassIdentifier: 
+  m_GroupName: m_furniture_dl_r
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9e31f898acd014a5f9aeb7b7fcefe1a3
+  m_SerializeEntries:
+  - m_GUID: 8872c4fb2f6496245be08cea8a5d7ef5
+    m_Address: m_furniture_dl_r/bingxiang.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b960c54f59881b3448cca578800228e5
+    m_Address: m_furniture_dl_r/dianshiji.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19370f16636c69b498090b699f1791b4
+    m_Address: m_furniture_dl_r/exitdoor.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f33210078a371d7419434f7934080192
+    m_Address: m_furniture_dl_r/furni_data/bingxiang.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce79a8800629cf540b8c0a4b56fcad4e
+    m_Address: m_furniture_dl_r/furni_data/dianshiji.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 220ac0f46bc30d74eaafce050c1fd639
+    m_Address: m_furniture_dl_r/furni_data/exitdoor.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2204459959502b847bdc061acd7e5992
+    m_Address: m_furniture_dl_r/furni_data/niudanji.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c112895a36a1f24a8ce70ac4f152a68
+    m_Address: m_furniture_dl_r/furni_data/renwulan.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 252908d143e17f34086db78d9d155701
+    m_Address: m_furniture_dl_r/furni_data/yinliaoji.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbade8aa9d5a3694eb1be4408d357f28
+    m_Address: m_furniture_dl_r/furni_data/youxiji.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24dc9f0caaf95fe45b0d44d66384a66a
+    m_Address: m_furniture_dl_r/icons/baoxianxiang.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76c3f20add1d6f641887cc417ddfcdb4
+    m_Address: m_furniture_dl_r/icons/bingxiang.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3653862574ae4384b801a858ab74ef7d
+    m_Address: m_furniture_dl_r/icons/dianshiji.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2905af2d6cb78f4aba2a85c24be7a70
+    m_Address: m_furniture_dl_r/icons/duanzaotai.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acc2a138317f73a4d8e903ffc57543a2
+    m_Address: m_furniture_dl_r/icons/duihuanji.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02ef8ac9388cda44f99a6141477376b3
+    m_Address: m_furniture_dl_r/icons/interact/bubble.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0f5dd8cc6829ce46a527a05e84acfa5
+    m_Address: m_furniture_dl_r/icons/interact/clawmachine/clawmachine.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27ff291159a09954cbb759ffb17334c4
+    m_Address: m_furniture_dl_r/icons/interact/clawmachine/clawmachine_idle.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 348085ed4e78f584397d7d2f2f545571
+    m_Address: m_furniture_dl_r/icons/interact/clawmachine/clawmachine_idle.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96565b4e1259f17428646798362e114d
+    m_Address: m_furniture_dl_r/icons/interact/exchanger_on.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c23a5a431d066443a968e78e17a9add
+    m_Address: m_furniture_dl_r/icons/interact/fridge_open.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbef0ffd05378a443bc39934d4457413
+    m_Address: m_furniture_dl_r/icons/interact/niudanji/gacha.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 476cc005da5c65e45b406a0a262d9d27
+    m_Address: m_furniture_dl_r/icons/interact/punchbag/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5fc45819ffb31f4f8a6c67513201817
+    m_Address: m_furniture_dl_r/icons/interact/punchbag/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24fdfc825ce8c5b4eb7e417469e41e35
+    m_Address: m_furniture_dl_r/icons/interact/punchbag/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e908012a47d0fbc498b8ac5774c49137
+    m_Address: m_furniture_dl_r/icons/interact/punchbag/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb7da9757f336a5459b9aee0437ad10c
+    m_Address: m_furniture_dl_r/icons/interact/punchbag/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49b23f131c461fa478e1541d147bab92
+    m_Address: m_furniture_dl_r/icons/interact/watercooler/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b587381eb3674f94393230dc159e5934
+    m_Address: m_furniture_dl_r/icons/interact/watercooler/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1c3a7ec76428c74dac09eef252cb7ee
+    m_Address: m_furniture_dl_r/icons/interact/watercooler/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 226139a0e2e44994492ac2d6f5d221db
+    m_Address: m_furniture_dl_r/icons/interact/watercooler/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc3313f14f2b4b24c8403710ce09631b
+    m_Address: m_furniture_dl_r/icons/interact/yinliaoji/drinks/coffee.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 908ab3c0c2b440e4aa3fcbc7ad236783
+    m_Address: m_furniture_dl_r/icons/interact/yinliaoji/drinks/juice.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53e53c7ed7bb5424dae839600ca74ed5
+    m_Address: m_furniture_dl_r/icons/interact/yinliaoji/drinks/milk.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d14269c3e8cfd764a9dcf0fb11a996a5
+    m_Address: m_furniture_dl_r/icons/interact/yinliaoji/drinks/redbull.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a7563bf745fd154b8d1e7bb8c11b822
+    m_Address: m_furniture_dl_r/icons/interact/yinliaoji/drinks/soda.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60ef8cbf4e96696438f392e1971c3fff
+    m_Address: m_furniture_dl_r/icons/jijiatai.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 248f953b5daba9f4a8bd1844732b9ce9
+    m_Address: m_furniture_dl_r/icons/maoliang.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 695bb18287cd07f439d0077c1193755e
+    m_Address: m_furniture_dl_r/icons/niudanji.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af99b54ded3de4b43b352d3fc7cf281f
+    m_Address: m_furniture_dl_r/icons/penzai.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 372922ab61daf6943a933510a5c48e83
+    m_Address: m_furniture_dl_r/icons/renwulan.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9827bd70c3ecd6b4ab1a9bcdeb7a26a5
+    m_Address: m_furniture_dl_r/icons/shejitai.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2e5e51e3edfbcb4b8b62419aadfacf6
+    m_Address: m_furniture_dl_r/icons/shuji.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9cfd5d39b82bb74d9a05d6b1ead5140
+    m_Address: m_furniture_dl_r/icons/wuqiji.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ad1c00eb3d531040a7af45233f14098
+    m_Address: m_furniture_dl_r/icons/xunlianzhuang.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30ac076a678078a4c9c8e489a18ac794
+    m_Address: m_furniture_dl_r/icons/yaoshuiji.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2e0a00431bc7194f9def7ddecdb7c85
+    m_Address: m_furniture_dl_r/icons/yinliaoji.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cac3aa20d8683a43ad0067502a78e54
+    m_Address: m_furniture_dl_r/icons/youxiji.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba35efb4da2c74944abb7a2bfe03def5
+    m_Address: m_furniture_dl_r/icons/yuanqishouce.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64aecc479d52a7141ace2e430c55d84a
+    m_Address: m_furniture_dl_r/icons/yugang.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e235ddd05d0dd5d44a13ded0eb2361b0
+    m_Address: m_furniture_dl_r/niudanji.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1630cd4ef33cdbb4a8b20725eb1543b0
+    m_Address: m_furniture_dl_r/renwulan.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e9a5c305cb5801459781d2f1eef3d7f
+    m_Address: m_furniture_dl_r/yinliaoji.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f529c5f73abd2a4783c18486c71ad07
+    m_Address: m_furniture_dl_r/youxiji.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - m_furniture_dl_r
+    - Remote
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028aa0b468b364cf586b730269549ed0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 22da750cd09fc46a7aa351a2e1b989de, type: 2}
+    - {fileID: 11400000, guid: c2f7053f048a44d889b7b00dd8f5e70a, type: 2}

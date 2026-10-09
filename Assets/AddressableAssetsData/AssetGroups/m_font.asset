@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: m_font
+  m_EditorClassIdentifier: 
+  m_GroupName: m_font
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 29d1ebf51e81c40b99d10cf87eccbc82
+  m_SerializeEntries:
+  - m_GUID: 4e4df923f328e90408b7227d99d76805
+    m_Address: m_font/common_chinese.txt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c16e01fd3a6d84f7a8838bfe5df43f03
+    m_Address: m_font/IPixPixelFont SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3f9ef938a3494a4c987c2714f50cecf
+    m_Address: m_font/pixelfont/IPixPixelFont.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028aa0b468b364cf586b730269549ed0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e47c09d9b42934c82a1b45dfabdaefda, type: 2}
+    - {fileID: 11400000, guid: 6c354390333a04af5912eb88d392817a, type: 2}
