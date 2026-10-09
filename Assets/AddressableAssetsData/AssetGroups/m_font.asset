@@ -15,7 +15,7 @@ MonoBehaviour:
   m_GroupName: m_font
   m_Data:
     m_SerializedData: []
-  m_GUID: f27daa18dddf048b6993b948fe6b84a9
+  m_GUID: 29d1ebf51e81c40b99d10cf87eccbc82
   m_SerializeEntries:
   - m_GUID: 4e4df923f328e90408b7227d99d76805
     m_Address: m_font/common_chinese.txt

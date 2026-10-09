@@ -1,22 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameLaunch : MonoBehaviour
 {
     private void Awake()
     {
-        //��ʼ����Ϸ��Դ������ģ�飬uiģ��
-
-        //
+        // 初始化游戏资源、数据模块与 UI 模块
     }
-    void Start()
+
+    async void Start()
     {
-        //����������Դ�汾�����ظ��°�
+        // 初始化资源系统，检查 catalog 更新并下载远端内容
+        bool ready = await ResourceBootstrap.PrepareAsync();
+        if (!ready)
+        {
+            Debug.LogError("[GameLaunch] 资源准备失败，游戏可能无法正常加载");
+        }
 
-        //������Ϸ
-        AssetService.Instance.InitializeAsync();
-
+        // 进入游戏
         XLuaManager.instance.EnterGame();
     }
 

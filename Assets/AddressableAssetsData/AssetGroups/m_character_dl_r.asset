@@ -15,7 +15,7 @@ MonoBehaviour:
   m_GroupName: m_character_dl_r
   m_Data:
     m_SerializedData: []
-  m_GUID: e7067c8de1d394e009e080e89a255c53
+  m_GUID: 91e0e4e2df4c54f2584e4617fc4c7833
   m_SerializeEntries:
   - m_GUID: b365c07d5bd5d4806be91bb6d2ff29e3
     m_Address: m_character_dl_r/changpianshushi.prefab

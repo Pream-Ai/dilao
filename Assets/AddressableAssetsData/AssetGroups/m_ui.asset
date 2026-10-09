@@ -15,7 +15,7 @@ MonoBehaviour:
   m_GroupName: m_ui
   m_Data:
     m_SerializedData: []
-  m_GUID: eb412c89274f24e3b8edfb2f693eab07
+  m_GUID: 2cebfca34aeb24baa92a308c8f3e7b70
   m_SerializeEntries:
   - m_GUID: bda5d5ee7103b6544aee1835d37cfcf4
     m_Address: m_ui/emoji/1.gif

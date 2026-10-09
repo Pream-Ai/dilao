@@ -15,7 +15,7 @@ MonoBehaviour:
   m_GroupName: m_scene_dl_r
   m_Data:
     m_SerializedData: []
-  m_GUID: 0ff00001d7da243509663de75d2637b4
+  m_GUID: d8ee2bfb032314e53967ebe812f436d1
   m_SerializeEntries:
   - m_GUID: fe4b6db36527e3842b9c9395ef7d8230
     m_Address: m_scene_dl_r/livingroom/decorator.anim

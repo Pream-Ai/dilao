@@ -15,7 +15,7 @@ MonoBehaviour:
   m_GroupName: m_furniture_dl_r
   m_Data:
     m_SerializedData: []
-  m_GUID: 243542a88b10f4b7e92a2deb36b9f91d
+  m_GUID: 9e31f898acd014a5f9aeb7b7fcefe1a3
   m_SerializeEntries:
   - m_GUID: 8872c4fb2f6496245be08cea8a5d7ef5
     m_Address: m_furniture_dl_r/bingxiang.prefab

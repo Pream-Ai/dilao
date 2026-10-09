@@ -15,7 +15,7 @@ MonoBehaviour:
   m_GroupName: m_audio_dl_r
   m_Data:
     m_SerializedData: []
-  m_GUID: 3c3f4c14ac1b84319aa4bbce7569f6d7
+  m_GUID: 8c8cea55460164dd7920589e7cc77f2f
   m_SerializeEntries:
   - m_GUID: ffd9729c8e92c42bfa2491f3433af3f6
     m_Address: m_audio_dl_r/full_of_energy.mp3
